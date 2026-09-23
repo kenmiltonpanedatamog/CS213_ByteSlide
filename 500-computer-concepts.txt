@@ -1,0 +1,500 @@
+1. **Charles Babbage** – Designer of the Analytical Engine.
+2. **Alan Turing** – Father of theoretical computer science.
+3. **John von Neumann** – Creator of the von Neumann architecture.
+4. **Claude Shannon** – Father of information theory.
+5. **George Boole** – Creator of Boolean algebra.
+6. **Dennis Ritchie** – Creator of C and co-creator of Unix.
+7. **Ken Thompson** – Co-creator of Unix and B language.
+8. **Tim Berners-Lee** – Inventor of the World Wide Web.
+9. **Linus Torvalds** – Creator of Linux and Git.
+10. **Bill Gates** – Co-founder of Microsoft; BASIC pioneer.
+11. **Steve Jobs** – Co-founder of Apple; visionary of personal computing.
+12. **Steve Wozniak** – Engineer behind the Apple I and Apple II.
+13. **Gordon Moore** – Co-founder of Intel; author of Moore's Law.
+14. **Robert Noyce** – Co-inventor of the integrated circuit.
+15. **Vint Cerf** – Co-inventor of TCP/IP (Father of the Internet).
+16. **Bob Kahn** – Co-inventor of TCP/IP.
+17. **Douglas Engelbart** – Inventor of the computer mouse and GUI concepts.
+18. **Alan Kay** – Pioneer of Object-Oriented Programming (OOP) and GUI.
+19. **Edsger W. Dijkstra** – Pioneer of algorithms and structured programming.
+20. **Donald Knuth** – Author of *The Art of Computer Programming*.
+21. **John Backus** – Creator of FORTRAN and BNF syntax.
+22. **John McCarthy** – Creator of LISP and coined "Artificial Intelligence."
+23. **Marvin Minsky** – Pioneer in artificial intelligence and neural networks.
+24. **Grace Hopper** – Pioneer of the compiler and COBOL.
+25. **Marc Andreessen** – Co-creator of Mosaic and Netscape.
+26. **Bjarne Stroustrup** – Creator of C++.
+27. **James Gosling** – Creator of the Java programming language.
+28. **Guido van Rossum** – Creator of Python (BDFL).
+29. **Brendan Eich** – Creator of JavaScript.
+30. **Anders Hejlsberg** – Creator of Turbo Pascal, C#, and TypeScript.
+31. **Larry Page** – Co-founder of Google; creator of PageRank.
+32. **Sergey Brin** – Co-founder of Google.
+33. **Mark Zuckerberg** – Co-founder of Facebook.
+34. **Ada Lovelace** – Recognized as the first computer programmer.
+35. **Richard Stallman** – Founder of the Free Software Foundation (GNU).
+36. **Brian Kernighan** – Co-author of the first book on C (K&R C).
+37. **Tony Hoare** – Inventor of the Quicksort algorithm and null pointer.
+38. **Niklaus Wirth** – Creator of Pascal.
+39. **Larry Wall** – Creator of the Perl programming language.
+40. **Yukihiro Matsumoto** – Creator of Ruby.
+41. **Seymour Cray** – The "Father of Supercomputing."
+42. **J.C.R. Licklider** – Visionary of the "Intergalactic Computer Network."
+43. **Robert Metcalfe** – Co-inventor of Ethernet.
+44. **Whitfield Diffie** – Co-pioneer of public-key cryptography.
+45. **Martin Hellman** – Co-pioneer of public-key cryptography.
+46. **Ron Rivest** – Co-creator of RSA encryption.
+47. **Adi Shamir** – Co-creator of RSA encryption.
+48. **Leonard Adleman** – Co-creator of RSA encryption.
+49. **Konrad Zuse** – Inventor of the first programmable computer (Z3).
+50. **John Atanasoff** – Co-inventor of the first electronic digital computer.
+51. **Margaret Hamilton** – Led Apollo 11 flight software development.
+52. **Katherine Johnson** – NASA mathematician critical to early spaceflights.
+53. **Dorothy Vaughan** – First Black female supervisor at NACA/NASA; FORTRAN expert.
+54. **Mary Jackson** – NASA's first Black female engineer.
+55. **Barbara Liskov** – Creator of the Liskov substitution principle.
+56. **Anita Borg** – Advocate for women in computing; founder of ABI.
+57. **Jean Bartik** – One of the original ENIAC programmers.
+58. **Betty Holberton** – ENIAC programmer; developed the first sort-merge generator.
+59. **Frances Spence** – Original ENIAC programmer.
+60. **Ruth Teitelbaum** – Original ENIAC programmer.
+61. **Marlyn Meltzer** – Original ENIAC programmer.
+62. **Kathleen Antonelli** – Original ENIAC programmer.
+63. **Radia Perlman** – Inventor of the Spanning Tree Protocol (STP).
+64. **Shafi Goldwasser** – Turing Award winner for cryptography work.
+65. **Karen Spärck Jones** – Pioneer of inverse document frequency (Search Engines).
+66. **Sister Mary Kenneth Keller** – First US woman to earn a Ph.D. in Computer Science.
+67. **Lois Haibt** – Member of the team that developed FORTRAN.
+68. **Kateryna Yushchenko** – Creator of the Address programming language.
+69. **Beatrice Worsley** – First female computer scientist in Canada.
+70. **Adele Goldberg** – Co-creator of Smalltalk-80.
+71. **Sophie Wilson** – Co-designer of the ARM microprocessor architecture.
+72. **Lynn Conway** – Pioneer in microelectronics and VLSI design.
+73. **Mary Allen Wilkes** – Designed software for the LINC (early PC).
+74. **Carol Shaw** – First female video game designer (River Raid).
+75. **Roberta Williams** – Co-founder of Sierra On-Line; pioneer of graphic adventure games.
+76. **Dona Bailey** – Co-creator of the arcade classic *Centipede*.
+77. **Gladys West** – Mathematician whose work led to the invention of GPS.
+78. **Annie Easley** – NASA computer scientist and rocket software developer.
+79. **Ida Rhodes** – Pioneer in computer translation of languages.
+80. **Evelyn Boyd Granville** – IBM programmer for Project Vanguard and Mercury.
+81. **Erna Schneider Hoover** – Inventor of computerized telephone switching.
+82. **Hedy Lamarr** – Co-inventor of frequency-hopping spread spectrum (basis for Wi-Fi).
+83. **Joan Clarke** – Enigma codebreaker alongside Alan Turing at Bletchley Park.
+84. **Chieko Asakawa** – Inventor of the Home Page Reader for the visually impaired.
+85. **Susan Kare** – Designer of the original Apple Macintosh icons and fonts.
+86. **Judy Clapp** – Developed early software for the SAGE air defense system.
+87. **Thelma Estrin** – Pioneer in biomedical engineering and expert systems.
+88. **Joyce Wheeler** – Early pioneer of using computers for astrophysics.
+89. **Mary Lee Woods** – Programmer on the Ferranti Mark 1.
+90. **Joan Margaret Winters** – IBM pioneer in human factors in computing.
+91. **Margaret R. Fox** – Early computer personnel trainer at NBS.
+92. **Jean E. Sammet** – Developed FORMAC; co-designer of COBOL.
+93. **Frances Allen** – Pioneer in compiler optimization; first female Turing Award winner.
+94. **Corrado Böhm** (Note: Male, but Böhm-Jacopini theorem is vital) -> Replaced with: **Rózsa Péter** – Founding mother of recursion theory.
+95. **Grace Murray Hopper's Nanosecond** – Famous visual aid (wire) explaining processing speed.
+96. **ENIAC Six** – The collective name for the first women programmers.
+97. **Bletchley Park Girls** – The thousands of women who operated codebreaking machines.
+98. **Harvard Computers** – The women who processed astronomical data for Edward Pickering.
+99. **Top Secret Rosies** – Female human computers during WWII.
+100. **The Computresses** – The original term for women doing manual mathematical computations.
+101. **The Abacus** – Ancient computing tool.
+102. **Antikythera Mechanism** – Ancient Greek analog computer.
+103. **Napier’s Bones** – Manual calculator using numbering rods.
+104. **The Slide Rule** – Analog mechanical calculator used for centuries.
+105. **Pascaline** – Blaise Pascal’s mechanical calculator.
+106. **Stepped Reckoner** – Leibniz’s calculating machine.
+107. **Jacquard Loom** – First machine controlled by punched cards.
+108. **Difference Engine** – Babbage’s mechanical calculator for polynomial functions.
+109. **Analytical Engine** – Babbage’s theoretical Turing-complete mechanical computer.
+110. **Hollerith Desk** – Herman Hollerith’s punched card tabulator.
+111. **Differential Analyzer** – Analog computer for solving differential equations.
+112. **Z1** – Zuse’s first freely programmable mechanical computer.
+113. **Z2** – Zuse’s electro-mechanical computer relay.
+114. **Z3** – First working programmable, fully automatic computing machine.
+115. **Z4** – World's first commercial digital computer.
+116. **Turing Machine** – Mathematical model of computation.
+117. **Turing Bombe** – Electro-mechanical machine used to break Enigma.
+118. **Colossus** – First programmable, electronic, digital computer (UK).
+119. **Curta Calculator** – Handheld mechanical calculator shaped like a pepper grinder.
+120. **Planimeter** – Analog device for measuring area.
+121. **Comptometer** – First commercially successful key-driven mechanical calculator.
+122. **Arithmometer** – First mass-produced mechanical calculator.
+123. **Odhner Arithmometer** – Pinwheel calculator.
+124. **Harvard Mark I** – IBM Automatic Sequence Controlled Calculator (ASCC).
+125. **Harvard Mark II** – Where the first "computer bug" (a literal moth) was found.
+126. **Harvard Mark III** – Early computer using magnetic drums.
+127. **Polish Bomba** – Predecessor to the Turing Bombe.
+128. **Atanasoff–Berry Computer (ABC)** – Early electronic digital computer (non-programmable).
+129. **Tally Sticks** – Ancient memory aid device to record numbers.
+130. **Astrolabe** – Ancient astronomical analog calculator.
+131. **Quipu** – Incan recording devices made of knotted strings.
+132. **Sector (Compass)** – Mathematical instrument used from the 16th century.
+133. **Planisphere** – Analog computing instrument used in astronomy.
+134. **Gellibrand's Trigonometria** – Early mathematical tables.
+135. **Sangi** – Japanese computing rods.
+136. **Suanpan** – Traditional Chinese abacus.
+137. **Soroban** – Traditional Japanese abacus.
+138. **Schickard's Calculating Clock** – Early mechanical calculator (1623).
+139. **Babbage's Brain** – Preserved brain of the computing pioneer.
+140. **Punched Card** – Piece of stiff paper containing digital data.
+141. **Paper Tape** – Continuous strip of paper with punched holes for data.
+142. **Water Integrator** – Early Russian analog computer using water flow.
+143. **MONIAC** – Analog computer using water to model the UK economy.
+144. **Ishango Bone** – Ancient bone tool believed to be an early tally stick.
+145. **Vaucanson's Duck** – Early automaton representing mechanical logic.
+146. **Karakuri Ningyo** – Traditional Japanese mechanized puppets.
+147. **Automata** – Self-operating machines, early precursors to robotics.
+148. **Logic Gates (Relays)** – Using electro-mechanical relays to perform boolean logic.
+149. **Vacuum Tubes (Thermionic Valves)** – Electronic logic gates before transistors.
+150. **The First Computer Bug** – The actual moth taped into the Harvard Mark II logbook.
+151. **ENIAC** – First general-purpose electronic digital computer.
+152. **EDVAC** – Early computer designed to use binary rather than decimal.
+153. **UNIVAC I** – First commercial computer in the US; predicted the 1952 election.
+154. **Manchester Baby** – First electronic stored-program computer.
+155. **EDSAC** – Early British stored-program computer.
+156. **LEO I** – First computer used for commercial business applications.
+157. **Ferranti Mark 1** – World's first commercially available general-purpose computer.
+158. **IBM 701** – IBM's first commercial scientific computer.
+159. **IBM 650** – World's first mass-produced computer.
+160. **Whirlwind I** – First computer with real-time graphics and core memory.
+161. **SAGE (Semi-Automatic Ground Environment)** – Cold war early warning computer system.
+162. **Pilot ACE** – Early UK computer designed by Alan Turing.
+163. **CSIRAC** – Australia's first digital computer, played the first digital music.
+164. **SEAC** – Standards Eastern Automatic Computer; first US stored-program computer.
+165. **SWAC** – Standards Western Automatic Computer.
+166. **ILLIAC I** – First computer built and owned entirely by a US educational institution.
+167. **ORDVAC** – Early computer built at the University of Illinois.
+168. **BESK** – Early Swedish computer.
+169. **MESM** – First universally programmable electronic computer in continental Europe (USSR).
+170. **IBM System/360** – The mainframe that revolutionized the industry with architecture families.
+171. **DEC PDP-1** – Early minicomputer; ran the first video game, Spacewar!.
+172. **DEC PDP-8** – First commercially successful minicomputer.
+173. **DEC PDP-11** – Highly influential minicomputer; birthplace of C and Unix.
+174. **VAX (Virtual Address eXtension)** – Highly successful 32-bit minicomputer series.
+175. **Cray-1** – Iconic C-shaped supercomputer.
+176. **Cray-2** – Liquid-cooled supercomputer ("Bubbles").
+177. **Connection Machine** – Massively parallel supercomputer.
+178. **IBM 1401** – Hugely popular transistorized data processing computer.
+179. **IBM 7090** – High-speed transistorized mainframe.
+180. **CDC 6600** – Widely considered the first successful supercomputer.
+181. **CDC 7600** – Successor to the 6600, dominant in the 1970s.
+182. **Magnetic Core Memory** – Early form of RAM using magnetic rings.
+183. **Delay Line Memory** – Early memory using acoustic waves in mercury tubes.
+184. **Williams-Kilburn Tube** – First random-access digital storage device (CRT).
+185. **Drum Memory** – Early magnetic data storage device.
+186. **IBM 350 (RAMAC)** – The first commercial hard disk drive.
+187. **Floppy Disk (8-inch)** – First flexible magnetic disk storage.
+188. **The Transistor** – Replaced vacuum tubes; revolutionized electronics.
+189. **Integrated Circuit (Microchip)** – Multiple transistors on a single silicon chip.
+190. **Intel 4004** – The world's first commercially produced microprocessor.
+191. **Intel 8008** – Early 8-bit microprocessor.
+192. **Intel 8086** – Genesis of the x86 architecture.
+193. **MOS Technology 6502** – Cheap, powerful chip that powered the Apple II and C64.
+194. **Zilog Z80** – Hugely popular microprocessor used in the Game Boy and Pac-Man.
+195. **Motorola 68000** – Processor that powered the original Macintosh and Sega Genesis.
+196. **ARM Architecture** – Reduced Instruction Set chip that powers modern smartphones.
+197. **Mainframe Operator Console** – The massive blinky-light panels used to debug early machines.
+198. **Teletype Model 33** – Highly popular terminal for early minicomputers.
+199. **VT100** – The iconic DEC video terminal.
+200. **Light Pen** – Early input device used on the Whirlwind and SAGE.
+201. **Machine Code** – Raw binary instructions executed directly by the CPU.
+202. **Assembly Language** – Low-level language using mnemonics (e.g., MOV, ADD).
+203. **Plankalkül** – First high-level (non-von Neumann) programming language (Zuse).
+204. **Short Code** – First high-level language proposed for an electronic computer.
+205. **Autocode** – Early family of simplified coding systems.
+206. **IPL (Information Processing Language)** – First language for AI, introduced lists.
+207. **FORTRAN** – Formula Translation; the first widely used high-level language.
+208. **LISP** – List Processing; the standard language for early AI research.
+209. **ALGOL 58** – Algorithmic Language; introduced code blocks.
+210. **ALGOL 60** – Highly influential language; introduced lexical scoping.
+211. **COBOL** – Common Business-Oriented Language; built for commerce and finance.
+212. **APL** – A Programming Language; famous for its unique mathematical symbols.
+213. **SIMSCRIPT** – Early simulation language.
+214. **SNOBOL** – String Oriented and Symbolic Language; early text manipulation.
+215. **CPL** – Combined Programming Language (predecessor to BCPL and C).
+216. **BASIC** – Beginner's All-purpose Symbolic Instruction Code; democratized computing.
+217. **PL/I** – Programming Language One (IBM's attempt to merge FORTRAN and COBOL).
+218. **BCPL** – Basic Combined Programming Language (predecessor to B).
+219. **Logo** – Educational language famous for its "Turtle" graphics.
+220. **B Language** – Ken Thompson's precursor to C.
+221. **Pascal** – Wirth's teaching language; highly influential in the 80s/90s.
+222. **Forth** – Stack-based language used in embedded systems and astronomy.
+223. **C Language** – Dennis Ritchie's system language; the foundation of modern software.
+224. **Smalltalk-72** – The first true Object-Oriented programming language.
+225. **Prolog** – Logic programming language associated with AI and linguistics.
+226. **ML (Meta Language)** – Early functional programming language with strong typing.
+227. **Scheme** – A minimalist, elegant dialect of LISP.
+228. **SQL** – Structured Query Language; the standard for relational databases.
+229. **Ada** – Language designed for the US DoD, named after Ada Lovelace.
+230. **AWK** – Text processing language (Aho, Weinberger, Kernighan).
+231. **VisiCalc** – The first spreadsheet program (introduced formula-based programming).
+232. **Bourne Shell (sh)** – The standard Unix command-line interpreter.
+233. **Modula-2** – Wirth's successor to Pascal, introducing modules.
+234. **MATLAB** – Matrix Laboratory; standard for numerical computing.
+235. **dBase II** – Early microcomputer database management system and language.
+236. **Standard ML** – Functional language with type inference.
+237. **Objective-C** – Added Smalltalk-style messaging to C; powered NeXT and Apple.
+238. **C++** – Bjarne Stroustrup's "C with Classes."
+239. **Erlang** – Ericsson's concurrent, fault-tolerant language.
+240. **Perl** – Larry Wall's "Swiss Army chainsaw" for text processing and web CGI.
+241. **Tcl** – Tool Command Language, often paired with the Tk GUI toolkit.
+242. **FL (Function Level)** – Backus's functional language.
+243. **Haskell** – Pure, lazy, statically typed functional programming language.
+244. **Python (1.0)** – Guido van Rossum's readable, general-purpose language.
+245. **Visual Basic** – Microsoft's drag-and-drop programming revolution.
+246. **Lua** – Lightweight scripting language popular in game development.
+247. **R Language** – Statistical computing and data analysis language.
+248. **Racket** – A Lisp dialect focused on language creation.
+249. **CLOS** – Common Lisp Object System.
+250. **Delphi / Object Pascal** – Rapid Application Development tool by Borland.
+251. **Java** – "Write once, run anywhere" OOP language by Sun Microsystems.
+252. **JavaScript (Mocha/LiveScript)** – The scripting language of the Web.
+253. **PHP** – Hypertext Preprocessor; the backbone of early dynamic websites.
+254. **Ruby** – Elegant OOP language; popularized by the Ruby on Rails framework.
+255. **OCaml** – Multi-paradigm language focusing on functional programming.
+256. **ActionScript** – The OOP language that powered Adobe Flash.
+257. **C#** – Microsoft's modern, managed OOP language for the .NET framework.
+258. **F#** – Microsoft's functional programming language for .NET.
+259. **Scala** – Scalable Language; fuses OOP and functional programming on the JVM.
+260. **Groovy** – Agile, dynamic language for the JVM.
+261. **Clojure** – A modern, functional LISP dialect for the JVM.
+262. **Go (Golang)** – Google's statically typed, concurrent system language.
+263. **Rust** – Mozilla's systems language focusing on memory safety and performance.
+264. **Dart** – Google's UI-optimized language, powering the Flutter framework.
+265. **Kotlin** – JetBrains' modern language; the official language for Android.
+266. **Elixir** – Concurrent, functional language running on the Erlang VM.
+267. **Julia** – High-performance language for numerical and scientific computing.
+268. **TypeScript** – Microsoft's strict syntactical superset of JavaScript (adds types).
+269. **Swift** – Apple's modern, safe replacement for Objective-C.
+270. **Hack** – Facebook's dialect of PHP with static typing.
+271. **WebAssembly (Wasm)** – Binary instruction format for web browsers.
+272. **Solidity** – Programming language for Ethereum smart contracts.
+273. **Nim** – Statically typed, compiled systems language with Python-like syntax.
+274. **Zig** – General-purpose language designed as a modern C replacement.
+275. **Crystal** – Language with Ruby-like syntax but compiled and statically typed.
+276. **V (Vlang)** – Simple, fast, safe compiled language.
+277. **Elm** – Purely functional language for browser-based GUIs.
+278. **PureScript** – Strongly-typed functional language compiling to JavaScript.
+279. **ReasonML** – Syntax extension for OCaml created by Facebook.
+280. **Ballerina** – Language optimized for integration and cloud-native applications.
+281. **Bash** – Bourne Again Shell; standard scripting on Linux/macOS.
+282. **PowerShell** – Microsoft's task automation framework and scripting language.
+283. **Scratch** – Visual block-based educational programming language.
+284. **Alice** – 3D visual programming environment for education.
+285. **Blockly** – Google's visual programming editor library.
+286. **Brainfuck** – Famous minimalist esoteric programming language (8 commands).
+287. **Whitespace** – Esoteric language using only spaces, tabs, and linefeeds.
+288. **Malbolge** – Esoteric language designed to be impossible to use.
+289. **HTML (HyperText Markup Language)** – The structure of the Web.
+290. **XML (eXtensible Markup Language)** – Standard data representation format.
+291. **JSON (JavaScript Object Notation)** – Lightweight data-interchange format.
+292. **YAML** – Human-readable data serialization format ("YAML Ain't Markup Language").
+293. **CSS (Cascading Style Sheets)** – The presentation and styling of the Web.
+294. **Markdown** – Lightweight markup language for formatting plain text.
+295. **LaTeX** – High-quality typesetting system for technical documents.
+296. **PostScript** – Page description language; revolutionized desktop publishing.
+297. **GraphQL** – Meta's query language for APIs.
+298. **SPARQL** – Query language for databases on the Semantic Web.
+299. **LINQ (Language Integrated Query)** – Microsoft's querying syntax for C#.
+300. **G-code** – The most widely used numerical control programming language (3D printing/CNC).
+301. **GM-NAA I/O** – Created by General Motors; the first operating system.
+302. **Multics** – Highly influential early time-sharing OS; precursor to Unix.
+303. **Unix** – The foundational OS created at Bell Labs.
+304. **BSD (Berkeley Software Distribution)** – Unix derivative that spawned macOS.
+305. **Linux Kernel** – Open-source Unix-like kernel by Linus Torvalds.
+306. **macOS (Classic Mac OS)** – First commercially successful OS with a GUI.
+307. **Mac OS X** – Apple's Unix-based reboot of the Macintosh operating system.
+308. **MS-DOS** – Microsoft Disk Operating System; dominated early IBM PCs.
+309. **Windows 1.0** – Microsoft's first graphical shell over MS-DOS.
+310. **Windows 3.1** – The breakthrough version that popularized Windows.
+311. **Windows 95** – Introduced the Start Menu, Taskbar, and modern Windows UI.
+312. **Windows XP** – Highly stable and ubiquitous version of Windows NT.
+313. **Windows NT** – Microsoft's enterprise-grade kernel architecture.
+314. **OS/2** – IBM and Microsoft's joint OS project.
+315. **AmigaOS** – Advanced multimedia OS in the 1980s with preemptive multitasking.
+316. **BeOS** – Multimedia-optimized OS loved by tech enthusiasts in the 90s.
+317. **NeXTSTEP** – Steve Jobs' object-oriented OS that became the basis for macOS/iOS.
+318. **iOS (iPhone OS)** – Apple's revolutionary mobile operating system.
+319. **Android** – Google's open-source, Linux-based mobile operating system.
+320. **Symbian** – Early dominant smartphone OS (Nokia).
+321. **BlackBerry OS** – Enterprise mobile OS known for secure messaging.
+322. **Palm OS** – Pioneering OS for Personal Digital Assistants (PDAs).
+323. **CP/M** – Dominant OS for microcomputers before MS-DOS.
+324. **DOS/360** – Early IBM mainframe operating system.
+325. **z/OS** – IBM's modern 64-bit mainframe operating system.
+326. **Ubuntu** – The Linux distribution that brought Linux to the masses.
+327. **Debian** – Highly stable, community-driven Linux distribution.
+328. **Red Hat Enterprise Linux (RHEL)** – Dominant commercial Linux distribution.
+329. **CentOS** – Popular free community-supported enterprise Linux.
+330. **Arch Linux** – Minimalist, rolling-release Linux distribution.
+331. **GNU Project** – Richard Stallman's initiative to create a free Unix-like OS.
+332. **X Window System** – The standard framework for Linux/Unix GUIs.
+333. **VIM (Vi Improved)** – Ubiquitous terminal-based text editor.
+334. **Emacs** – Highly extensible text editor and computing environment.
+335. **GCC (GNU Compiler Collection)** – The foundational open-source compiler.
+336. **LLVM** – Modern compiler infrastructure project (powers Clang, Swift, Rust).
+337. **Git** – Distributed version control system by Linus Torvalds.
+338. **Subversion (SVN)** – Centralized version control system.
+339. **Make** – Classic build automation tool.
+340. **Docker** – Revolutionized software deployment via containerization.
+341. **Kubernetes** – Google's container orchestration system.
+342. **Apache HTTP Server** – The web server that built the early internet.
+343. **Nginx** – High-performance web server and reverse proxy.
+344. **MySQL** – The world's most popular open-source relational database.
+345. **PostgreSQL** – Advanced, open-source object-relational database.
+346. **MongoDB** – Leading NoSQL document database.
+347. **Redis** – In-memory key-value data store.
+348. **SQLite** – The most widely deployed database engine in the world (embedded).
+349. **Hadoop** – Framework for distributed processing of big data.
+350. **TensorFlow** – Google's open-source machine learning framework.
+351. **ARPANET** – The precursor to the Internet, funded by the US DoD.
+352. **TCP/IP** – The foundational protocol suite of the Internet.
+353. **DNS (Domain Name System)** – The "phonebook" of the Internet.
+354. **HTTP (Hypertext Transfer Protocol)** – The foundation of data communication for the Web.
+355. **HTTPS** – Secure HTTP (via SSL/TLS).
+356. **FTP (File Transfer Protocol)** – Standard protocol for transferring files.
+357. **SMTP / POP3 / IMAP** – The protocols that power email.
+358. **SSH (Secure Shell)** – Protocol for secure remote server login.
+359. **Telnet** – Early, unencrypted remote terminal protocol.
+360. **Ethernet** – Standard for wired Local Area Networks (LAN).
+361. **Wi-Fi (IEEE 802.11)** – Standard for wireless networking.
+362. **Bluetooth** – Short-range wireless technology standard.
+363. **Token Ring** – IBM's early LAN protocol that lost out to Ethernet.
+364. **World Wide Web** – The system of linked hypertext documents on the Internet.
+365. **Mosaic** – The first web browser to popularize the WWW.
+366. **Netscape Navigator** – The dominant web browser of the 1990s.
+367. **Internet Explorer** – Microsoft's browser that won the First Browser War.
+368. **Mozilla Firefox** – Open-source browser that challenged IE's monopoly.
+369. **Google Chrome** – Dominant modern web browser based on Chromium.
+370. **Web 2.0** – The era of user-generated content and social media.
+371. **HTML5** – Modern web standard allowing native video, audio, and canvas.
+372. **DOM (Document Object Model)** – Programming interface for web documents.
+373. **AJAX (Asynchronous JavaScript and XML)** – Enabled dynamic, no-reload web pages.
+374. **REST APIs** – Representational State Transfer; standard architecture for web services.
+375. **WebSockets** – Protocol for persistent, real-time web connections.
+376. **Semantic Web (Web 3.0 proposal)** – Machine-readable metadata web concept by Tim Berners-Lee.
+377. **Tim Berners-Lee's First Website** – Info.cern.ch, explaining what the WWW was.
+378. **The Morris Worm** – The first major computer worm distributed via the Internet (1988).
+379. **Creeper Virus** – The first computer virus ("I'm the creeper, catch me if you can!").
+380. **ARPANET IMP** – Interface Message Processor; the first routers.
+381. **ALOHAnet** – Pioneering wireless computer networking system (Hawaii).
+382. **NSFNET** – National Science Foundation Network; backbone of the early Internet.
+383. **Minitel** – Highly successful French videotex online service pre-dating the WWW.
+384. **Usenet** – Early decentralized discussion system (newsgroups).
+385. **BBS (Bulletin Board System)** – Dial-up servers for messages and file sharing.
+386. **AOL (America Online)** – The walled-garden that brought millions online via dial-up CDs.
+387. **CompuServe** – Early major commercial online service provider.
+388. **ICQ** – "I Seek You," the first widely popular instant messenger.
+389. **IRC (Internet Relay Chat)** – Protocol for live text chat networks.
+390. **Napster** – Pioneering peer-to-peer file sharing network (MP3s).
+391. **BitTorrent** – Decentralized peer-to-peer file sharing protocol.
+392. **Bitcoin / Blockchain** – The first decentralized cryptocurrency and distributed ledger.
+393. **CGI (Common Gateway Interface)** – Early standard for web servers to execute scripts.
+394. **LAMP Stack** – Linux, Apache, MySQL, PHP; powered the early dynamic web.
+395. **MERN/MEAN Stack** – Modern JavaScript stacks (MongoDB, Express, React/Angular, Node).
+396. **Node.js** – JavaScript runtime environment outside the browser.
+397. **React** – Meta's declarative JavaScript UI library.
+398. **WebRTC** – Protocol enabling real-time voice/video in the browser.
+399. **Cloud Computing (AWS, Azure, GCP)** – On-demand availability of computer systems over the internet.
+400. **The Deep Web / Tor** – The encrypted, non-indexed portions of the internet.
+401. **Altair 8800** – The spark of the microcomputer revolution.
+402. **IMSAI 8080** – Famous early microcomputer (featured in the movie *WarGames*).
+403. **Kenbak-1** – Considered by some to be the first personal computer (1971).
+404. **Datapoint 2200** – Programmable terminal that inspired the x86 instruction set.
+405. **Apple I** – Wozniak and Jobs' first computer (bare circuit board).
+406. **Apple II** – One of the first highly successful mass-produced microcomputers.
+407. **Commodore PET** – Early all-in-one personal computer.
+408. **TRS-80** – Tandy/Radio Shack's highly popular home computer.
+409. **Commodore 64** – The highest-selling single computer model of all time.
+410. **ZX Spectrum** – Hugely popular, affordable British home computer.
+411. **BBC Micro** – Educational computer that defined UK computing in the 80s.
+412. **Amiga 1000** – Revolutionary multimedia computer with custom co-processors.
+413. **Atari 800** – Powerful 8-bit home computer with custom graphics chips.
+414. **IBM PC (5150)** – The machine that established the PC standard and MS-DOS dominance.
+415. **Macintosh 128k** – The first successful mass-market mouse-and-GUI computer.
+416. **NeXT Computer** – High-end workstation; the first web server ran on one.
+417. **Sun Workstation** – High-end Unix machines that pioneered networked computing.
+418. **SGI Iris / Indigo** – Silicon Graphics workstations famous for Hollywood CGI.
+419. **Xerox Alto** – The first computer with a GUI and a mouse, built at PARC.
+420. **Xerox Star** – First commercial system to incorporate PARC's GUI concepts.
+421. **Apple Lisa** – Apple's expensive, pioneering GUI computer before the Mac.
+422. **Osborne 1** – The first commercially successful portable computer.
+423. **Compaq Portable** – The first 100% IBM PC compatible clone.
+424. **IBM ThinkPad** – Iconic laptop line known for the red TrackPoint.
+425. **Raspberry Pi** – Ultra-cheap single-board computer that revitalized hobbyist computing.
+426. **Arduino** – Open-source electronics platform for hardware prototyping.
+427. **Enigma Machine** – WWII German cipher machine.
+428. **Punched Card Reader** – The primary input device for 20th-century mainframes.
+429. **Acoustic Coupler Modem** – Early modem that you placed a physical phone handset into.
+430. **Dot Matrix Printer** – Classic noisy printer that used pins and a ribbon.
+431. **Daisy Wheel Printer** – High-quality text printer operating like a typewriter.
+432. **LaserJet (HP)** – Popularized laser printing for desktops.
+433. **CRT Monitor** – Cathode Ray Tube displays (the bulky monitors of the past).
+434. **Mechanical Keyboard (Buckling Spring)** – The legendary IBM Model M keyboard switch.
+435. **Trackball** – Pointing device acting like an upside-down mouse.
+436. **Joystick** – The primary input device for early computer gaming.
+437. **ZIP Drive** – Iomega's popular high-capacity floppy disk alternative.
+438. **CD-ROM** – Brought massive storage (650MB) and multimedia to the PC.
+439. **USB Flash Drive** – Replaced the floppy disk; allowed gigabytes on a keychain.
+440. **Solid State Drive (SSD)** – Flash-based storage that replaced spinning hard drives.
+441. **GPU (Graphics Processing Unit)** – Dedicated chip for rendering graphics (e.g., 3dfx Voodoo, Nvidia GeForce).
+442. **Sound Blaster** – The card that brought high-quality audio to the PC.
+443. **Motherboard** – The central printed circuit board of a computer.
+444. **Power Supply Unit (PSU)** – Converts AC to DC power for the PC.
+445. **Heat Sink & Fan** – Essential cooling components to prevent CPU thermal throttling.
+446. **Moore's Law** – The observation that transistors on a chip double every ~2 years.
+447. **Von Neumann Architecture** – CPU, memory, and I/O; data and code share memory.
+448. **Harvard Architecture** – CPU design where data and instruction memory are separate.
+449. **RISC (Reduced Instruction Set Computer)** – CPU design focusing on simple, fast instructions.
+450. **CISC (Complex Instruction Set Computer)** – CPU design (like x86) with complex, multi-step instructions.
+451. **Object-Oriented Programming (OOP)** – Paradigm based on "objects" (data + methods).
+452. **Functional Programming** – Paradigm treating computation as mathematical functions.
+453. **Agile Methodology** – Iterative software development framework.
+454. **Waterfall Model** – Linear, sequential software development lifecycle.
+455. **Open Source Software** – Code released with a license allowing anyone to edit/distribute.
+456. **The Turing Test** – A test of a machine's ability to exhibit intelligent behavior.
+457. **Church-Turing Thesis** – States that a Turing machine can compute any computable function.
+458. **Big O Notation** – Mathematical notation describing algorithmic time/space complexity.
+459. **P vs NP Problem** – The most famous unsolved problem in computer science.
+460. **Quicksort** – Highly efficient sorting algorithm by Tony Hoare.
+461. **Binary Search** – Efficient algorithm for finding items in a sorted list (O(log n)).
+462. **Dijkstra's Algorithm** – Algorithm for finding the shortest paths between nodes in a graph.
+463. **Linked List** – Linear data structure where elements point to the next node.
+464. **Hash Table** – Data structure providing O(1) lookups via key hashing.
+465. **Binary Search Tree (BST)** – Node-based tree structure for fast searching/sorting.
+466. **Recursion** – A function calling itself to solve smaller instances of a problem.
+467. **Garbage Collection** – Automatic memory management (freeing unused memory).
+468. **Multithreading** – Concurrent execution of multiple threads inside a process.
+469. **Deadlock** – When two or more processes lock each other indefinitely.
+470. **Virtual Memory & Paging** – Using disk space to simulate extra RAM.
+471. **Machine Learning / Neural Networks** – AI mimicking the human brain's interconnected neurons.
+472. **Spacewar!** – One of the very first video games (PDP-1).
+473. **Pong** – Atari's arcade tennis game that launched the video game industry.
+474. **Tetris** – Alexey Pajitnov's legendary block-puzzle game (Soviet Union).
+475. **Doom (id Software)** – Pioneered 3D graphics, networked multiplayer, and modding.
+476. **The Mother of All Demos** – Douglas Engelbart's 1968 presentation debuting the mouse, windows, hypertext, and video conferencing.
+477. **Apple "1984" Commercial** – The Super Bowl ad that launched the Macintosh.
+478. **Deep Blue vs. Kasparov** – First time an AI defeated a reigning world chess champion.
+479. **AlphaGo vs. Lee Sedol** – First time an AI defeated a 9-dan Go champion.
+480. **Y2K Bug (Millennium Bug)** – The panic over 2-digit year formatting leading up to year 2000.
+481. **Unix Epoch Time** – January 1, 1970 (how computers track time in seconds).
+482. **"Hello, World!"** – The traditional first program a student writes (started with C/BCPL).
+483. **The Utah Teapot** – 3D computer graphics standard reference object.
+484. **The Stanford Bunny** – Classic 3D test model used in computer graphics research.
+485. **Lenna (Test Image)** – The standard test image used in digital image processing algorithms.
+486. **Lorem Ipsum** – The standard placeholder text used in UI/UX design.
+487. **Konami Code** – Up, Up, Down, Down, Left, Right, Left, Right, B, A (Gaming culture).
+488. **QWERTY Keyboard Layout** – Designed to prevent mechanical typewriters from jamming.
+489. **The Blue Screen of Death (BSOD)** – Windows' iconic fatal system error screen.
+490. **Stack Overflow** – Error occurring when a program exceeds its call stack space (and the name of the famous dev Q&A site).
+491. **Easter Eggs** – Hidden messages or features in software (started in Atari's *Adventure*).
+492. **The GNU Manifesto** – Richard Stallman's call to arms for free software.
+493. **CAP Theorem** – Distributed databases can only guarantee 2 of 3: Consistency, Availability, Partition tolerance.
+494. **ACID Properties** – Database transaction rules (Atomicity, Consistency, Isolation, Durability).
+495. **MVC (Model-View-Controller)** – The architectural pattern governing modern UI/web development.
+496. **Design Patterns (Gang of Four)** – Standardized solutions to common software design problems.
+497. **SOLID Principles** – Five design principles for writing clean, maintainable OOP code.
+498. **CI/CD & DevOps** – The modern culture of continuous software integration and delivery.
+499. **Quantum Computing & Qubits** – The next frontier, computing using quantum superposition.
+500. **ChatGPT / LLMs (Large Language Models)** – The current revolution in generative AI and natural language processing.
