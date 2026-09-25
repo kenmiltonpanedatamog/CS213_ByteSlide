@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS213 Slide Puzzle</title>
+    <link rel="stylesheet" href="puzzle.css">
+    <script src="puzzle.js" defer></script>
+</head>
+
+<body>
+    <main id="container">
+        <h1 id="title">CS213 Slide Puzzle</h1>
+        <h1 id="level-title"> Level <span id="level">1</span></h1>
+
+        <!-- Restored id="reference" to the div for CSS layout -->
+        <div id="reference">
+            <!-- Added id="actualImage" for JavaScript targeting -->
+            <img id="actualImage" src="images/1.jpg" alt="Puzzle Reference">
+        </div>
+
+        <div id="board"></div>
+
+        <h1 id="turns-title"> Turns: <span id="turns">0</span></h1>
+
+        <button onclick="skipLevel()" style="margin: 10px; padding: 5px 10px; cursor: pointer;">Skip Level</button>
+
+        <div id="info">
+            <p class="info-text">Game Info</p>
+        </div>
+    </main>
+</body>
+
+</html>
