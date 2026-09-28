@@ -1,0 +1,49 @@
+# Bjarne Stroustrup
+
+Bjarne Stroustrup (born December 30, 1950) is a Danish computer scientist best known for the creation and ongoing development of the C++ programming language. Born and raised in Aarhus, Denmark, he pursued his education at Aarhus University and the University of Cambridge before joining the Computing Science Research Center at Bell Labs in New Jersey. During his time at Bell Labs, seeking a way to combine the efficient low-level execution of the C programming language with the object-oriented abstractions of Simula, he developed "C with Classes" in 1979, which was subsequently renamed C++ in 1983. This language fundamentally transformed software engineering by enabling high-performance systems programming alongside robust abstraction mechanisms, becoming one of the most widely used programming languages in the world. Stroustrup has actively guided the evolution of the language, serving as a leading figure in the ISO standardization of C++ and authoring its definitive reference texts. Beyond his foundational work at Bell Labs, his career has spanned both academia and the financial industry, holding prominent roles as a professor at Texas A&M University, a managing director at Morgan Stanley, and a visiting professor at Columbia University. In recognition of his profound impact on computing infrastructure, Stroustrup has received numerous prestigious accolades, including the National Academy of Engineering's Charles Stark Draper Prize, the Faraday Medal, and the IEEE John von Neumann Medal.
+
+## Early Life and Education
+
+Bjarne Stroustrup was born on December 30, 1950, in Aarhus, Denmark. His family was working-class, and he attended local public schools. He enrolled at Aarhus University in 1969, initially intending to study mathematics, but eventually shifted his focus to the newly emerging field of computer science. He graduated with a *cand.scient.* (the Danish equivalent of a master's degree) in mathematics and computer science in 1975.
+
+Following his graduation from Aarhus, Stroustrup moved to England to pursue doctoral studies at the University of Cambridge, becoming a student at Churchill College. He conducted his research at the Cambridge University Computer Laboratory under the supervision of David Wheeler, a pioneer of early computer science who is credited with inventing the subroutine. Stroustrup's doctoral research focused on the design of distributed computing systems. He received his Ph.D. in computer science in 1979.
+
+## Bell Labs and the Creation of C++
+
+Upon completing his doctorate, Stroustrup emigrated to the United States in 1979 to join the Computer Science Research Center at Bell Laboratories in Murray Hill, New Jersey, the same research facility where Dennis Ritchie and Ken Thompson had developed C and Unix a decade earlier.
+
+### C with Classes
+
+Stroustrup's initial assignment at Bell Labs involved analyzing the Unix kernel to determine how it could be distributed over a local area network. To simulate the system, he attempted to use Simula, a language developed in Norway that pioneered object-oriented programming concepts such as classes and inheritance. While Simula was highly expressive and ideal for organizing complex software systems, its execution speed was vastly too slow for practical systems programming. Conversely, languages like BCPL and C were fast and efficient but lacked the high-level organizational structures necessary to manage large, complex software architectures.
+
+To solve this problem, Stroustrup began adding object-oriented features to the C compiler. He termed this extension "C with Classes." The primary design philosophy was to provide high-level abstraction mechanisms (such as classes, basic inheritance, and strong type checking) with "zero-overhead," meaning the abstractions would compile down to machine code that was just as fast and memory-efficient as hand-written C code.
+
+### Evolution into C++ and Standardization
+
+By 1983, the language had evolved significantly, incorporating virtual functions, function overloading, references, and constants. Recognizing that the language had outgrown its original name, Stroustrup renamed it "C++," a pun utilizing the C increment operator (`++`) to signify an evolutionary step beyond C.
+
+In 1985, the first commercial implementation of the language was released, coinciding with the publication of Stroustrup's foundational book, *The C++ Programming Language*. Unlike many languages of the era, C++ was not developed under a government grant or with a massive corporate marketing budget; its adoption was driven organically by software engineers who required a tool capable of handling the increasing complexity of software systems without sacrificing hardware-level performance. Stroustrup continued to refine the language throughout the late 1980s and 1990s, adding templates (for generic programming), exceptions, and namespaces.
+
+To prevent the fragmentation of the language by competing corporate compilers, Stroustrup became heavily involved in the standardization process. The language was officially standardized by the International Organization for Standardization (ISO) in 1998 (known as C++98). Stroustrup has remained an active and influential member of the ISO C++ standards committee, steering the language through major modern revisions, most notably C++11, C++14, C++17, and C++20.
+
+## Academic and Corporate Career
+
+Stroustrup led the Large-scale Programming Research department at AT&T Bell Labs until its restructuring. In 2002, after 23 years at the research facility, he left industry to return to academia, accepting the College of Engineering Chair in Computer Science at Texas A&M University in College Station. During his tenure at Texas A&M, he focused on teaching and developed a new introductory programming curriculum aimed at software engineering freshmen, which culminated in his widely used textbook *Programming: Principles and Practice Using C++*.
+
+In 2014, Stroustrup transitioned back into the corporate sector, joining the financial services firm Morgan Stanley in New York City as a Managing Director in the technology division. In this role, he worked on optimizing the company's massive C++ codebases and distributed systems. Concurrently, he accepted a position as a visiting professor in the Department of Computer Science at Columbia University. Stroustrup formally retired from his position at Morgan Stanley in 2022, though he continues to write, lecture, and direct the technical evolution of C++.
+
+## Works or Publications
+
+* *The C++ Programming Language* (1985; revised editions in 1991, 1997, and 2013)
+* *The Design and Evolution of C++* (1994)
+* *Programming: Principles and Practice Using C++* (2008; revised edition 2014)
+* *A Tour of C++* (2013; revised editions in 2018 and 2022)
+
+## References
+
+1. ["Bjarne Stroustrup - Homepage"](https://www.stroustrup.com/?utm_source=gemini)
+2. ["Bjarne Stroustrup | Biography, C++, & Facts | Britannica"](https://www.britannica.com/biography/Bjarne-Stroustrup?utm_source=gemini)
+3. ["Bjarne Stroustrup - IEEE Computer Society Pioneer Award"](https://www.computer.org/profiles/bjarne-stroustrup?utm_source=gemini)
+4. ["2018 Charles Stark Draper Prize for Engineering - National Academy of Engineering"](https://www.google.com/search?q=https://www.nae.edu/177218/2018-Charles-Stark-Draper-Prize-for-Engineering-Awarded-to-Bjarne-Stroustrup&utm_source=gemini)
+5. ["History of C++ - C++ Reference"](https://en.cppreference.com/w/cpp/language/history?utm_source=gemini)
+6. ["Bjarne Stroustrup - Columbia University Department of Computer Science"](https://www.google.com/search?q=https://www.cs.columbia.edu/~bs/&utm_source=gemini)

@@ -1,0 +1,56 @@
+# Alan Turing
+
+Alan Mathison Turing (1912–1954) was an English mathematician, computer scientist, logician, cryptanalyst, and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which is widely considered a theoretical model of a general-purpose computer. During the Second World War, Turing worked for the Government Code and Cypher School (GC&CS) at Bletchley Park, Britain's codebreaking centre, where he led the section responsible for German naval cryptanalysis. He devised a number of techniques for speeding the breaking of German ciphers, most notably the British Bombe, an electromechanical machine that successfully deduced the settings for the Enigma machine. After the war, Turing worked at the National Physical Laboratory, where he designed the Automatic Computing Engine (ACE), and later joined the computing laboratory at the Victoria University of Manchester. He also contributed significantly to the philosophical debate regarding artificial intelligence by proposing the Turing test, a method to determine a machine's ability to exhibit intelligent behaviour. In 1952, Turing was prosecuted for homosexual acts, which were illegal in the United Kingdom at the time; he accepted chemical castration as an alternative to prison and subsequently lost his security clearance. He died in 1954 from cyanide poisoning in what a coroner ruled a suicide.
+
+## Early Life and Education
+
+Alan Turing was born in Maida Vale, London, on June 23, 1912. His father, Julius Mathison Turing, was a member of the Indian Civil Service, causing his parents to travel frequently between the United Kingdom and India while Alan and his brother remained in England. Turing's natural aptitude for mathematics and science became apparent early in his schooling. He attended Sherborne School, where his teachers frequently criticized him for neglecting classical studies in favor of his own scientific and mathematical investigations.
+
+Despite his teachers' concerns, Turing gained admission to King's College, Cambridge, in 1931 to study mathematics. He excelled in his studies, particularly in probability theory, and was elected a Fellow of King's College in 1935 on the strength of a dissertation in which he independently proved the central limit theorem. He subsequently studied at Princeton University under Alonzo Church from 1936 to 1938, obtaining his PhD.
+
+## Computability and the Turing Machine
+
+In 1936, Turing published his seminal paper, "On Computable Numbers, with an Application to the Entscheidungsproblem," which reformulated Kurt Gödel's 1931 results on the limits of proof and computation. Turing replaced Gödel's universal arithmetic-based formal language with formal and simple hypothetical devices that became known as Turing machines.
+
+A Turing machine operates on an infinite paper tape divided into discrete squares, reading and writing symbols based on a finite set of rules. Turing proved that his "universal computing machine" (now known as the Universal Turing machine) could perform any mathematical computation if it were representable as an algorithm, thus establishing the theoretical foundation for modern digital computers. He also proved that there is no solution to the *Entscheidungsproblem* (decision problem) by demonstrating that it is impossible to decide algorithmically whether a given Turing machine will eventually halt or run forever.
+
+## Cryptanalysis and World War II
+
+Prior to the outbreak of the Second World War, Turing was recruited to work at the Government Code and Cypher School at Bletchley Park. He focused his efforts on cryptanalysis of the Enigma ciphering system used by the German military. Turing was appointed head of Hut 8, the section responsible for decrypting German naval communications, which were crucial to the Battle of the Atlantic.
+
+Building on earlier Polish work, Turing and Gordon Welchman designed the Bombe, an electromechanical machine used to determine the daily settings of the Enigma machines. The Bombe dramatically reduced the number of combinations that cryptanalysts needed to check by hand, allowing the Allies to decrypt large quantities of intercepted Axis communications.
+
+## Early Computers and Artificial Intelligence
+
+Following the war, Turing joined the National Physical Laboratory (NPL) in London, where he began work on the design of the Automatic Computing Engine (ACE). His 1945 report on the ACE proposed a detailed design for a stored-program computer, predating many other early computer architectures. In 1948, Turing left the NPL to join the Computing Machine Laboratory at the Victoria University of Manchester, where he helped develop software for the Manchester computers.
+
+During this period, Turing also explored the concept of machine intelligence. In his 1950 paper "Computing Machinery and Intelligence," he introduced the "imitation game," now widely known as the Turing test. The test proposed that if a human evaluator could not reliably distinguish between a machine's responses and a human's responses in a text-based conversation, the machine could be said to be exhibiting intelligent behavior.
+
+## Mathematical Biology
+
+In his later years, Turing turned his attention to mathematical biology. In 1951, he was elected a Fellow of the Royal Society, and the following year he published "The Chemical Basis of Morphogenesis". The paper proposed a mathematical explanation for morphogenesis—the process by which organisms develop their shape and form. Turing hypothesized the existence of "morphogens," chemical substances that react and diffuse through tissues, to explain how symmetrical biological structures could develop asymmetrical patterns, such as the spots on a leopard or the stripes on a zebra. This pioneering work became a foundational text in the field of theoretical biology.
+
+## Conviction, Death, and Legacy
+
+In 1952, Turing's house was burgled, and during the subsequent police investigation, he acknowledged a sexual relationship with another man. Homosexual acts were illegal in the UK at the time, and Turing was charged with "gross indecency". He was convicted and chose to undergo chemical castration—hormonal treatment with synthetic oestrogen—rather than serve a prison sentence. As a result of his conviction, Turing's security clearance was revoked, abruptly ending his cryptographic consulting work for the government.
+
+Alan Turing died on June 7, 1954, at the age of 41, from cyanide poisoning. An inquest determined his death was a suicide, though some biographers and family members have disputed the verdict. Turing's wartime contributions were classified under the Official Secrets Act and remained largely unrecognised during his lifetime. Posthumously, his legacy was restored; in 2013, Queen Elizabeth II granted Turing a rare posthumous royal pardon, and he has since been memorialised globally as a foundational figure in computer science.
+
+## Works or Publications
+
+* "On Computable Numbers, with an Application to the Entscheidungsproblem" (1936)
+* "Systems of Logic Based on Ordinals" (1939)
+* "Intelligent Machinery" (1948)
+* "Computing Machinery and Intelligence" (1950)
+* "The Chemical Basis of Morphogenesis" (1952)
+
+## References
+
+* ["Alan Turing - Wikipedia"](https://en.wikipedia.org/wiki/Alan_Turing?utm_source=gemini)
+* ["Alan Turing | History | Research Starters - EBSCO"](https://www.ebsco.com/research-starters/history/alan-turing/?utm_source=gemini)
+* ["Alan Turing: The Enigma by Andrew Hodges - Goodreads"](https://www.goodreads.com/book/show/150731.Alan_Turing?utm_source=gemini)
+* ["Alan Turing (1912 - 1954) - Biography - University of St Andrews"](https://mathshistory.st-andrews.ac.uk/Biographies/Turing/?utm_source=gemini)
+* ["Alan Turing - Google Scholar"](https://scholar.google.com/citations?user=VWCHlwkAAAAJ&hl=en&utm_source=gemini)
+* ["Alan Mathison Turing (1912-1954) | Embryo Project Encyclopedia"](https://embryo.asu.edu/pages/alan-mathison-turing-1912-1954?utm_source=gemini)
+* ["Alan Turing: Pioneer of Mathematical Biology Professor Sarah Hart"](https://www.gresham.ac.uk/sites/default/files/transcript/2023-06-06-1300_Hart-T.pdf)
+* ["Turing's Biological Philosophy: Morphogenesis, Mechanisms and"](https://www.mdpi.com/2409-9287/8/1/8?utm_source=gemini)

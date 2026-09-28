@@ -1,0 +1,58 @@
+# Tony Hoare
+
+Sir Charles Antony Richard Hoare (born January 11, 1934), commonly known as Tony Hoare, is a British computer scientist who made foundational contributions to programming languages, algorithms, and software verification. He is best known for the development of Quicksort in 1959, which remains one of the most efficient and widely used sorting algorithms in computer science. Hoare also formulated Hoare logic, a rigorous mathematical system used to prove the correctness of computer programs, fundamentally advancing the field of formal methods. His later research focused heavily on concurrent systems, leading to the creation of Communicating Sequential Processes (CSP), a formal language that significantly influenced the architecture of modern concurrent programming paradigms. Additionally, Hoare is recognized for introducing the concept of the null reference in 1965, an architectural decision he famously later characterized as his "billion-dollar mistake" due to the widespread software errors and vulnerabilities it subsequently caused. Throughout his extensive career, which included long tenures at the University of Oxford and Microsoft Research, he consistently advocated for treating software engineering as a rigorous mathematical discipline. In recognition of his massive impact on the definition and design of programming languages, Hoare was awarded the Turing Award in 1980 and was knighted by Queen Elizabeth II in 2000.
+
+## Early Life and Education
+
+Tony Hoare was born in Colombo, Ceylon (now Sri Lanka), to British parents. His father was a colonial civil servant, and his mother was the daughter of a tea planter. He was sent to England for his education, attending the Dragon School in Oxford and later the King's School in Canterbury.
+
+In 1952, Hoare enrolled at Merton College, Oxford, where he studied Literae Humaniores (Classics and Philosophy), commonly known as "Greats." Following his graduation in 1956, he completed 18 months of National Service in the Royal Navy, during which he learned Russian. He subsequently returned to the University of Oxford to pursue a postgraduate certificate in statistics. In 1959, he enrolled as a visiting student at Moscow State University, where he studied machine translation under the renowned Soviet mathematician Andrey Kolmogorov.
+
+## The Quicksort Algorithm
+
+During his time in Moscow, Hoare worked on a project to perform machine translation from Russian to English. To achieve this, he needed to look up Russian words in a computerized dictionary stored on magnetic tape. Because the tape had to be read sequentially, the unsorted input words needed to be sorted into alphabetical order before they could be processed efficiently.
+
+To solve this problem, Hoare invented the Quicksort algorithm in 1959. Quicksort is a highly efficient, divide-and-conquer sorting algorithm. It operates by selecting a "pivot" element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot, before recursively sorting the sub-arrays. Upon returning to the United Kingdom in 1960, Hoare began working as a programmer for the computer manufacturer Elliott Brothers. There, he formally implemented the algorithm in the ALGOL 60 programming language and published his definitive paper on Quicksort in the *Communications of the ACM* in 1961.
+
+## Formal Methods and Hoare Logic
+
+At Elliott Brothers, Hoare led the team that designed and delivered the first commercial compiler for the ALGOL 60 programming language. His work on compilers fueled his interest in the semantics of programming languages and the formal verification of software.
+
+In 1969, Hoare published the seminal paper "An Axiomatic Basis for Computer Programming." In this work, he introduced what is now known as Hoare logic (or Floyd–Hoare logic, acknowledging the earlier contributions of Robert W. Floyd). This formal system provides a set of logical rules for reasoning rigorously about the correctness of computer programs. It introduced the concept of the Hoare triple, denoted as `{P} C {Q}`, where `P` is the precondition, `C` is the command or program, and `Q` is the postcondition. This system allowed programmers to mathematically prove that a program would execute correctly provided its initial preconditions were met, establishing the theoretical foundation for the formal verification of software.
+
+## Concurrent Programming and CSP
+
+In 1968, Hoare transitioned into academia, accepting a position as the Professor of Computing Science at Queen's University Belfast. In 1977, he returned to the University of Oxford as the Professor of Computing and head of the Programming Research Group, where he remained until his retirement from academia in 1999.
+
+During the 1970s, Hoare's research focus shifted toward operating systems and concurrent programming—the execution of multiple interactive computations simultaneously. Alongside Per Brinch Hansen, he developed the concept of the "monitor," a synchronization construct that allows threads to have both mutual exclusion and the ability to wait for a certain condition to become true.
+
+In 1978, Hoare published "Communicating Sequential Processes" (CSP). CSP is a formal language for describing patterns of interaction in concurrent systems. It models concurrent systems using mathematical algebra, allowing engineers to verify that a system is free from deadlocks and livelocks. The principles of CSP heavily influenced the design of several programming languages built for concurrency, most notably occam and, more recently, Google's Go programming language (which utilizes CSP's concepts of channels and goroutines).
+
+## The "Billion-Dollar Mistake"
+
+In 1965, while working on the design of the ALGOL W programming language alongside Niklaus Wirth, Hoare introduced the concept of the null reference. His goal was to ensure that all use of references (pointers to memory locations) was absolutely safe, with checking performed automatically by the compiler. To achieve this simply, he implemented a null value to represent an uninitialized or empty reference.
+
+Decades later, at a software conference in 2009, Hoare publicly apologized for this invention. He coined the term "the billion-dollar mistake," arguing that the null reference has caused innumerable system crashes, vulnerabilities, and debugging hours globally, as programs frequently attempt to access memory through a null pointer, resulting in catastrophic failures.
+
+## Later Career and Legacy
+
+In 1999, Hoare retired from the University of Oxford and was appointed as a principal researcher at Microsoft Research in Cambridge, England. At Microsoft, he continued his work on formal methods and software verification, advocating for the integration of rigorous mathematical tools into commercial software development processes.
+
+Hoare has received numerous prestigious awards for his contributions to computer science. In addition to the 1980 ACM A.M. Turing Award, he received the Kyoto Prize for Advanced Technology in 2000, the IEEE John von Neumann Medal in 2011, and is a Fellow of the Royal Society. He was knighted in 2000 for his services to education and computer science.
+
+## Selected Works or Publications
+
+* "Algorithm 64: Quicksort" (1961) — Published in *Communications of the ACM*.
+* "An Axiomatic Basis for Computer Programming" (1969) — Published in *Communications of the ACM*.
+* "Monitors: An Operating System Structuring Concept" (1974) — Published in *Communications of the ACM*.
+* "Communicating Sequential Processes" (1978) — Published in *Communications of the ACM*.
+* *Communicating Sequential Processes* (1985) — Full book elaborating on the CSP calculus.
+
+## References
+
+1. ["C. Antony R. Hoare - A.M. Turing Award Laureate"](https://amturing.acm.org/award_winners/hoare_4622167.cfm?utm_source=gemini)
+2. ["Tony Hoare | Biography, Quicksort, & Facts | Britannica"](https://www.britannica.com/biography/Tony-Hoare?utm_source=gemini)
+3. ["Null References: The Billion Dollar Mistake" - InfoQ (Video Presentation)](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/?utm_source=gemini)
+4. ["Sir Antony Hoare - Microsoft Research"](https://www.microsoft.com/en-us/research/people/thoare/?utm_source=gemini)
+5. ["An Axiomatic Basis for Computer Programming" - Communications of the ACM](https://dl.acm.org/doi/10.1145/363235.363259?utm_source=gemini)
+6. ["Tony Hoare - Kyoto Prize Laureate"](https://www.google.com/search?q=https://www.kyotoprize.org/en/laureates/antony_richard_hoare/&utm_source=gemini)

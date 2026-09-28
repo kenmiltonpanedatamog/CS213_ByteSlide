@@ -1,0 +1,54 @@
+# Brendan Eich
+
+Brendan Eich (born July 4, 1961) is an American computer programmer and technology executive, best known as the creator of the JavaScript programming language. While working at Netscape Communications Corporation in 1995, he developed JavaScript in just ten days to provide dynamic, client-side scripting capabilities for the Netscape Navigator web browser. This language rapidly became a foundational pillar of the World Wide Web, fundamentally transforming static HTML documents into interactive, feature-rich web applications. In addition to his architectural work on JavaScript, Eich co-founded the Mozilla project in 1998, which subsequently evolved into the Mozilla Foundation and the Mozilla Corporation, the entities responsible for developing the Firefox web browser. He served as Mozilla's chief technical officer for several years before briefly assuming the role of chief executive officer in 2014, a position he resigned from following public controversy surrounding his political donations. In 2015, Eich co-founded Brave Software, where he currently serves as CEO, directing the development of the privacy-focused Brave browser and the blockchain-based Basic Attention Token (BAT). His engineering decisions in the mid-1990s established the primary programming paradigm for modern frontend web development, shaping the trajectory of global software engineering and internet infrastructure.
+
+## Early Life and Education
+
+Brendan Eich was born on July 4, 1961, in Pittsburgh, Pennsylvania, and raised in Palo Alto, California, in proximity to the rapidly expanding Silicon Valley technology sector. He pursued his undergraduate studies at Santa Clara University, where he received a bachelor's degree in mathematics and computer science in 1983. Following his undergraduate education, he attended the University of Illinois at Urbana-Champaign, earning a master's degree in computer science in 1985.
+
+Upon completing his education, Eich began his professional career at Silicon Graphics (SGI), where he spent seven years working on operating system code and network protocols. He subsequently worked for three years at MicroUnity Systems Engineering, focusing on microkernel and digital signal processing (DSP) code, before transitioning to the web browser industry.
+
+## Netscape and the Creation of JavaScript
+
+In April 1995, Eich joined Netscape Communications Corporation, the company responsible for Netscape Navigator, the dominant web browser of the era. Netscape recognized the need to introduce dynamic behavior to web pages, which at the time were strictly static HTML documents.
+
+### The Ten-Day Prototype
+
+Eich was initially recruited with the intent of embedding the Scheme programming language directly into the Netscape browser. However, the technology landscape shifted rapidly when Netscape partnered with Sun Microsystems to include the Java programming language in Navigator. To complement Java's heavy, compiled, component-based architecture, Netscape management decreed the need for a lightweight, interpreted scripting language that would appeal to amateur programmers and web designers. They mandated that this new language must have a syntax resembling Java to align with their marketing strategy.
+
+Working under extreme time constraints to meet the browser's release schedule, Eich designed and implemented the first prototype of the language in just ten days in May 1995. Originally codenamed "Mocha," the language was briefly renamed "LiveScript" in September 1995, before officially being branded as "JavaScript" in December of the same year as part of a co-marketing agreement with Sun Microsystems.
+
+### Standardization and Impact
+
+Despite its rushed genesis and early design quirks, JavaScript allowed developers to manipulate document elements, validate forms, and interact with the user without requiring a round-trip request to the server. Recognizing the language's vast potential and the need to prevent Microsoft from fracturing the web ecosystem with a proprietary alternative, Netscape submitted JavaScript to Ecma International in 1996 for standardization. The resulting standard, ECMAScript, became the formal specification for JavaScript, ensuring its interoperability across all modern web browsers. Today, JavaScript is a core technology of the World Wide Web, utilized by nearly all websites and supported by all major web browsers.
+
+## Mozilla Foundation and Corporation
+
+In 1998, facing overwhelming market pressure from Microsoft's Internet Explorer, Netscape made the decision to release the source code for the Netscape Communicator suite. Eich, alongside Jamie Zawinski and others, co-founded the Mozilla project to manage this open-source contribution and guide the collaborative development of a next-generation browser.
+
+When America Online (AOL), which had acquired Netscape, shut down its browser division in 2003, Eich helped establish the Mozilla Foundation, an independent non-profit organization designed to ensure the internet remained a public resource. In 2005, he became the chief technical officer (CTO) of the newly formed Mozilla Corporation, the taxable subsidiary of the foundation responsible for the commercial development of the Firefox web browser. Under his technical leadership, Firefox successfully disrupted Internet Explorer's monopoly, pioneering innovations in tabbed browsing and extension ecosystems.
+
+### 2014 CEO Appointment and Resignation
+
+On March 24, 2014, Eich was promoted to chief executive officer (CEO) of the Mozilla Corporation. His appointment immediately generated public backlash and internal dissent when it was widely publicized that he had made a $1,000 political donation in 2008 in support of California Proposition 8, a ballot initiative that sought to ban same-sex marriage in the state. Facing widespread criticism from developers, advocacy groups, and Mozilla employees, Eich voluntarily resigned from his position on April 3, 2014, just eleven days after his appointment, and severed his ties with the organization.
+
+## Brave Software
+
+In 2015, Eich returned to the browser industry by co-founding Brave Software alongside Brian Bondy. Recognizing the growing user dissatisfaction with invasive digital surveillance and resource-heavy programmatic advertising, Eich positioned the Brave browser as a privacy-centric alternative to Google Chrome.
+
+Brave was engineered to block third-party trackers and intrusive advertisements by default, drastically improving page load times and user privacy. To provide an alternative monetization model for content creators, Eich led the creation of the Basic Attention Token (BAT), a blockchain-based digital advertising platform. Under this model, users can opt-in to view privacy-respecting advertisements in exchange for BAT cryptocurrency, which can then be used to anonymously tip publishers and creators, fundamentally reimagining the economic architecture of the web.
+
+## Works or Publications
+
+* **JavaScript (ECMAScript)** (1995) — The foundational scripting language of the World Wide Web.
+* **Brave Browser** (2016) — A privacy-focused, open-source web browser.
+* **Basic Attention Token (BAT)** (2017) — A blockchain-based digital advertising token.
+
+## References
+
+1. ["Brendan Eich - Computer History Museum"](https://www.google.com/search?q=https://computerhistory.org/profile/brendan-eich/&utm_source=gemini)
+2. ["JavaScript: The First 20 Years" - Proceedings of the ACM on Programming Languages](https://dl.acm.org/doi/10.1145/3386327?utm_source=gemini)
+3. ["History of JavaScript - MDN Web Docs"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript?utm_source=gemini)
+4. ["Mozilla CEO Brendan Eich Resigns After Protests - The New York Times"](https://www.google.com/search?q=https://www.nytimes.com/2014/04/04/technology/mozilla-ceo-resigns-after-protests.html&utm_source=gemini)
+5. ["Mystery startup from ex-Mozilla CEO aims to go where tech titans won't - CNET"](https://www.cnet.com/tech/services-and-software/mystery-startup-from-ex-mozilla-ceo-aims-to-go-where-tech-titans-wont/?utm_source=gemini)
+6. ["Brave Software - Official Website"](https://brave.com/?utm_source=gemini)

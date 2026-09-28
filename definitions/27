@@ -1,0 +1,61 @@
+# Niklaus Wirth
+
+Niklaus Emil Wirth (1934–2024) was a Swiss computer scientist and a foundational figure in software engineering, best known for designing a series of highly influential programming languages, most notably Pascal. During a career that spanned both academia and system design, Wirth consistently advocated for simplicity, clarity, and mathematical rigor in software development, arguing that complex systems should be built from well-defined, minimalist components. His creation of Pascal in 1970 provided a structured, strongly typed language that became the dominant instructional programming language in universities worldwide and heavily influenced the development of commercial software throughout the 1980s. Beyond Pascal, Wirth developed a succession of increasingly refined languages, including Euler, ALGOL W, Modula-2, and Oberon, each advancing the paradigms of structured and modular programming. Furthermore, he directed the hardware design of the Lilith and Ceres workstations, ensuring deep architectural integration between the operating systems he designed and the processors that executed them. Wirth articulated the fundamental relationship between code and data representation in his seminal 1976 textbook, *Algorithms + Data Structures = Programs*. He is also widely remembered for formulating Wirth's law, a computing adage stating that software bloat and inefficiency frequently outpace advancements in hardware speed. In recognition of his massive contributions to computer language design and software methodology, Wirth was awarded the Turing Award in 1984.
+
+## Early Life and Education
+
+Niklaus Emil Wirth was born on February 15, 1934, in Winterthur, Switzerland. His father was a geography teacher, and from an early age, Wirth demonstrated a strong affinity for engineering, building model airplanes and delving into amateur radio and electronics. He enrolled at the Swiss Federal Institute of Technology (ETH Zurich), where he earned a Bachelor of Science degree in electronic engineering in 1959.
+
+Following his undergraduate studies, Wirth relocated to North America to further his education. He received a Master of Science degree from Laval University in Quebec, Canada, in 1960. He then attended the University of California, Berkeley, where he earned a Ph.D. in electrical engineering and computer science in 1963. His doctoral dissertation, supervised by computer design pioneer Harry Huskey, focused on the design of Euler, a programming language that served as a generalization and extension of ALGOL 60.
+
+## Academic Career and Early Languages
+
+After completing his doctorate, Wirth joined the newly formed computer science department at Stanford University as an assistant professor, teaching there from 1963 to 1967. During this time, he served on the International Federation for Information Processing (IFIP) working group responsible for developing the successor to ALGOL 60.
+
+Wirth and Tony Hoare jointly presented a proposal for a streamlined, efficient language, but the IFIP committee ultimately rejected it in favor of a much more complex proposal that became ALGOL 68. Undeterred, Wirth continued to refine his own proposal, which he implemented and released as ALGOL W in 1966. ALGOL W introduced fundamental concepts such as double precision real numbers, value-result parameters, and the `case` statement, setting the stage for his most famous creation. In 1968, Wirth returned to Switzerland, accepting a professorship at ETH Zurich, where he would remain for the vast majority of his academic career until his retirement in 1999.
+
+## Pascal and Structured Programming
+
+In 1970, Wirth published the definition of Pascal, a high-level programming language designed specifically to teach the principles of structured programming and to ensure reliable, efficient compilation. Pascal mandated strict data typing, meaning the language rigorously checked that data structures were used correctly, drastically reducing a common source of programming errors.
+
+Pascal achieved explosive global popularity. By developing the Pascal-P system, which compiled the language into an intermediate bytecode (p-code) that could run on a virtual machine, Wirth made Pascal easily portable across vastly different computer architectures. This portability led to the creation of UCSD Pascal, which allowed the language to run on the early microcomputers of the late 1970s. During the 1980s, commercial implementations like Borland's Turbo Pascal dominated the personal computer software market, and Pascal remained the primary teaching language in computer science curricula for over two decades.
+
+## Modula, Oberon, and Hardware Engineering
+
+Following the success of Pascal, Wirth's research shifted toward managing the complexity of increasingly large software systems and concurrent programming.
+
+### Modula and Modula-2
+
+In the late 1970s, Wirth developed Modula and its highly successful successor, Modula-2. These languages introduced the concept of the "module," a distinct programming unit that encapsulated code and data, hiding its internal implementation from the rest of the program while exposing only a strictly defined interface. This encapsulation was critical for building large, reliable software architectures and heavily influenced later object-oriented languages.
+
+### The Lilith and Ceres Workstations
+
+Believing that software and hardware should be designed in tandem, Wirth initiated Project Lilith in 1978. Inspired by his sabbatical at Xerox PARC where he used the Alto, the Lilith was a custom-built workstation featuring a high-resolution graphical display and a mouse. Crucially, the Lilith's processor was designed specifically to execute Modula-2 code directly, resulting in an exceptionally fast and seamlessly integrated computing environment. He later developed the Ceres workstation in the mid-1980s to accompany his subsequent language.
+
+### Oberon
+
+In the late 1980s, alongside Jürg Gutknecht, Wirth sought to distill his languages down to their absolute minimal core. The result was Oberon, a highly simplified programming language that introduced type extension (a fundamental component of object-oriented programming). The duo also designed the entire Oberon operating system from scratch, proving that a fully functional, graphical, windowing operating system and compiler could be written in a fraction of the memory and codebase required by commercial alternatives.
+
+## Wirth's Law and Philosophy
+
+Throughout his life, Wirth was a fierce critic of software bloat—the tendency of modern software to become increasingly large, slow, and resource-intensive due to a lack of disciplined engineering. In his 1995 article "A Plea for Lean Software," he formally articulated what became known as Wirth's law (often paraphrased as "software is getting slower more rapidly than hardware becomes faster"). He argued that the computing industry's reliance on increasingly fast processors to compensate for poorly optimized, overly complex code was a fundamental engineering failure.
+
+Niklaus Wirth retired in 1999, though he continued to lecture and write on software engineering practices for years afterward. He passed away on January 1, 2024, at the age of 89.
+
+## Works or Publications
+
+* *Systematic Programming: An Introduction* (1973)
+* *Pascal User Manual and Report* (1974) — Co-authored with Kathleen Jensen.
+* *Algorithms + Data Structures = Programs* (1976)
+* *Programming in Modula-2* (1982)
+* *Project Oberon: The Design of an Operating System and Compiler* (1992) — Co-authored with Jürg Gutknecht.
+* "A Plea for Lean Software" (1995) — Published in *Computer* magazine.
+
+## References
+
+1. ["Niklaus Wirth - A.M. Turing Award Laureate"](https://amturing.acm.org/award_winners/wirth_1025774.cfm?utm_source=gemini)
+2. ["Niklaus E. Wirth | Biography, Pascal, Modula-2, & Facts | Britannica"](https://www.google.com/search?q=https://www.britannica.com/biography/Niklaus-E-Wirth&utm_source=gemini)
+3. ["Niklaus Wirth, Programmer Who Helped Establish Computing, Dies at 89 - The New York Times"](https://www.google.com/search?q=https://www.nytimes.com/2024/01/18/technology/niklaus-wirth-dead.html&utm_source=gemini)
+4. ["Niklaus Wirth - ETH Zurich Department of Computer Science"](https://www.google.com/search?q=https://inf.ethz.ch/department/people/professors/emeriti/prof-dr-niklaus-wirth.html&utm_source=gemini)
+5. ["A Plea for Lean Software - IEEE Computer Society"](https://www.google.com/search?q=https://cr.yp.to/bib/1995/wirth.pdf&utm_source=gemini)
+6. ["History of Pascal - MacTutor History of Mathematics"](https://www.google.com/search?q=https://mathshistory.st-andrews.ac.uk/Biographies/Wirth/&utm_source=gemini)

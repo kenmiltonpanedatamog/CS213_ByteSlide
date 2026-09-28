@@ -1,0 +1,52 @@
+# Douglas Engelbart
+
+Douglas Carl Engelbart (1925–2013) was an American engineer, inventor, and early computer pioneer whose work fundamentally established the foundation for modern human-computer interaction. He is best known for inventing the computer mouse and directing the development of the oN-Line System (NLS) at the Stanford Research Institute (SRI). Guided by a lifelong philosophical commitment to "augmenting human intellect," Engelbart envisioned computers not merely as mathematical calculators, but as interactive tools designed to enhance collaborative problem-solving and manage global complexity. During his landmark 1968 presentation, retrospectively dubbed "The Mother of All Demos," he publicly introduced interactive computing concepts that would become ubiquitous decades later, including hypertext, networked computers, graphical user interfaces (GUIs), multiple windows, and video conferencing. While his highly complex systems were not immediately adopted by the broader commercial market, his research team's innovations heavily influenced the engineers at Xerox PARC and Apple, directly shaping the personal computer revolution. In recognition of his visionary contributions to computer science, Engelbart was awarded the Turing Award in 1997 and the National Medal of Technology in 2000.
+
+## Early Life and Education
+
+Douglas Engelbart was born on January 30, 1925, in Portland, Oregon. He enrolled at Oregon State College in 1942 to study electrical engineering, but his education was interrupted by the outbreak of World War II. He was drafted into the United States Navy, serving two years as a radar technician stationed in the Philippines. It was during this deployment that he read Vannevar Bush's seminal article "As We May Think," which proposed a theoretical information storage and retrieval system called the "memex," an idea that profoundly influenced Engelbart's future career.
+
+Following the war, Engelbart returned to Oregon State, completing his Bachelor of Science degree in electrical engineering in 1948. He was subsequently hired by the National Advisory Committee for Aeronautics (NACA, the precursor to NASA) at the Ames Research Center in California. During his time at NACA, he concluded that the world's most pressing problems were growing faster than humanity's ability to solve them. Believing that improving human collaboration and cognitive capacity was the key to addressing this crisis, he left his position to pursue advanced studies. He earned a Ph.D. in electrical engineering from the University of California, Berkeley, in 1955, where he briefly stayed on as an acting assistant professor.
+
+## Augmenting Human Intellect and SRI
+
+In 1957, Engelbart joined the Stanford Research Institute (now SRI International) in Menlo Park, California. He spent his early years at the institute gradually securing funding to pursue his vision of computer-assisted collaboration. In 1962, he published a foundational report titled *Augmenting Human Intellect: A Conceptual Framework*, which argued that computers could be utilized to boost the intellectual capabilities of humans by automating routine tasks and enabling faster, more complex manipulation of information.
+
+This proposal successfully attracted funding from the Advanced Research Projects Agency (ARPA), NASA, and the US Air Force, allowing Engelbart to establish the Augmentation Research Center (ARC) at SRI. Under his direction, the ARC became a highly innovative laboratory dedicated to developing the hardware and software necessary to realize his collaborative framework.
+
+### The oN-Line System (NLS)
+
+The primary output of the ARC was the oN-Line System (NLS). Designed as a comprehensive environment for collaborative work, NLS introduced a radical departure from the batch-processing mainframe computers of the era. It allowed multiple users to interact simultaneously with a shared digital workspace, utilizing early concepts of hypertext to link documents and information organically.
+
+### Invention of the Computer Mouse
+
+To navigate the complex, multi-dimensional information space of the NLS, Engelbart sought an efficient pointing device. After experimenting with light pens and joysticks, he conceived the idea of the computer mouse in 1963. He sketched a device with two perpendicular wheels that could track X and Y coordinates on a flat surface. Lead engineer Bill English constructed the first physical prototype—a wooden shell housing two metal wheels and a single button. Engelbart filed a patent for the device in 1967, which was granted in 1970 under the title "X-Y Position Indicator for a Display System."
+
+## "The Mother of All Demos"
+
+Engelbart's research culminated in a public presentation given on December 9, 1968, at the Fall Joint Computer Conference in San Francisco. Using a custom-built workstation networked via a microwave link to an SDS 940 computer 30 miles away in Menlo Park, Engelbart demonstrated the capabilities of the NLS to an audience of over a thousand computer professionals.
+
+Over the course of 90 minutes, Engelbart seamlessly showcased a staggering array of computing firsts. He demonstrated the computer mouse, hypertext linking, word processing, object addressing, dynamic file linking, revision control, and a collaborative real-time editor. He also utilized closed-circuit television to conduct a split-screen video conference with his colleagues at SRI, simultaneously manipulating the same digital document. The demonstration was so far ahead of its time that it left the audience stunned. In 1994, journalist Steven Levy retrospectively coined the event "The Mother of All Demos," recognizing it as one of the most important moments in the history of computing.
+
+## Later Career and Legacy
+
+Following the 1968 demonstration, the ARC continued to pioneer networking technologies. In 1969, Engelbart's laboratory became the second node on the nascent ARPANET, the precursor to the modern Internet, successfully receiving the first message transmitted by Leonard Kleinrock's team at UCLA.
+
+However, as the 1970s progressed, Engelbart's highly complex and rigid NLS struggled to find commercial viability. As funding from ARPA shifted toward more immediate defense projects, many of his top researchers—including Bill English—left SRI to join the newly formed Xerox Palo Alto Research Center (PARC). At Xerox PARC, these engineers refined Engelbart's concepts into the modern graphical user interface, which subsequently inspired Apple's Lisa and Macintosh computers.
+
+In 1977, SRI sold the NLS to Tymshare, and Engelbart transitioned to a marginal role within the corporate structure. Retiring from Tymshare (later acquired by McDonnell Douglas) in 1989, he founded the Bootstrap Institute (later renamed the Doug Engelbart Institute) with his daughter Christina. He spent his final decades advocating for "Open Hyperdocument Systems" and networked improvement communities, maintaining that the technology industry had only realized a fraction of his original vision for augmenting human capability. Engelbart died of kidney failure on July 2, 2013, in Atherton, California.
+
+## Works or Publications
+
+* *Augmenting Human Intellect: A Conceptual Framework* (1962) — Summary report for the Stanford Research Institute.
+* *A Research Center for Augmenting Human Intellect* (1968) — Co-authored with William K. English.
+* U.S. Patent 3,541,541: "X-Y Position Indicator for a Display System" (Filed 1967, Issued 1970).
+
+## References
+
+1. ["Douglas Engelbart | Biography, Inventions, & Facts | Britannica"](https://www.britannica.com/biography/Douglas-Engelbart?utm_source=gemini)
+2. ["Douglas Engelbart - A.M. Turing Award Laureate"](https://amturing.acm.org/award_winners/engelbart_5078811.cfm?utm_source=gemini)
+3. ["Douglas Engelbart (1925-2013) - Doug Engelbart Institute"](https://dougengelbart.org/content/view/266/?utm_source=gemini)
+4. ["The Mother of All Demos, 150 Years Later - Computer History Museum"](https://www.google.com/search?q=https://computerhistory.org/blog/the-mother-of-all-demos-150-years-later/&utm_source=gemini)
+5. ["Douglas C. Engelbart, Inventor of the Computer Mouse, Dies at 88 - The New York Times"](https://www.nytimes.com/2013/07/04/technology/douglas-c-engelbart-inventor-of-the-computer-mouse-dies-at-88.html?utm_source=gemini)
+6. ["Douglas Engelbart - Wikipedia"](https://en.wikipedia.org/wiki/Douglas_Engelbart?utm_source=gemini)

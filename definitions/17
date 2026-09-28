@@ -1,0 +1,59 @@
+# John McCarthy
+
+John McCarthy (1927–2011) was an American computer scientist and cognitive scientist who fundamentally shaped the discipline of artificial intelligence (AI). He is widely recognized as one of the "founding fathers" of AI, having coined the term itself in his 1955 proposal for the seminal Dartmouth Conference, which established the field as a distinct academic research discipline. Beyond his conceptual and organizational foundational work in artificial intelligence, McCarthy made profound contributions to programming language design and computer architecture. In 1958, while at the Massachusetts Institute of Technology (MIT), he invented Lisp, a high-level programming language that introduced concepts such as recursion and tree data structures, becoming the standard language for AI research for decades. To solve the problem of memory management within Lisp, McCarthy also invented the algorithm of garbage collection, an automated memory management process utilized in numerous modern programming languages today. Furthermore, he was a pivotal figure in the development of time-sharing operating systems, which allowed multiple users to interact with a single mainframe computer simultaneously, effectively prefiguring the concept of utility and cloud computing. In recognition of his foundational contributions to theoretical computer science and artificial intelligence, McCarthy was awarded the Turing Award in 1971, the Kyoto Prize in 1988, and the National Medal of Science in 1990.
+
+## Early Life and Education
+
+John McCarthy was born on September 4, 1927, in Boston, Massachusetts, to John Patrick McCarthy, an Irish immigrant and labor organizer, and Ida Glatt McCarthy, a Lithuanian Jewish immigrant and suffragist. Due to his parents' involvement in the Communist Party during the Great Depression, the family relocated frequently before eventually settling in Los Angeles, California.
+
+McCarthy demonstrated an extraordinary aptitude for mathematics at an early age. He taught himself advanced calculus by studying textbooks used at the nearby California Institute of Technology (Caltech) while still in high school. He was accepted into Caltech and, due to his self-study, was allowed to skip the first two years of mathematics. His undergraduate career was briefly interrupted when he was suspended for failing to attend mandatory physical education courses; he subsequently served in the United States Army before returning to complete his Bachelor of Science in Mathematics in 1948. He then attended Princeton University, where he earned a Ph.D. in Mathematics in 1951 under the supervision of Solomon Lefschetz, focusing on differential equations.
+
+## Artificial Intelligence and the Dartmouth Conference
+
+Following short academic appointments at Princeton and Stanford University, McCarthy moved to Dartmouth College in 1955. It was during this period that he became deeply interested in the concept of machine intelligence. Seeking to formalize the study of machines that could mimic human cognition, he authored a funding proposal to the Rockefeller Foundation in 1955 alongside Marvin Minsky, Nathaniel Rochester, and Claude Shannon.
+
+In this proposal, McCarthy formally coined the term "artificial intelligence." The resulting two-month workshop, held at Dartmouth College in the summer of 1956, is universally considered the official birth of artificial intelligence as a scientific discipline. The conference operated on McCarthy's foundational assumption that "every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it."
+
+## Invention of Lisp and Garbage Collection
+
+In 1956, McCarthy became a research fellow at MIT. During his tenure there, he sought a programming language better suited for the symbolic computation and list processing required for early AI research than existing languages like Fortran, which were designed primarily for numerical calculation.
+
+### The Lisp Programming Language
+
+In 1958, drawing inspiration from Alonzo Church's lambda calculus, McCarthy created Lisp (an acronym for LISt Processing). Lisp introduced radical paradigms to computer programming, including recursive function calls, dynamic typing, and source code consisting entirely of nested lists (S-expressions). Because Lisp treated code and data interchangeably, it allowed for the creation of programs that could generate or modify other programs, making it the dominant language for artificial intelligence research in the United States for the next half-century.
+
+### Garbage Collection
+
+The dynamic nature of Lisp meant that the program constantly allocated memory for new list structures. To prevent the computer from rapidly exhausting its available memory, McCarthy invented a technique known as "garbage collection" in 1959. Garbage collection is an automated memory management process that periodically pauses program execution to identify and reclaim memory occupied by objects that are no longer accessible or in use by the program. This automated reclamation algorithm relieved programmers of the burden of manual memory management and is now a core feature of modern languages like Java, Python, and C#.
+
+## Time-Sharing Systems
+
+In the late 1950s, computers were massive, expensive mainframes operated via batch processing, meaning a programmer had to submit a stack of punch cards and wait hours or days for the results. Finding this system highly inefficient for debugging complex AI code, McCarthy became a leading advocate for "time-sharing."
+
+Time-sharing was an operating system architecture that rapidly interleaved the execution of multiple users' programs, allocating brief slices of the central processing unit's time to each user in turn. Because the switching occurred at electronic speeds, it created the illusion that each user had an interactive, dedicated computer terminal. McCarthy's advocacy led directly to the creation of Project MAC at MIT and heavily influenced the development of the Multics and Unix operating systems. During a 1961 speech celebrating MIT's centennial, he presciently suggested that computing technology might one day be organized as a "public utility" similar to the telephone or electrical grid, anticipating the modern paradigm of cloud computing.
+
+## Stanford Artificial Intelligence Laboratory (SAIL)
+
+In 1962, McCarthy left MIT to accept a full professorship at Stanford University, where he remained for the rest of his academic career. In 1965, he founded the Stanford Artificial Intelligence Laboratory (SAIL), which quickly became one of the world's premier research centers for computer science.
+
+At SAIL, McCarthy focused on logical AI, arguing that intelligent systems required a formal, mathematical representation of common-sense knowledge. In 1969, alongside Patrick J. Hayes, he developed the "situation calculus," a logic formalism for representing and reasoning about dynamically changing worlds. His work established the "logicist" school of artificial intelligence, which posited that deductive reasoning applied to a database of formal axioms was the optimal path to achieving human-level machine intelligence.
+
+## Later Life and Legacy
+
+McCarthy remained an active researcher at Stanford until his formal retirement in 2000, continuing to publish papers on non-monotonic reasoning, artificial intelligence philosophy, and the formalization of context. He was a frequent commentator on technology and society, advocating for technological optimism and space exploration. John McCarthy died at his home in Stanford, California, on October 24, 2011, at the age of 84.
+
+## Works or Publications
+
+* "Programs with Common Sense" (1959) — A seminal paper proposing the "Advice Taker," an early concept of a logical AI system.
+* "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I" (1960) — The foundational paper detailing the Lisp programming language.
+* "Some Philosophical Problems from the Standpoint of Artificial Intelligence" (1969) — Co-authored with Patrick J. Hayes, introducing situation calculus.
+* "Circumscription—A Form of Non-Monotonic Reasoning" (1980)
+
+## References
+
+1. ["John McCarthy - A.M. Turing Award Laureate"](https://www.google.com/search?q=https://amturing.acm.org/award_winners/mccarthy_0116916.cfm&utm_source=gemini)
+2. ["John McCarthy | Biography, Artificial Intelligence, & Facts | Britannica"](https://www.britannica.com/biography/John-McCarthy?utm_source=gemini)
+3. ["Creator of Lisp and AI pioneer John McCarthy dies - CNET"](https://www.google.com/search?q=https://www.cnet.com/tech/computing/creator-of-lisp-and-ai-pioneer-john-mccarthy-dies/&utm_source=gemini)
+4. ["John McCarthy, 84, Dies; Computer Design Pioneer - The New York Times"](https://www.nytimes.com/2011/10/26/science/26mccarthy.html?utm_source=gemini)
+5. ["Stanford's John McCarthy, seminal figure of artificial intelligence, dies at 84"](https://www.google.com/search?q=https://news.stanford.edu/news/2011/october/john-mccarthy-obit-102511.html&utm_source=gemini)
+6. ["Professor John McCarthy - Computer History Museum"](https://computerhistory.org/profile/john-mccarthy/?utm_source=gemini)
