@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CS213 Slide Puzzle</title>
-        <link rel="stylesheet" href="puzzle.css">
-        <script src="puzzle.js" defer></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS213 Slide Puzzle & History Quiz</title>
+    <!-- Tailwind CSS for Quiz Styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="puzzle.css">
+</head>
+<body class="bg-[#f0ebf8] text-gray-800 antialiased min-h-screen">
 
-    <body>
+    <!-- ================= PUZZLE SECTION ================= -->
+    <div id="puzzle-container">
         <main id="container"> 
             <h1 id="title">CS213 Slide Puzzle</h1>
             
@@ -21,19 +25,82 @@
             <!-- Stats & Info section below boards -->
             <div id="info-section">
                 <div id="stats-row">
-                    <h2 id="level-title">Level <span id="level">1</span></h2>
+                    <h2 id="level-title">Level <span id="level">1 / 20</span></h2>
                     <h2 id="turns-title">Turns: <span id="turns">0</span></h2>
                 </div>
 
                 <div id="info">
-                    <p class="info-text"></p>
+                    <p class="info-text">Solve the puzzle to reveal the hidden info!</p>
                 </div>
 
                 <div id="button-group">
                     <button id="reset-btn">Reset Puzzle</button>
-                    <!-- "Next Level" button dynamically inserts here -->
+                    <button id="skip-btn">Skip Level</button>
+                    <!-- "Next Level" or "Take the Quiz" button dynamically inserts here -->
                 </div>
             </div>
         </main>
-    </body>
+    </div>
+
+    <!-- ================= QUIZ SECTION (Hidden initially) ================= -->
+    <div id="quiz-container" class="hidden">
+        <main class="max-w-3xl mx-auto pt-4 px-4 sm:pt-8">
+
+            <!-- Header Card -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden mb-6">
+                <div class="h-2.5 w-full bg-[#673ab7]"></div>
+                <div class="p-6 sm:p-8">
+                    <h1 class="text-3xl font-medium text-gray-900 mb-2">History of Computer Science Quiz</h1>
+                    <p class="text-sm text-gray-600 mb-4">Great job finishing the puzzles! Now test your knowledge of the foundational milestones, pioneers, and technologies covered during the game.</p>
+                    <hr class="border-gray-200 my-4">
+                    <p class="text-sm text-red-600 font-medium">* Indicates required question</p>
+                </div>
+            </div>
+
+            <!-- Form Container -->
+            <form id="quizForm" class="space-y-6">
+
+                <div id="easy-section-header" class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                    <h2 class="text-2xl font-medium text-white bg-[#673ab7] -mx-6 -mt-6 p-4 rounded-t-lg">Easy Level</h2>
+                    <p class="text-sm text-gray-600 mt-4">Fundamental concepts and famous pioneers.</p>
+                </div>
+
+                <div id="easy-questions" class="space-y-6"></div>
+
+                <div id="hard-section-header" class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mt-8">
+                    <h2 class="text-2xl font-medium text-white bg-[#673ab7] -mx-6 -mt-6 p-4 rounded-t-lg">Hard Level</h2>
+                    <p class="text-sm text-gray-600 mt-4">Advanced concepts, specific architectures, and theoretical foundations.</p>
+                </div>
+
+                <div id="hard-questions" class="space-y-6"></div>
+
+                <div class="flex justify-between items-center mt-8 pb-12">
+                    <button type="submit"
+                        class="bg-[#673ab7] hover:bg-[#5e35b1] text-white font-medium py-2.5 px-6 rounded shadow-sm transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#673ab7]">
+                        Submit Quiz
+                    </button>
+                    <button type="button" id="clearBtn"
+                        class="text-[#673ab7] hover:bg-purple-50 font-medium py-2 px-4 rounded transition duration-150 ease-in-out">
+                        Clear form
+                    </button>
+                </div>
+            </form>
+        </main>
+    </div>
+
+    <!-- Modal Overlay for Results -->
+    <div id="resultModal"
+        class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-white rounded-lg shadow-xl w-full max-w-md p-6 transform scale-95 transition-transform duration-300">
+            <div id="modalContent" class="text-center">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Canvas for Certificate Generation -->
+    <canvas id="certificateCanvas" width="1000" height="700" class="hidden"></canvas>
+
+    <script src="puzzle.js"></script>
+</body>
 </html>
