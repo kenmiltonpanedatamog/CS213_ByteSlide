@@ -1,0 +1,4 @@
+### Fortran
+Fortran, derived from "Formula Translation," is a general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing. Developed by a team led by John Backus at IBM in the 1950s, it was the first widely adopted high-level programming language.
+
+Fortran proved that high-level languages could be compiled into highly efficient machine code, silencing critics who believed compiled code would always be too slow. Its massive success set the standard for future programming languages, introducing concepts like loop control structures and formatted input/output that are ubiquitous in coding today.

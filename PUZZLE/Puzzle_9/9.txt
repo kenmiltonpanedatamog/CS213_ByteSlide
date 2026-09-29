@@ -1,0 +1,4 @@
+### The Transistor
+The transistor is a semiconductor device used to amplify or switch electrical signals and power, invented in 1947 at Bell Labs by John Bardeen, Walter Brattain, and William Shockley. It effectively replaced bulky, fragile, and heat-generating vacuum tubes with a tiny, solid-state component made typically of silicon.
+
+The transistor is arguably the most important hardware invention of the 20th century, enabling the aggressive miniaturization of electronics. By allowing engineers to pack billions of microscopic switches onto a single integrated circuit, transistors made personal computers, smartphones, and modern data centers physically and economically possible.

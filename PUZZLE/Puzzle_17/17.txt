@@ -1,0 +1,4 @@
+### The World Wide Web
+The World Wide Web is a global information system created by Tim Berners-Lee in 1989. It operates over the Internet and utilizes three primary technologies: HTML (Hypertext Markup Language) for structuring documents, URLs (Uniform Resource Locators) for addressing them, and HTTP (Hypertext Transfer Protocol) for transmitting them.
+
+The Web transformed the Internet from an obscure, text-based network used primarily by military and academic researchers into a visually navigable, hyperlinked system accessible to the general public. It fundamentally changed the focus of computer science toward network programming, web development, and cloud computing, reshaping global culture and commerce.

@@ -1,0 +1,4 @@
+### C Language & UNIX
+C is a powerful, general-purpose programming language created by Dennis Ritchie at Bell Labs in 1972, originally designed to rewrite the UNIX operating system. UNIX is a modular, multi-user operating system known for its hierarchical file system and powerful command-line interface.
+
+The synergy between C and UNIX shaped modern software engineering. C provided a perfect balance of high-level abstraction with low-level memory manipulation, making it the grandfather of modern languages like C++, Java, and Python. Meanwhile, UNIX established the architectural concepts and standards that heavily influenced modern operating systems, including Linux, Android, and macOS.

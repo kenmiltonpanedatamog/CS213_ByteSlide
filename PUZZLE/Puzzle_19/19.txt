@@ -1,0 +1,4 @@
+### Deep Learning & Artificial Intelligence
+Deep Learning is a specialized subset of Artificial Intelligence and machine learning based on artificial neural networks with multiple layers (hence "deep"). Instead of executing explicitly programmed rules, these networks ingest massive amounts of data to autonomously "learn" patterns, extract features, and make predictions.
+
+This represents a massive paradigm shift in computer science. By allowing machines to process unstructured data, deep learning has solved complex problems that traditional procedural programming could not, leading to historic breakthroughs in computer vision, autonomous vehicles, and generative natural language processing.

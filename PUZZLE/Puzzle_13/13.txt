@@ -1,0 +1,4 @@
+### The Relational Database
+The relational database is a digital database model that organizes data into tables (relations) consisting of columns and rows, where data points are linked to one another based on shared attributes. This theoretical model was proposed by Edgar F. Codd, an English computer scientist at IBM, in 1970.
+
+This concept revolutionized how software applications store, organize, and retrieve information, moving away from rigid, hierarchical storage structures. It led to the development of SQL (Structured Query Language) and provided the robust, scalable data management backend required for modern enterprise software, e-commerce, and complex web applications.

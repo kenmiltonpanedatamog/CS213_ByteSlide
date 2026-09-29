@@ -1,0 +1,4 @@
+### Alan Turing & The Turing Machine
+Alan Turing was a British mathematician who, in 1936, conceptualized the Turing Machine—a theoretical, abstract mathematical model of computation. The machine imagines an infinite tape divided into discrete squares, a read/write head that can move along the tape, and a set of internal rules dictating how to change the symbols on the tape based on the current state.
+
+The Turing Machine is arguably the most important concept in theoretical computer science because it formally defined the limits of what is mathematically "computable." It proved that a single, programmable machine could execute any algorithm, laying the philosophical and mathematical blueprint for the invention of the modern, general-purpose electronic computer.

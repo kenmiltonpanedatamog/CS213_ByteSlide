@@ -1,0 +1,4 @@
+### Digital Logic
+Digital logic is the application of Boolean algebra to the physical design of electrical circuits. Pioneered in the late 1930s by Claude Shannon in his master's thesis, it demonstrated that the arrangement of electrical relays and switches could physically execute the logical operations of AND, OR, and NOT.
+
+This breakthrough was the critical bridge between abstract mathematical theory and physical engineering. By proving that binary digits (bits) could be represented by the presence or absence of an electrical current, digital logic made it possible to build the complex electronic processors and memory systems that drive all modern hardware.

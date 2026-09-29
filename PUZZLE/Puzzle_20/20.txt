@@ -1,0 +1,4 @@
+### Quantum Computing
+Quantum computing is a rapidly emerging paradigm that uses the principles of quantum mechanics to process information. Instead of classical binary bits (which are strictly 1 or 0), quantum computers use "qubits," which can exist in a state of superposition (representing 1 and 0 simultaneously) and become entangled with one another.
+
+Though still in its infancy, quantum computing promises to exponentially outpace classical computers in specific domains. Its importance lies in its potential to radically disrupt current cryptographic security, perfectly simulate complex chemical reactions for drug discovery, and solve massive optimization problems that would take classical supercomputers millennia to process.

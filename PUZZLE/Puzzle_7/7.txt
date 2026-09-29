@@ -1,0 +1,4 @@
+### John von Neumann & Von Neumann Architecture
+John von Neumann was a Hungarian-American polymath who, in 1945, formalized a computer design model known as the von Neumann Architecture. This design features a central processing unit (CPU) containing an arithmetic logic unit and processor registers, alongside a shared memory unit that stores both data and the instructions (the program) required to process that data.
+
+The "stored-program" concept fundamentally changed computer science by allowing machines to be easily reprogrammed via software rather than being physically rewired for every new task. This architecture remains the structural standard for nearly every computer built today, from basic microcontrollers to advanced supercomputers.

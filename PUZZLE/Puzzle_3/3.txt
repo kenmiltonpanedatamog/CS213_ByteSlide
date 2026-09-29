@@ -1,0 +1,4 @@
+### Ada Lovelace & The First Program
+Ada Lovelace was a 19th-century English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. In 1843, she published a translation of an article on the machine, appending her own extensive notes which included an algorithm for calculating a sequence of Bernoulli numbers.
+
+Lovelace is recognized as the world's first computer programmer because she was the first to realize that a computing machine could do more than just crunch numbers. She conceptualized that if numbers could represent other things—like letters or musical notes—the machine could manipulate any arbitrary symbols based on rules, essentially predicting the modern era of general-purpose computing.

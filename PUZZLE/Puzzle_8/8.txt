@@ -1,0 +1,4 @@
+### ENIAC
+The Electronic Numerical Integrator and Computer (ENIAC) was the world's first programmable, electronic, general-purpose digital computer. Completed in 1945 and built primarily to calculate complex artillery firing tables for the United States Army during World War II, it utilized thousands of vacuum tubes to perform calculations at unprecedented speeds.
+
+ENIAC's importance lies in its role as a massive proof-of-concept for high-speed electronic computing. It successfully demonstrated that complex, programmable, general-purpose processing could be achieved electrically rather than mechanically, directly inspiring the subsequent generations of commercial mainframe computers.

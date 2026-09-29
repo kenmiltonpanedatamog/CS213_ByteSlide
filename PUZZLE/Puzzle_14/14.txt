@@ -1,0 +1,4 @@
+### The Microprocessor
+A microprocessor is a single integrated circuit (IC) chip that contains all the arithmetic, logic, and control circuitry required to perform the functions of a computer's central processing unit (CPU). The first commercially available microprocessor was the Intel 4004, released in 1971.
+
+By consolidating the "brain" of the computer onto a single, mass-producible chip, the microprocessor drastically drove down the cost, size, and power consumption of computing. This invention ignited the personal computer revolution of the 1970s and 1980s, eventually allowing microprocessors to be embedded in everything from cars to household appliances.

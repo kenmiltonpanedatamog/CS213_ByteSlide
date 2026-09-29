@@ -1,0 +1,4 @@
+### Boolean Algebra
+Boolean Algebra is a branch of mathematics introduced by George Boole in 1847 where the values of the variables are the truth values *true* and *false*, usually denoted as 1 and 0 respectively. Instead of basic arithmetic operations like addition and multiplication, its primary operations are logical conjunction (AND), disjunction (OR), and negation (NOT).
+
+This binary logic system is the fundamental mathematical bedrock of all modern computer science. It provided the exact theoretical framework needed to design digital circuitry; every physical microchip, logic gate, and high-level programming language conditional statement (like "if/else" commands) operates entirely on the principles of Boolean Algebra.

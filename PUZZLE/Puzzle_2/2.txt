@@ -1,0 +1,4 @@
+### Al-Khwarizmi & The Algorithm
+Muhammad ibn Musa al-Khwarizmi was a 9th-century Persian polymath and mathematician who authored foundational texts on algebra and arithmetic. The Latinized version of his name, *Algoritmi*, is the direct etymological root of the word "algorithm."
+
+His primary contribution to computer science is the very concept of the algorithm itself: a systematic, step-by-step procedure used to solve a mathematical problem or complete a task. Before electronic computers existed, al-Khwarizmi formalized the logical sequencing of operations, which remains the absolute core of all modern software engineering and computer programming today.

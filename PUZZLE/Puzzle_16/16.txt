@@ -1,0 +1,4 @@
+### Object-Oriented Programming (OOP)
+Object-Oriented Programming (OOP) is a programming paradigm organized around "objects" rather than sequential actions and logic. These objects are self-contained data structures that contain both data (attributes or properties) and the procedures or functions (methods) that manipulate that data. 
+
+OOP fundamentally shifted how software was engineered in the 1980s and 90s by allowing developers to model real-world entities in their code. This paradigm made large-scale software development much more manageable, modular, and reusable, heavily influencing the design of dominant languages like Java, C++, and Python.

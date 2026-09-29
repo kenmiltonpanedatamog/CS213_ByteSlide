@@ -1,0 +1,4 @@
+### Open Source & Linux
+Open Source is a decentralized software development model where the original source code is made freely available to the public to use, modify, and redistribute. This movement was most famously propelled by Linus Torvalds, who created the Linux operating system kernel in 1991 and released it for global collaboration.
+
+The open-source model proved that collaborative, community-driven engineering could produce enterprise-grade software that is often more secure and robust than proprietary alternatives. Today, Linux runs the vast majority of the world's web servers, supercomputers, and smartphones, demonstrating the incredible power of shared knowledge in programming.

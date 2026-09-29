@@ -1,0 +1,4 @@
+### ARPANET & Packet Switching
+ARPANET (Advanced Research Projects Agency Network) was an early computer network funded by the US Department of Defense, heavily utilizing a new concept called packet switching. Packet switching involves breaking digital data down into smaller blocks (packets) that are routed independently across a network and reassembled at their destination, rather than relying on a single, continuous, dedicated connection.
+
+ARPANET was the direct precursor to the modern Internet. The development of packet switching and the subsequent creation of the TCP/IP protocols fundamentally changed computer science by enabling robust, decentralized, and scalable communication networks, changing the computer from a standalone calculator into a global communication device.

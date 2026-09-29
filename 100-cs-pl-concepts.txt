@@ -1,0 +1,20 @@
+The Antikythera Mechanism
+Al-Khwarizmi & The Algorithm
+Ada Lovelace & The First Program
+Boolean Algebra
+The Turing Machine
+Digital Logic
+Von Neumann Architecture
+ENIAC
+The Transistor
+The Compiler
+Fortran
+ARPANET & Packet Switching
+The Relational Database
+The Microprocessor
+C Language & UNIX
+Object-Oriented Programming (OOP)
+The World Wide Web
+Open Source & Linux
+Deep Learning
+Quantum Computing

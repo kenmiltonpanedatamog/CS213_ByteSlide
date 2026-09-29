@@ -1,0 +1,4 @@
+### The Antikythera Mechanism
+The Antikythera Mechanism is an ancient Greek hand-powered orrery, widely considered to be the world's oldest known analog computer. Dating back to somewhere between 200 and 60 BCE, it consists of a complex system of interlocking bronze gears that were used to predict astronomical positions and eclipses decades in advance. 
+
+While vastly different from modern digital devices, its importance lies in being the earliest physical evidence that humans could design machines to automate complex mathematical calculations. It established the conceptual foundation that data and predictive models could be mechanically encoded, foreshadowing the eventual development of programmable hardware millennia later.
