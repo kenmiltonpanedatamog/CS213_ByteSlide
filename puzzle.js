@@ -20,21 +20,21 @@ const levels = {
         folder: "PUZZLE/Puzzle_2/",
         prefix: "2_",
         blankTile: "2_C.jpg",
-        imgOrder: ["H", "A", "B", "G", "F", "E", "C", "D", "I"],
+        imgOrder: ["D", "B", "H", "E", "A", "F", "G", "I", "C"],
         solvedOrder: ["A", "B", "C", "D", "E", "F", "G", "H", "I"]
     },
     3: {
         folder: "PUZZLE/Puzzle_3/",
         prefix: "3_",
         blankTile: "3_C.jpg",
-        imgOrder: ["E", "A", "B", "G", "F", "H", "C", "D", "I"],
+        imgOrder: ["D", "B", "H", "E", "A", "F", "G", "I", "C"],
         solvedOrder: ["A", "B", "C", "D", "E", "F", "G", "H", "I"]
     },
     4: {
         folder: "PUZZLE/Puzzle_4/",
         prefix: "4_",
         blankTile: "4_C.jpg",
-        imgOrder: ["I", "H", "G", "F", "E", "D", "C", "B", "A"],
+        imgOrder: ["D", "B", "H", "E", "A", "F", "G", "I", "C"],
         solvedOrder: ["A", "B", "C", "D", "E", "F", "G", "H", "I"]
     },
     5: {
