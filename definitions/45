@@ -1,1 +1,51 @@
-this is a placeholder
+# DEC PDP-11
+
+The DEC PDP-11 (Programmed Data Processor-11) was a highly successful series of 16-bit minicomputers manufactured by Digital Equipment Corporation (DEC) from 1970 into the late 1990s. It stands as one of the most influential computer architectures in history, bridging the transition period between massive, expensive mainframe installations and the eventual advent of personal microcomputers. Pioneering a highly orthogonal instruction set architecture, the PDP-11 allowed programmers to utilize any general-purpose register alongside any memory addressing mode, a feature that significantly simplified assembly language programming and compiler design. A defining hardware characteristic of the early systems was the UNIBUS, a unified, asynchronous data bus that permitted the central processor, primary memory, and peripheral devices to communicate seamlessly using uniform memory-mapped input/output (I/O) protocols. The machine acquired profound historical significance as the primary hardware platform for the development of the C programming language and the early proliferation of the UNIX operating system at Bell Labs. Its structural innovations, particularly its approach to addressing and register utilization, heavily influenced the design of subsequent microprocessors, including the Motorola 68000 and the Intel x86 architectures. Over its multi-decade production lifespan, DEC sold an estimated 600,000 units across various scale models, cementing the company's dominance in the minicomputer market before the architecture was ultimately succeeded by the 32-bit VAX system.
+
+## Origins and Development
+
+### The Shift to 16-Bit Architecture
+
+By the late 1960s, DEC had achieved significant commercial success with its 12-bit PDP-8 minicomputer, which was widely used in scientific laboratories and industrial control settings. However, the computer industry was rapidly standardizing around the 8-bit byte as the fundamental unit for character data, rendering 12-bit and 18-bit word lengths increasingly awkward for text processing and data exchange. To address this market shift, a design team led by engineers Gordon Bell and Harold McFarland initiated the development of a completely new 16-bit architecture.[1]
+
+### Market Introduction
+
+The first model, the PDP-11/20, was officially introduced to the market in early 1970. Priced around $20,000 (a fraction of the cost of contemporary mainframes), it was positioned as a versatile, high-performance machine accessible to university departments, mid-sized businesses, and automated factories. Instead of requiring a massive, air-conditioned computing center, the PDP-11 could be installed in standard laboratory racks or office environments, fundamentally decentralizing computing access.
+
+## Technical Architecture
+
+### The UNIBUS and Memory-Mapped I/O
+
+The most radical physical innovation of the early PDP-11 models was the UNIBUS, a single bidirectional, asynchronous communication bus. Prior computer designs typically featured separate, specialized buses for memory and I/O peripherals, requiring distinct sets of complex machine instructions to interact with each. The UNIBUS mapped all peripheral devices—such as disk drives, tape readers, and terminals—directly into the system's memory address space. Consequently, the processor interacted with a peripheral device simply by reading from or writing to specific memory locations using standard arithmetic or move instructions.[2] This memory-mapped I/O architecture vastly simplified device driver programming and fostered a massive ecosystem of third-party hardware manufacturers who could easily interface their products with the PDP-11.
+
+### Orthogonal Instruction Set
+
+The PDP-11 processor featured eight 16-bit general-purpose registers (labeled R0 through R7). While R6 was conventionally used as the Stack Pointer (SP) and R7 functioned as the Program Counter (PC), all registers could theoretically be used interchangeably in calculations. The instruction set was highly orthogonal, meaning that any machine instruction (such as add, subtract, or move) could be combined with any addressing mode (such as direct, deferred, autoincrement, or autodecrement). By integrating the Program Counter into the general register set, the system naturally supported complex addressing maneuvers, allowing for compact, highly efficient compiled software code.
+
+## Software and the UNIX Connection
+
+### Proprietary Operating Systems
+
+DEC provided a robust suite of proprietary operating systems tailored to different use cases for the PDP-11. These included RT-11 (Real-Time 11) for fast, single-user tasks in laboratory environments; RSX-11, a multi-user, multitasking operating system used heavily in industrial processing and transaction environments; and RSTS/E (Resource Sharing Time Sharing/Extended), designed primarily for educational institutions and commercial time-sharing.
+
+### Bell Labs, C, and UNIX
+
+The PDP-11's most enduring legacy lies in its symbiotic relationship with the UNIX operating system and the C programming language. In the early 1970s, researchers at AT&T's Bell Laboratories, including Ken Thompson and Dennis Ritchie, migrated their experimental UNIX operating system from a PDP-7 to a PDP-11/20.[3] To facilitate the rewriting of UNIX into a high-level language, Ritchie developed the C programming language. The architecture of the PDP-11 directly influenced the design of C; for example, the PDP-11's hardware-level autoincrement and autodecrement addressing modes mapped directly to C's `++` and `--` pointer arithmetic operators. Because UNIX and C were fundamentally shaped by the elegant, byte-addressable architecture of the PDP-11, the machine became the de facto standard for academic computing and software research throughout the 1970s and 1980s.
+
+## Legacy and Succession
+
+As computational demands grew throughout the 1970s, the PDP-11's 16-bit architecture, which limited its direct memory addressability to 64 kilobytes, became a severe constraint. While DEC engineered complex memory management units to bank-switch larger amounts of RAM, the underlying 16-bit bottleneck necessitated a new architecture. In 1977, DEC introduced the VAX-11 (Virtual Address eXtension), a 32-bit superminicomputer explicitly designed to succeed the PDP-11 while maintaining strict backward compatibility. Despite the ascendance of the VAX, DEC continued to manufacture modernized, microprocessor-based variants of the PDP-11 (such as the LSI-11 and J-11 series) for embedded systems and industrial control until 1997.
+
+## Works or Publications
+
+While a hardware platform itself does not author publications, seminal technical documents defining the system include:
+
+* **PDP-11 Processor Handbook (1979):** Published by Digital Equipment Corporation, this manual served as the definitive technical reference for assembly programmers and hardware engineers interacting with the system's architecture and instruction set.
+
+## References
+
+[1] Bell, C. G., et al. "A New Architecture for Mini-Computers—The DEC PDP-11". *Proceedings of the April 5-8, 1971, Spring Joint Computer Conference*, AFIPS '71 (Spring), ACM, 1971, pp. 657-675. [ACM Digital Library](https://www.google.com/search?q=https://dl.acm.org/doi/10.1145/1478786.1478878)
+
+[2] Ceruzzi, Paul E. *A History of Modern Computing*. 2nd ed., MIT Press, 2003, pp. 197-200. [MIT Press](https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/)
+
+[3] Ritchie, Dennis M. "The Development of the C Language". *ACM SIGPLAN Notices*, Vol. 28, No. 3, March 1993, pp. 201-208. [ACM Digital Library](https://dl.acm.org/doi/10.1145/155360.155580)

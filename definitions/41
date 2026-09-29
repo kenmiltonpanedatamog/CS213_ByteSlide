@@ -1,1 +1,49 @@
-this is a placeholder
+# EDVAC
+
+EDVAC (Electronic Discrete Variable Automatic Computer) was one of the earliest electronic digital computers and the direct successor to the pioneering ENIAC. Designed in the mid-1940s by engineers J. Presper Eckert and John Mauchly, alongside mathematician John von Neumann, the machine was constructed at the University of Pennsylvania's Moore School of Electrical Engineering. Unlike its predecessor, which operated on a decimal numbering system and required extensive physical rewiring for programming, EDVAC was designed from its inception as a binary, stored-program computer. Its theoretical architecture fundamentally integrated memory storage for both instructions and operational data, laying the foundation for what is now known as the von Neumann architecture, the standard blueprint for modern computing. To achieve this memory capacity, the machine utilized ultrasonic acoustic delay lines made of liquid mercury, allowing it to store up to a thousand 44-bit words. Funded by the United States Army Ordnance Department, the computer was commissioned to serve the Ballistic Research Laboratory at the Aberdeen Proving Ground in Maryland. Although the machine was conceptualized in 1944, significant engineering disputes, patent disagreements, and personnel departures delayed EDVAC's delivery until 1949, and it did not become fully operational until 1951. Despite these delays, the theoretical concepts established and circulated during its design phase profoundly shaped global computer development and the trajectory of computer science throughout the mid-20th century.
+
+## Origins and Conceptualization
+
+### Addressing ENIAC's Limitations
+
+Even before ENIAC was completed, its designers, Eckert and Mauchly, recognized severe limitations in its architecture. ENIAC's use of vacuum tubes as active memory elements was highly expensive, power-intensive, and consumed vast amounts of physical space. Furthermore, programming ENIAC required physically routing cables and setting switches, a process that could take days and essentially rendered the machine idle between tasks. In August 1944, the team proposed a new machine to the Army Ordnance Department that would solve these problems by storing program instructions internally alongside data, utilizing a much larger, dedicated memory system.[1]
+
+### The Stored-Program Concept
+
+In late 1944, mathematician John von Neumann joined the project as a consultant. Von Neumann synthesized and formalized the team's engineering discussions regarding logical structure and memory architecture. The defining innovation of the EDVAC design was the stored-program concept: treating algorithmic instructions as interchangeable data that could be stored in a centralized memory unit, retrieved, and modified dynamically by the computer's central processor. This approach allowed the computer to execute complex branching logic and subroutines without human intervention or physical reconfiguration.
+
+## Technical Architecture and Hardware
+
+### Binary Processing and Serial Operation
+
+Breaking away from ENIAC's base-10 decimal system, EDVAC was designed as a binary machine. The computer processed data using 44-bit words, which allowed for sufficient precision in mathematical calculations required for ballistics. It operated serially, meaning it processed mathematical operations bit by bit sequentially, rather than in parallel. While serial processing was significantly slower than parallel processing, it vastly reduced the number of vacuum tubes and electronic components required, resulting in a more reliable and physically manageable machine. Ultimately, EDVAC utilized approximately 6,000 vacuum tubes and 12,000 diodes, consuming 56 kilowatts of power—a marked reduction from ENIAC's demands.
+
+### Acoustic Delay Line Memory
+
+The most critical hardware innovation in EDVAC was its primary memory system, which relied on ultrasonic mercury delay lines.[2] Developed from radar technology used during World War II, a delay line consisted of a tube filled with liquid mercury equipped with piezoelectric transducers at both ends. Electrical signals representing bits of data were converted into sound waves that traveled relatively slowly through the mercury. Upon reaching the other end, they were converted back into electrical signals, amplified, and fed back into the beginning of the tube in a continuous loop. This constant recirculation stored data actively. EDVAC possessed 128 such delay lines, providing a total working memory of 1,024 words.
+
+## Development Delays and Controversies
+
+### The "First Draft" and Patent Disputes
+
+In June 1945, von Neumann authored a 101-page internal memorandum titled *First Draft of a Report on the EDVAC*. Herman Goldstine, the Army's liaison, distributed the draft widely across the academic and military communities. Because the document only bore von Neumann's name, the architectural principles described within became universally known as the "von Neumann architecture," largely omitting Eckert and Mauchly's foundational engineering contributions.[3] Furthermore, the public distribution of the report constituted prior publication under patent law, jeopardizing Eckert and Mauchly's ability to secure patents for the stored-program concepts.
+
+### Departure of Key Personnel
+
+The intellectual property dispute escalated in 1946 when the University of Pennsylvania adopted a new policy requiring its staff to assign all patent rights to the university. Eckert and Mauchly refused to sign, resigned from the Moore School, and formed their own commercial venture, the Electronic Control Company (later the Eckert-Mauchly Computer Corporation). The loss of EDVAC's primary architects stalled the project's construction. Consequently, other institutions heavily influenced by the *First Draft*—such as Cambridge University with its EDSAC machine—managed to complete and operate stored-program computers years before EDVAC was finished.
+
+## Operational History
+
+EDVAC was finally delivered to the Ballistic Research Laboratory at the Aberdeen Proving Ground in August 1949. However, a series of persistent technical issues, primarily concerning the reliability of the mercury delay lines and the magnetic tape input/output systems, delayed its routine operation until late 1951. Once stabilized, EDVAC proved to be highly robust. Over the 1950s, the system received numerous structural upgrades, including the addition of punched-card readers in 1953, supplemental magnetic drum memory in 1954, and floating-point arithmetic hardware in 1958. It remained in service for over a decade, calculating firing tables and assisting in weapons research, before being officially decommissioned and replaced by more advanced machines in 1961.
+
+## Works or Publications
+
+* von Neumann, John. *First Draft of a Report on the EDVAC*. Moore School of Electrical Engineering, University of Pennsylvania (June 30, 1945). This seminal, albeit unfinished, manuscript formally described the logical design of a computer utilizing a stored-program architecture.
+
+## References
+
+[1] Stern, Nancy. *From ENIAC to UNIVAC: An Appraisal of the Eckert-Mauchly Computers*. Digital Press, 1981, pp. 63-68. [Archive.org](https://www.google.com/search?q=https://archive.org/details/fromeniactouniva0000ster)
+
+[2] Wilkes, Maurice V. "The Memory Wall and the CMOS End-Point". *ACM SIGARCH Computer Architecture News*, Vol. 23, No. 4, 1995, pp. 4-6. [ACM Digital Library](https://www.google.com/search?q=https://dl.acm.org/doi/10.1145/216578.216580)
+
+[3] Godfrey, Michael D., and David F. Hendry. "The Computer as von Neumann Planned It". *IEEE Annals of the History of Computing*, Vol. 15, No. 1, 1993, pp. 11-21. [IEEE Xplore](https://www.google.com/search?q=https://ieeexplore.ieee.org/document/192235)

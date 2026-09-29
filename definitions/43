@@ -1,1 +1,47 @@
-this is a placeholder
+# Manchester Baby
+
+The Manchester Baby, formally known as the Small-Scale Experimental Machine (SSEM), was the world's first electronic stored-program computer. Built at the Victoria University of Manchester by Frederic C. Williams, Tom Kilburn, and Geoff Tootill, it successfully executed its first program on June 21, 1948. Unlike earlier calculating machines such as the ENIAC, which required physical rewiring to change their programming, the SSEM stored its instructions and data in a shared electronic memory space. The machine was not designed for practical commercial or scientific computation, but rather as a hardware testbed to prove the viability of the Williams tube, the first form of random-access digital memory based on standard cathode ray tubes (CRTs). Its successful operation practically validated the stored-program concept initially articulated by John von Neumann and theoretical models proposed by Alan Turing. Although its computational capabilities were severely limited by a minuscule memory capacity and basic arithmetic functions, its fundamental architecture proved revolutionary. Following its initial success, the SSEM was rapidly developed into the fully functional Manchester Mark 1, which subsequently served as the prototype for the Ferranti Mark 1, the world's first commercially available general-purpose computer. The Baby's operational debut remains a definitive milestone in the history of computer science, marking the birth of modern software execution.
+
+## Origins and Development
+
+### The Williams Tube Memory
+
+The primary motivation for constructing the SSEM was to resolve the critical bottleneck of computer memory in the late 1940s. Contemporary memory systems, such as acoustic mercury delay lines used in the EDVAC, were strictly sequential and relatively slow. During World War II, Frederic C. Williams had observed that cathode ray tubes utilized in radar displays possessed a brief electrostatic "memory" of a trace, as the electron beam left a localized positive charge on the screen's phosphor coating. After joining the Victoria University of Manchester in 1946, Williams, alongside his assistant Tom Kilburn, refined this phenomenon into a reliable digital storage device known as the Williams-Kilburn tube, or simply the Williams tube.[1] This invention allowed data to be read and written in a random-access fashion at electronic speeds, vastly improving data retrieval times.
+
+### Construction of the Testbed
+
+To demonstrate that the Williams tube could reliably store data during the rapid, continuous operations required by an electronic computer, Williams and Kilburn designed a rudimentary calculating machine around it. Construction of the SSEM began in 1947, with Geoff Tootill joining the team late in the year to assist with the physical assembly and circuit design. Built using surplus World War II telecommunications components, the machine was assembled in a laboratory at the university. Because it was strictly an experimental proof-of-concept for the memory system rather than a complete mathematical engine, the engineering team colloquially referred to the machine as the "Baby."
+
+## Hardware and Architecture
+
+### System Specifications
+
+The Manchester Baby was housed in a large metal frame measuring 17 feet (5.2 meters) long and 7 feet (2.2 meters) tall, containing roughly 550 vacuum tubes and 300 diodes.[2] It operated on a 32-bit word length and utilized binary arithmetic natively. The machine's primary memory consisted of a single Williams tube capable of storing 32 words of 32 bits each, yielding a total storage capacity of 1,024 bits. It processed instructions sequentially using serial arithmetic at a clock speed of 100 kilohertz. The machine featured two additional CRTs: one served as the accumulator for arithmetic operations, and the other functioned as the control unit to hold the current instruction and program counter. Data was read by directly observing the bright dots on the faces of the CRT tubes, as the SSEM had no conventional input or output peripherals like punch-card readers or printers.
+
+### Instruction Set
+
+The SSEM was engineered with a minimalist architecture, possessing only the absolute necessary hardware to execute a stored program. Its instruction set was composed of a 3-bit operation code, which allowed for a maximum of eight distinct instructions, though only seven were initially implemented. These included basic commands for loading to and from the accumulator, a negative subtraction operation (the machine lacked a dedicated hardware adder), unconditional and conditional branching, and a halt command to end a program.
+
+## First Program and Operation
+
+### The Factoring Algorithm
+
+On June 21, 1948, the Manchester Baby successfully ran its first computer program. The program was written by Tom Kilburn to find the highest proper factor of an integer. Because the machine lacked a division instruction, the program was mathematically inefficient by design; it utilized repeated subtraction to perform division, serving as a rigorous stress test for the Williams tube memory. The team set the target integer to $2^{18}$ (262,144). The program comprised 17 discrete instructions and took approximately 52 minutes to complete, successfully executing roughly 3.5 million operations before halting and displaying the correct answer on the CRT output tube.[3]
+
+### Legacy and the Mark 1
+
+Following the successful demonstration of the factoring program, the SSEM had fulfilled its purpose. Almost immediately, the engineering team began expanding the Baby into a full-scale machine. By 1949, they had added a magnetic drum memory for secondary storage, hardware multipliers, and a vastly expanded instruction set, renaming the upgraded system the Manchester Mark 1. The Baby was ultimately dismantled to provide components for these subsequent iterations, leaving no physical remnants of the original 1948 machine until a working replica was constructed in 1998 for the 50th anniversary of its first successful run.
+
+## Works or Publications
+
+As the first machine to execute software, the Manchester Baby's most significant "creation" was the first software program:
+
+* **The Kilburn Factoring Program (1948):** A 17-line sequence of binary machine code written by Tom Kilburn, constituting the first stored computer program in history. It calculated the highest proper factor of $2^{18}$ utilizing repetitive subtraction loops.
+
+## References
+
+[1] Lavington, Simon. *Early British Computers: The Story of Vintage Computers and the People who built them*. Manchester University Press, 1980, pp. 34-39. [Archive.org](https://archive.org/details/earlybritishcomp0000lavi)
+
+[2] Napper, R. B. E. "The Manchester Mark 1 Computers". *IEEE Annals of the History of Computing*, Vol. 22, No. 3, 2000, pp. 15-23. [IEEE Xplore](https://www.google.com/search?q=https://ieeexplore.ieee.org/document/859364)
+
+[3] Williams, F. C., and Kilburn, T. "Electronic Digital Computers". *Nature*, Vol. 162, No. 4117, September 1948, pp. 487-488. [Nature](https://www.nature.com/articles/162487a0)

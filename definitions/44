@@ -1,1 +1,51 @@
-this is a placeholder
+# IBM System/360
+
+The IBM System/360 (S/360) is a family of mainframe computer systems that was announced by IBM on April 7, 1964, and delivered to customers between 1965 and 1978. It was the first family of computers designed to cover a complete spectrum of applications, effectively bridging the previously distinct markets for commercial business processing and complex scientific computation. Prior to the introduction of the System/360, computer manufacturers, including IBM, produced disparate, custom product lines that utilized mutually incompatible software, logic, and peripheral interfaces. By explicitly separating the system's underlying instruction set architecture from its physical hardware implementation, IBM enabled customers to upgrade to faster or larger models without the prohibitive cost of rewriting their existing software applications. The massive research and development effort, orchestrated by executives such as Bob Evans, Fred Brooks, and Gene Amdahl, cost IBM approximately $5 billion, representing one of the largest privately funded commercial engineering projects in history. The system established numerous enduring industry standards, most notably cementing the 8-bit byte as the fundamental unit of digital memory and popularizing the 32-bit computational word. The overwhelming commercial success of the System/360 fundamentally restructured the global computer industry, establishing IBM's near-monopoly in the mainframe market for decades and setting architectural precedents that heavily influence modern enterprise computing.
+
+## Origins and Development
+
+### The SPREAD Committee and Product Fragmentation
+
+In the early 1960s, IBM dominated the computing market but faced an internal crisis of product fragmentation. The company maintained multiple distinct computer lines: the 1400 series for commercial data processing, the 7000 series for scientific calculation, and various other specialized machines. These product lines utilized different character encodings, instruction sets, and peripheral equipment, making it impossible for a customer to transfer software or hardware from one IBM system to another. Recognizing the unsustainable costs of developing parallel software and hardware ecosystems, IBM management convened a secret task force in late 1961 known as the SPREAD (Systems Programming, Research, Extension, and Development) committee. The committee's final report formally proposed a unified, mutually compatible family of computers spanning a wide performance range.
+
+### The "Bet the Company" Initiative
+
+The mandate to develop this unified family was highly controversial within IBM, as it required rendering the company's highly profitable existing product lines obsolete. IBM President Thomas J. Watson Jr. committed virtually all of the corporation's resources to the project, taking an enormous financial risk that commentators later dubbed a "bet the company" strategy. Management of the massive engineering effort was assigned to Bob Evans, while Fred Brooks and Gene Amdahl led the architectural design. The announcement of the System/360 on April 7, 1964, was the largest product launch in the company's history, immediately rendering much of the industry's competing hardware technologically antiquated.
+
+## Technical Architecture
+
+### Instruction Set Architecture and Microprogramming
+
+The central defining feature of the System/360 was its strict adherence to a standardized Instruction Set Architecture (ISA), primarily designed by Gene Amdahl.[1] This meant that the logical rules, operation codes, and memory addressing schemes were uniform across the entire family of processors, from the slowest entry-level Model 30 to the top-tier Model 91. To achieve this compatibility across hardware of vastly different costs and capabilities, IBM heavily utilized microprogramming (often called microcode) in the smaller models. The slower systems used microcode to emulate the standardized instruction set, while the high-end systems utilized direct hardware logic for maximum speed.
+
+### Solid Logic Technology (SLT)
+
+While monolithic integrated circuits (microchips) were in their infancy during the system's development, IBM deemed them too unreliable for a commercial product of this scale. Instead, the System/360 hardware was built using Solid Logic Technology (SLT). SLT utilized hybrid integrated circuits—small ceramic modules containing printed resistors and discrete, unencapsulated transistors and diodes, sealed in plastic or metal covers. This technology represented an intermediate step between standard discrete transistor boards and modern silicon microchips, providing higher density, speed, and reliability than prior generations of electronics.
+
+### Standardization of Data Formats
+
+The architectural choices made during the S/360 development established several long-lasting data standards. It standardized the 8-bit byte, departing from the 6-bit characters common in earlier scientific machines, enabling the storage of a much wider array of alphanumeric characters and symbols.[2] It utilized a 32-bit word for its general-purpose registers and arithmetic logic. Additionally, IBM chose to base the system on the Extended Binary Coded Decimal Interchange Code (EBCDIC) rather than the nascent ASCII standard, largely due to a need for backward compatibility with older punch-card tabulating formats.
+
+## Operating Systems and Software
+
+### OS/360 and the Software Crisis
+
+While the hardware development of the System/360 was largely successful, the creation of its operating software, OS/360, became one of the most notoriously troubled engineering projects in computing history. IBM originally intended to release a single, unified operating system capable of running on all models and supporting both batch processing and time-sharing. However, the sheer complexity of the software requirements resulted in massive delays, budget overruns, and severe performance bugs.
+
+To deliver functional software to customers, IBM was forced to divide OS/360 into distinct tiers based on machine memory capacity: DOS/360 for smaller machines, OS/360 MFT (Multiprogramming with a Fixed number of Tasks) for mid-range systems, and OS/360 MVT (Multiprogramming with a Variable number of Tasks) for high-end systems. The systemic management failures and chaotic engineering environment surrounding OS/360 directly prompted project manager Fred Brooks to author his seminal software engineering text, *The Mythical Man-Month*, which analyzed why adding manpower to a late software project generally delays it further.[3]
+
+## Legacy
+
+The System/360 was an unprecedented commercial triumph, generating immense revenue and solidifying IBM's position as the world's leading technology corporation through the 1970s and 1980s. Its success forced competitors—often referred to as the "BUNCH" (Burroughs, UNIVAC, NCR, Control Data, and Honeywell)—to either adopt compatible standards or retreat into niche markets. The architecture established by the S/360 was continuously evolved by IBM into the System/370, the ESA/390, and ultimately the modern z/Architecture mainframes, which maintain strict backward compatibility, allowing software written for the System/360 in 1964 to execute on contemporary IBM hardware without modification.
+
+## Works or Publications
+
+* **OS/360 (1966):** The primary operating system developed for the System/360 architecture, notable for its advanced features like multiprogramming and job control language, as well as its historically significant and troubled development cycle.
+
+## References
+
+[1] Amdahl, G. M., Blaauw, G. A., and Brooks, F. P. "Architecture of the IBM System/360". *IBM Journal of Research and Development*, Vol. 8, No. 2, 1964, pp. 87-101. [IBM Journal](https://www.google.com/search?q=https://ieeexplore.ieee.org/document/5391692)
+
+[2] Pugh, Emerson W., Lyle R. Johnson, and John H. Palmer. *IBM's 360 and Early 370 Systems*. MIT Press, 1991, pp. 115-125. [MIT Press](https://www.google.com/search?q=https://mitpress.mit.edu/9780262161237/ibms-360-and-early-370-systems/)
+
+[3] Brooks, Frederick P. *The Mythical Man-Month: Essays on Software Engineering*. Addison-Wesley, 1975, pp. 3-8. [Archive.org](https://www.google.com/search?q=https://archive.org/details/mythicalmanmonth00fred)

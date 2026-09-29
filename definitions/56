@@ -1,1 +1,44 @@
-this is a placeholder
+# FORTRAN
+
+FORTRAN (an acronym derived from Formula Translation) is a general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing. Developed by a team led by John Backus at IBM in the 1950s for scientific and engineering applications, FORTRAN subsequently came to dominate this area of programming early on and has been in continuous use for over six decades. It represents a critical milestone in computer science as the first widely adopted high-level programming language, fundamentally shifting software development away from tedious and machine-specific assembly language. The language's initial compiler was revolutionary for its ability to generate highly optimized machine code that rivaled hand-coded assembly in execution speed, a necessary feature to overcome early skepticism from hardware-oriented programmers. Over the decades, FORTRAN has undergone numerous standardized revisions, adding modern features such as structured programming, array programming, modular programming, and object-oriented paradigms. Reflecting these modernizations, the capitalization of the name was officially changed to "Fortran" beginning with the Fortran 90 standard. Today, it remains heavily utilized in high-performance computing (HPC) tasks, including climate modeling, computational fluid dynamics, and computational chemistry, largely due to its unparalleled efficiency in handling complex multidimensional arrays.
+
+## Origins and Initial Development
+
+### The IBM 704 Proposal
+
+In late 1953, John W. Backus submitted a proposal to his superiors at IBM to develop a more practical and human-readable alternative to assembly language for programming the upcoming IBM 704 mainframe computer. At the time, programming in assembly language or raw machine code was exceedingly slow, error-prone, and required an intimate understanding of the machine's physical hardware architecture. Backus's team, which included engineers and mathematicians such as Richard Goldberg, Sheldon F. Best, Harlan Herrick, and Peter Sheridan, published the initial draft specification for the "IBM Mathematical Formula Translating System" in 1954.[1]
+
+### The First Optimizing Compiler
+
+The primary obstacle facing the FORTRAN project was not simply designing the syntax, but rather convincing experienced programmers to use it. In the 1950s, computing hardware was exceptionally expensive and slow, meaning that execution speed was prioritized above all else. Programmers were highly skeptical that an automated compiler could generate machine code as fast and efficient as that written by a skilled human. Consequently, Backus and his team focused heavily on creating an optimizing compiler—a program that not only translated the mathematical formulas into machine code but actively analyzed and streamlined the resulting instructions to minimize memory usage and execution time. The first FORTRAN compiler, released in April 1957, successfully achieved this goal, reducing the number of programming statements necessary to operate a machine by a factor of 20, thereby proving the viability of high-level programming languages.[2]
+
+## Evolution and Standardization
+
+### Early Iterations: FORTRAN II and IV
+
+The language evolved rapidly following its initial release. In 1958, IBM introduced FORTRAN II, which added support for procedural programming by introducing user-defined subroutines and functions that returned values. This allowed large, complex programs to be broken down into smaller, independently compiled modules, greatly enhancing software organization and debugging. FORTRAN IV, released in 1962, became one of the most popular and influential versions of the language. It removed machine-dependent anomalies related to the IBM 704, introduced the logical (Boolean) data type, and added the logical IF statement, setting a standard syntax that was widely adopted by competing computer manufacturers.
+
+### ANSI Standardization: FORTRAN 66 and 77
+
+By the mid-1960s, the proliferation of varying, incompatible FORTRAN compilers across different hardware vendors necessitated industry-wide standardization. In 1966, the American National Standards Institute (ANSI) published the first standardized specification for the language, colloquially known as FORTRAN 66. This marked the first time a programming language had been officially standardized. In 1978, ANSI published a major revision known as FORTRAN 77. This iteration introduced essential features for structured programming, including block `IF-THEN-ELSE` constructs, and provided native support for character data types (strings), significantly reducing the reliance on `GOTO` statements and improving code readability.[3]
+
+### Modern Fortran: 90 and Beyond
+
+A massive architectural overhaul was published in 1991 as the Fortran 90 standard (concurrently reflecting the change to title-case spelling). Fortran 90 introduced free-form source input, replacing the rigid punch-card column formatting required by earlier versions. Crucially, it introduced advanced array programming capabilities, dynamic memory allocation, and the concept of modules for data hiding and encapsulation. Subsequent standards, including Fortran 2003, 2008, and 2018, have continuously modernized the language by integrating full object-oriented programming support, enhanced interoperability with the C programming language, and native paradigms for parallel computing (such as coarrays), ensuring the language's continued relevance in modern supercomputing environments.
+
+## Architecture and Numerical Dominance
+
+Fortran's enduring dominance in scientific computing stems from its fundamental architectural design, which is unapologetically optimized for heavy numerical processing. From its inception, the language possessed native support for complex numbers and floating-point arithmetic. Its modern array handling capabilities allow programmers to apply mathematical operations to entire multidimensional arrays simultaneously without writing explicit looping structures, a feature that maps highly efficiently onto the vector processing units and parallel architectures of modern supercomputers. Furthermore, because Fortran does not suffer from pointer aliasing issues to the same degree as languages like C or C++, its compilers can mathematically prove that certain memory locations do not overlap, allowing for highly aggressive, automated hardware-level optimizations that remain difficult to achieve in other high-level languages.
+
+## Works or Publications
+
+* **The FORTRAN Automatic Coding System for the IBM 704 EDPM (1956):** Written by John Backus and his team at IBM, this was the first official programmer's reference manual for the language, effectively introducing high-level programming to the commercial industry.
+* **ANSI X3.9-1966 (1966):** The American National Standard definition of FORTRAN, marking the first time a programming language was formally standardized by a national governing body.
+
+## References
+
+[1] Backus, John W. "The history of FORTRAN I, II, and III". *ACM SIGPLAN Notices*, Vol. 13, No. 8, August 1978, pp. 165-180. [ACM Digital Library](https://dl.acm.org/doi/10.1145/960118.808380)
+
+[2] Ceruzzi, Paul E. *A History of Modern Computing*. 2nd ed., MIT Press, 2003, pp. 89-93. [MIT Press](https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/)
+
+[3] Metcalf, Michael, John Reid, and Malcolm Cohen. *Modern Fortran Explained: Incorporating Fortran 2018*. Oxford University Press, 2018, pp. 1-12. [Oxford Academic](https://global.oup.com/academic/product/modern-fortran-explained-9780198811886)

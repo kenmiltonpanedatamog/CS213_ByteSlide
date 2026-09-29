@@ -1,1 +1,48 @@
-this is a placeholder
+# ARM Architecture
+
+The ARM architecture (originally Acorn RISC Machine, later Advanced RISC Machines) is a family of reduced instruction set computer (RISC) instruction set architectures for computer processors, developed and licensed by the British technology company Arm Ltd. First conceptualized in the 1980s by Acorn Computers, the architecture was designed to execute software instructions with high speed and maximum power efficiency by utilizing a simplified, streamlined instruction set. Unlike manufacturers such as Intel or AMD, Arm Ltd. does not typically fabricate its own physical silicon chips; instead, it licenses the architectural specifications and core designs to third-party semiconductor companies who integrate them into customized systems-on-chip (SoCs). Because of its exceptionally low electrical power consumption and minimal heat generation, the ARM architecture became the dominant processing platform for battery-powered mobile devices, including virtually all modern smartphones and tablet computers. In recent decades, the architecture has expanded significantly beyond the mobile sector, encompassing embedded microcontrollers, automotive systems, high-performance desktop computers, and cloud computing data centers. As of the 2020s, ARM is the most widely produced instruction set architecture in human history, with hundreds of billions of chips manufactured globally, representing a fundamental pillar of contemporary digital infrastructure.
+
+## Origins at Acorn Computers
+
+In the early 1980s, the British company Acorn Computers had achieved significant commercial success in the United Kingdom educational market with the BBC Micro, a microcomputer powered by the 8-bit MOS Technology 6502 processor. When Acorn engineers began planning a successor machine to compete with emerging 16-bit and 32-bit business computers, they evaluated commercially available processors such as the Motorola 68000 and the National Semiconductor 32016. The engineering team, led by Sophie Wilson and Steve Furber, found these complex instruction set computer (CISC) architectures to be overly complicated, prone to high interrupt latency, and poorly suited to the memory bandwidth available at the time.[1]
+
+Inspired by academic papers on Reduced Instruction Set Computers published by David Patterson at the University of California, Berkeley, Wilson drafted the instruction set for a custom 32-bit RISC processor, while Furber designed the hardware implementation. The resulting Acorn RISC Machine (ARM1) yielded working silicon in 1985. The processor was remarkably simple, utilizing approximately 30,000 transistors—a fraction of the component count of contemporary Intel or Motorola chips. The subsequent ARM2 was utilized as the central processing unit for the Acorn Archimedes personal computer in 1987, establishing the architecture's reputation for high performance relative to its extreme physical simplicity and low power draw.
+
+## Corporate Independence and the Apple Partnership
+
+By the late 1980s, Apple Computer was developing the Newton MessagePad, an early personal digital assistant (PDA). Apple required a powerful 32-bit processor capable of handling complex handwriting recognition, but the chip had to run entirely on standard batteries without overheating an unventilated plastic casing. Acorn's ARM architecture met these rigid thermal and power constraints perfectly. However, Apple was hesitant to heavily rely on proprietary hardware wholly owned by a competing computer manufacturer.
+
+To resolve this conflict, Acorn Computers, Apple Computer, and VLSI Technology (the semiconductor foundry that manufactured the early ARM chips) formed a joint venture in 1990.[2] The new, independent company was named Advanced RISC Machines Ltd. (later shortened to Arm Ltd.). Apple invested cash, Acorn provided the engineering staff and intellectual property, and VLSI provided manufacturing tools. The newly formed company developed the ARM6 processor core specifically for the Apple Newton. Although the Newton was ultimately a commercial failure, the creation of an independent intellectual property firm focused exclusively on low-power processor design established the foundation for ARM's enduring business model.
+
+## Technical Characteristics and the Licensing Model
+
+### RISC Philosophy and the Thumb Instruction Set
+
+The ARM architecture strictly adheres to a load-store RISC philosophy. Data processing operations (such as addition, subtraction, or logical shifts) can only be performed on data already held within the processor's internal registers; discrete `load` and `store` instructions are required to transfer data between the registers and main memory. This separation ensures that mathematical instructions execute rapidly in a single clock cycle.
+
+A major architectural innovation was the introduction of the Thumb instruction set in 1995 with the ARM7TDMI processor core.[3] Thumb is a compressed 16-bit instruction set that expands into standard 32-bit ARM instructions inside the processor. This allowed embedded systems with narrow memory buses, such as early mobile phones (most notably the highly successful Nokia 6110), to achieve excellent processing performance while drastically reducing the physical memory required to store the software code, further driving down manufacturing costs.
+
+### Intellectual Property Licensing
+
+Arm Ltd. fundamentally altered the semiconductor industry by operating exclusively as an intellectual property (IP) vendor. The company offers two primary types of licenses:
+
+1. **Core License:** Arm provides the complete, pre-tested hardware design (e.g., the Cortex-A series for smartphones or Cortex-M for microcontrollers). The licensee simply integrates this "off-the-shelf" processor core into their own system-on-chip design alongside modems, graphics processors, and memory controllers.
+2. **Architectural License:** Arm grants the licensee the right to design their own custom CPU cores from scratch, provided the resulting custom silicon perfectly executes the ARM instruction set. This license is utilized by companies such as Apple (for their custom A-series and M-series chips) and Qualcomm.
+
+## The 64-Bit Transition and Modern Computing
+
+In 2011, Arm announced the ARMv8-A architecture, marking the transition from 32-bit to a fully 64-bit architecture, known as AArch64. This transition was a critical milestone, as 32-bit processors are physically limited to addressing 4 gigabytes of random-access memory (RAM). The AArch64 instruction set was completely redesigned for modern workloads, vastly increasing the number of internal registers and improving hardware-level cryptography and floating-point mathematics capabilities.
+
+The advent of the 64-bit ARM architecture enabled the technology to expand aggressively into computing sectors historically dominated by Intel and AMD's x86 architecture. Apple catalyzed a major industry shift beginning in 2020 by transitioning its entire Macintosh computer lineup away from Intel processors to custom ARM-based Apple Silicon, proving that the architecture could compete at the highest levels of personal computing performance. Concurrently, major cloud service providers, including Amazon Web Services (AWS) with its Graviton processors, began deploying millions of custom ARM-based server chips in their data centers, capitalizing on the architecture's superior power-to-performance ratio to reduce massive electricity and cooling costs.
+
+## Works or Publications
+
+* **ARM Architecture Reference Manual (1996–Present):** The definitive, highly comprehensive technical manual published and continuously updated by Arm Ltd. It details the precise instruction sets, memory models, exception handling, and execution states for hardware engineers and compiler developers building systems on the ARM architecture.
+
+## References
+
+[1] Furber, Steve. *ARM System-on-Chip Architecture*. 2nd ed., Addison-Wesley, 2000, pp. 6-13. [Archive.org](https://www.google.com/search?q=https://archive.org/details/armsystemonchipa00furb)
+
+[2] Ceruzzi, Paul E. *A History of Modern Computing*. 2nd ed., MIT Press, 2003, pp. 317-320. [MIT Press](https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/)
+
+[3] Segars, Simon, Kevin Clarke, and Liam Goudge. "Embedded control problems, Thumb, and the ARM7TDMI". *IEEE Micro*, Vol. 15, No. 5, October 1995, pp. 22-30. [IEEE Xplore](https://www.google.com/search?q=https://ieeexplore.ieee.org/document/464745)

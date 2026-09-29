@@ -1,1 +1,56 @@
-this is a placeholder
+# Barbara Liskov
+
+Barbara Liskov (born Barbara Jane Huberman on November 7, 1939) is an American computer scientist whose pioneering work in programming language design and software methodology established the foundational principles of object-oriented programming. In 1968, she became one of the first women in the United States to earn a doctorate in computer science, receiving her degree from Stanford University for her work in artificial intelligence. Throughout her extensive career at the Massachusetts Institute of Technology (MIT), Liskov led the development of several highly influential programming languages, most notably CLU and Argus, which introduced the concepts of abstract data types and distributed promise pipelining. Alongside Jeannette Wing, she formulated the Liskov substitution principle, a defining behavioral subtyping rule that remains a core tenet of modern software engineering architecture. For her profound impact on the practical and theoretical foundations of system design, data abstraction, and fault tolerance, Liskov was awarded the A.M. Turing Award in 2008. Her innovations fundamentally shaped the development of subsequent commercial programming languages, including Java, C++, and C#, profoundly altering the trajectory of global software engineering.
+
+## Early Life and Education
+
+Barbara Jane Huberman was born on November 7, 1939, in Los Angeles, California, to a lawyer and a homemaker. While her parents valued education, she kept her strong interest in mathematics and science relatively private during her youth, as such subjects were not widely considered suitable pursuits for women at the time. She attended the University of California, Berkeley, initially intending to major in physics before switching her focus to mathematics. She was one of only two women in her major class, ultimately receiving her Bachelor of Arts degree in mathematics in 1961.
+
+Following her undergraduate studies, she applied to graduate mathematics programs at Berkeley and Princeton University. While Berkeley accepted her, Princeton returned her application with a letter explicitly stating that the institution did not admit female students. Opting instead to enter the workforce, she relocated to Boston and accepted a position at the MITRE Corporation. It was at MITRE, and subsequently during a stint at Harvard University working on language translation, that she discovered her natural aptitude for computer programming.
+
+Deciding to pursue formal graduate studies in this newly emerging field, she applied to Stanford University. Supported by artificial intelligence pioneer John McCarthy, Liskov focused her research on developing a computer program designed to play chess endgames, during which she formulated the "killer heuristic". In March 1968, she earned her Ph.D., becoming one of the very first women in the United States to be awarded a doctorate from a dedicated computer science department.
+
+## Early Career and the Venus System
+
+After receiving her doctorate, she married Nathan Liskov and returned to Massachusetts to resume work as a research staff member at the MITRE Corporation. During her tenure from 1968 to 1972, she concentrated heavily on computer design and operating systems.
+
+Her most notable achievement at MITRE was the creation of the Venus operating system. Built using an Interdata 3 computer that permitted instruction set modifications via microcode, Venus was a low-cost, small-scale time-sharing system. The project served as a critical experimental platform for Liskov to explore how different hardware architectures could either hinder or facilitate the construction of complex, reliable software.
+
+## MIT and the CLU Programming Language
+
+In 1972, Liskov joined the faculty at the Massachusetts Institute of Technology (MIT). She quickly established herself as a leading researcher in software methodology, identifying that the primary difficulty in software engineering was managing the massive complexity of large programs.
+
+To address this, she directed the design and implementation of the CLU programming language throughout the 1970s. CLU was revolutionary for its emphasis on modular programming and data abstraction. It allowed programmers to define abstract data types—packaging data and the specific operations that manipulate that data together into isolated modules, hiding the internal implementation details from the rest of the program. This concept of "information hiding" became the absolute cornerstone of object-oriented programming, allowing engineers to build and maintain massive, robust software systems by treating components independently. While CLU itself was not widely adopted commercially, its architectural concepts were directly inherited by nearly all modern object-oriented languages.
+
+## The Liskov Substitution Principle
+
+In 1987, during a keynote address at the OOPSLA (Object-Oriented Programming, Systems, Languages, and Applications) conference, Liskov introduced a foundational concept regarding data hierarchy and subtyping. Alongside Jeannette Wing, she formally published the concept in 1994, which became known universally as the Liskov substitution principle (LSP).
+
+The principle provides a rigorous mathematical definition for behavioral subtyping, stating that if a program utilizes a base class, it must be able to substitute that base class with any of its derived subclasses without altering the correctness or desirable properties of the program. Essentially, a subclass must honor the behavioral contracts established by its parent class. LSP became a mandatory formal criterion in software engineering education and constitutes the "L" in the widely taught SOLID principles of object-oriented design.
+
+## Distributed Systems: Argus and Thor
+
+As computer networks expanded, Liskov shifted her research focus toward distributed computing—systems where multiple computers connected via a network coordinate to achieve a common goal.
+
+In the 1980s, her research group created the Argus programming language. Argus extended the data abstraction concepts of CLU to function across distributed networks, providing specialized object abstractions called "guardians" that encapsulated related procedures to handle nested transactions and network failures gracefully. Following Argus, Liskov led the development of Thor, an advanced object-oriented database system designed to provide highly reliable, decentralized storage in distributed environments. Her later research has extensively focused on Byzantine fault tolerance, ensuring that distributed systems can continue to operate securely even when malicious or malfunctioning nodes attempt to disrupt the network.
+
+## Later Career and Legacy
+
+Liskov achieved the rank of full professor at MIT in 1980. She subsequently served as the Associate Head for Computer Science from 2001 to 2004, and as the Associate Provost for Faculty Equity in 2007. In 2008, MIT named her an Institute Professor, the highest faculty honor awarded by the university.
+
+Her profound theoretical and practical contributions to computer science have been globally recognized. In addition to the 2008 ACM A.M. Turing Award, Liskov received the IEEE John von Neumann Medal in 2004 and the IEEE Computer Pioneer Award in 2018, and was inducted into the National Inventors Hall of Fame in 2012. Her architectural theories permanently elevated software development from an ad-hoc practice to a structured, mathematically sound engineering discipline.
+
+## Works or Publications
+
+* "A design methodology for reliable software systems" (1972) — Published in the *Proceedings of the Fall Joint Computer Conference*.
+* "Abstraction mechanisms in CLU" (1977) — Co-authored with Alan Snyder, Robert Atkinson, and Craig Schaffert.
+* *Abstraction and Specification in Program Development* (1986) — Co-authored with John V. Guttag.
+* "A behavioral notion of subtyping" (1994) — Co-authored with Jeannette M. Wing, formalizing the Liskov substitution principle.
+* *Program Development in Java: Abstraction, Specification, and Object-Oriented Design* (2001) — Co-authored with John V. Guttag.
+
+## References
+
+1. ["Barbara Liskov - A.M. Turing Award Laureate"](https://amturing.acm.org/award_winners/liskov_1108679.cfm)
+2. ["Barbara Liskov | Biography, A.M. Turing Award, & Facts | Britannica"](https://www.britannica.com/biography/Barbara-Liskov)
+3. ["Barbara Liskov - Wikipedia"](https://en.wikipedia.org/wiki/Barbara_Liskov)
+4. ["Barbara Liskov | Biography | Research Starters - EBSCO"](https://www.ebsco.com/research-starters/biography/barbara-liskov/)

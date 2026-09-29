@@ -1,1 +1,55 @@
-this is a placeholder
+# Margaret Hamilton
+
+Margaret Heafield Hamilton (born August 17, 1936) is an American computer scientist, systems engineer, and business owner who played a foundational role in the development of modern software engineering. She is best known for her tenure as the director of the Software Engineering Division of the MIT Instrumentation Laboratory, where she led the team responsible for developing the on-board flight software for NASA's Apollo space program. Hamilton is widely credited with coining and popularizing the term "software engineering" in order to establish software development as a rigorous technical discipline on par with hardware and traditional engineering fields. Her pioneering architectural concepts—specifically regarding asynchronous software, priority scheduling, and ultra-reliable, fault-tolerant systems—were famously validated during the Apollo 11 moon landing, when her software prevented a mission abort by systematically discarding low-priority tasks in the face of a critical radar data overload. Following her work at MIT, she transitioned into the private sector, founding Higher Order Software in 1976 and Hamilton Technologies in 1986, where she developed the Universal Systems Language (USL). In recognition of her pivotal contributions to aerospace computing and the formalization of software methodology, Hamilton was awarded the NASA Exceptional Space Act Award in 2003 and the Presidential Medal of Freedom in 2016.
+
+## Early Life and Education
+
+Margaret Heafield was born on August 17, 1936, in Paoli, Indiana, to Kenneth Heafield, a philosopher and poet, and Ruth Esther Heafield, a teacher. The family later relocated to Michigan, where she graduated from Hancock High School in 1954. She briefly studied mathematics at the University of Michigan before transferring to Earlham College, a Quaker liberal arts college in Richmond, Indiana.
+
+At Earlham, she earned a Bachelor of Arts in mathematics with a minor in philosophy in 1958. Shortly after graduation, she married James Cox Hamilton and briefly taught high school mathematics and French to support him while he completed his undergraduate degree. The couple subsequently moved to Boston, Massachusetts, where Hamilton initially intended to pursue a graduate degree in abstract mathematics at Brandeis University. Instead, she accepted a temporary position at the Massachusetts Institute of Technology (MIT) in 1959 to develop software, intending to financially support her husband's time at Harvard Law School.
+
+## Early Career at MIT and SAGE
+
+Hamilton's programming career began in MIT's meteorology department under Professor Edward Norton Lorenz, a pioneer in chaos theory. Working with the LGP-30 and PDP-1 computers, she developed software that predicted weather patterns, learning to code largely through hands-on experience and trial and error, as formal computer science degrees did not yet exist.
+
+From 1961 to 1963, she worked on the Semi-Automatic Ground Environment (SAGE) project at MIT's Lincoln Laboratory. SAGE was a massive Cold War-era early warning system designed to track potential Soviet bomber attacks. Hamilton wrote software for the prototype AN/FSQ-7 computer to reliably identify hostile aircraft. The SAGE project was highly complex and notoriously difficult to program; her success in developing robust code for this critical military infrastructure established her reputation as an exceptionally capable programmer and systems designer.
+
+## NASA and the Apollo Program
+
+In 1965, Hamilton joined the MIT Instrumentation Laboratory (now Draper Laboratory), which had been contracted by NASA to develop the Apollo Guidance Computer (AGC). She quickly rose through the ranks, eventually becoming the Director of the Software Engineering Division, leading a team of over 100 programmers and engineers. Her division was tasked with writing the software for the command modules and the lunar landers.
+
+### Establishing Software Engineering
+
+During the early years of the Apollo program, software was not considered a formal engineering discipline; it was often viewed as a secondary, clerical task compared to the physical hardware. Hamilton actively fought against this perception, coining the term "software engineering" to elevate the discipline. She successfully argued that the software managing the spacecraft required the same level of rigorous testing, quality assurance, and respect as the mechanical and electrical systems.
+
+### The Apollo 11 Landing
+
+Hamilton's insistence on robust, error-tolerant architecture proved critical during the descent of Apollo 11 on July 20, 1969. Minutes before the Lunar Module *Eagle* reached the moon's surface, the spacecraft's computer became overloaded with interrupts caused by a misplaced rendezvous radar switch. The computer triggered a "1202" and "1201" alarm, signaling that it was running out of capacity to process data.
+
+Because Hamilton and her team had designed the software to be asynchronous and capable of priority scheduling, the system did not crash. Instead, the executive software recognized the overload, flushed lower-priority tasks (such as processing the extraneous radar data), and dedicated all available processing power to the essential functions required for steering the descent engine. This fault-tolerant design directly prevented an abort and allowed Neil Armstrong and Buzz Aldrin to safely land on the moon.
+
+## Corporate Career and Universal Systems Language
+
+Following the conclusion of the Apollo program, Hamilton worked on software for the Skylab space station and preliminary designs for the Space Shuttle. She left MIT in 1976 to co-found Higher Order Software (HOS) with Saydean Zeldin, focusing on error-prevention technologies for software design.
+
+In 1986, she founded Hamilton Technologies, Inc. in Cambridge, Massachusetts, serving as its chief executive officer. The company was built around her paradigm of Development Before the Fact (DBTF), a preventative approach to software engineering. Based on this paradigm, she developed the Universal Systems Language (USL), a modeling and software design language intended to eliminate errors at the architecture phase rather than attempting to debug them after the code is written.
+
+## Legacy and Honors
+
+Margaret Hamilton's work fundamentally shifted how complex software projects are managed and designed. By advocating for formal, scientific methodologies in programming, she helped transition software creation from a craft to an engineering discipline.
+
+In addition to her 2016 Presidential Medal of Freedom, awarded by President Barack Obama, she was honored with the NASA Exceptional Space Act Award in 2003, which included a financial prize of $37,200—the largest single monetary award in NASA's history at the time. In 2017, she was named a Fellow of the Computer History Museum, and in 2018, she was inducted into the National Aviation Hall of Fame.
+
+## Works or Publications
+
+* "Computer Science: The Apollo 11 Hardware/Software System" (1969) — MIT Instrumentation Laboratory report.
+* "Higher Order Software—A Methodology for Defining Software" (1976) — Co-authored with Saydean Zeldin, published in *IEEE Transactions on Software Engineering*.
+* "Universal Systems Language: Lessons Learned from Apollo" (2008) — Published in *IEEE Computer*.
+
+## References
+
+1. ["Margaret Hamilton | Biography & Facts | Britannica"](https://www.britannica.com/biography/Margaret-Hamilton-American-computer-scientist)
+2. ["Margaret Hamilton - Computer History Museum"](https://computerhistory.org/profile/margaret-hamilton/)
+3. ["Margaret Hamilton, Apollo Software Engineer, Awarded Presidential Medal of Freedom - NASA"](https://www.google.com/search?q=https://www.nasa.gov/feature/margaret-hamilton-apollo-software-engineer-awarded-presidential-medal-of-freedom)
+4. ["Margaret Hamilton - National Aviation Hall of Fame"](https://nationalaviation.org/enshrinee/margaret-hamilton/)
+5. ["Her Code Got Humans on the Moon - Wired"](https://www.wired.com/2015/10/margaret-hamilton-nasa-apollo/)

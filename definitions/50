@@ -1,1 +1,43 @@
-this is a placeholder
+# Intel 4004
+
+The Intel 4004 is a 4-bit central processing unit (CPU) released by Intel Corporation in 1971. It is widely recognized as the first commercially produced microprocessor, representing a paradigm shift in computer architecture by integrating the arithmetic and logic functions of a CPU onto a single silicon integrated circuit. Initially commissioned by the Japanese calculator manufacturer Busicom for a line of high-end programmable calculators, the chip was designed by a team comprising Marcian "Ted" Hoff, Stanley Mazor, Federico Faggin, and Masatoshi Shima. The 4004 contained approximately 2,300 transistors and was manufactured using 10-micrometer silicon-gate enhancement-mode p-MOS technology. Operating at a maximum clock rate of 740 kilohertz, the processor could execute up to 92,600 instructions per second. By demonstrating the commercial viability of a general-purpose, programmable microchip over custom-designed, hardwired logic circuits, the 4004 fundamentally altered the trajectory of the electronics industry. Its success catalyzed the rapid evolution of microprocessors, laying the foundational hardware paradigm that ultimately led to the personal computer revolution and modern ubiquitous computing.
+
+## Origins and Development
+
+### The Busicom Commission
+
+In 1969, the Nippon Calculating Machine Corporation (doing business as Busicom) approached Intel to design a set of custom integrated circuits for a new electronic desktop calculator, the Busicom 141-PF. Busicom's original architectural proposal, drafted by engineer Masatoshi Shima, called for a complex system of at least seven distinct custom chips, including three separate chips dedicated solely to processing tasks. Intel engineer Marcian "Ted" Hoff reviewed the proposal and concluded it was too complex, expensive, and difficult to manufacture given Intel's resources at the time. Drawing on his background with minicomputer architectures like the DEC PDP-8, Hoff proposed a radically simplified alternative: a general-purpose processing architecture that utilized a single, centralized central processing unit. Instead of hardwiring the calculator's specific mathematical logic directly into the silicon, Hoff's design would rely on software stored in read-only memory (ROM) to instruct the processor.
+
+### Design and Realization
+
+While Hoff and Intel engineer Stanley Mazor successfully defined the architectural concept and the instruction set, they lacked the specific chip design expertise required to translate the logical architecture into a physical silicon layout. The project languished until April 1970, when Intel hired physicist Federico Faggin, who had previously invented silicon-gate MOS technology at Fairchild Semiconductor. Faggin developed a novel methodology for random logic design using silicon gates, which allowed for the unprecedented dense packing of transistors required to fit the entire CPU onto a single semiconductor chip.[1] Working closely with Shima, who had returned from Japan to assist with the project, Faggin completed the complex physical layout of the 4004 by early 1971. The team successfully yielded fully functional chips by March of that year, integrating the 2,300 transistors onto a die measuring just 12 square millimeters.
+
+## Technical Architecture
+
+### The MCS-4 Microcomputer Set
+
+The Intel 4004 was not designed to operate in isolation but served as the core component of a four-chip system known as the MCS-4 (Micro Computer Set). The complete chipset included the 4004 CPU, the 4001 ROM (a 256-byte memory chip for storing custom application programs), the 4002 RAM (a 40-byte volatile memory chip for storing temporary data), and the 4003 Shift Register (a 10-bit output expander used to interface with external peripherals like keyboards, displays, and printers).[2] This highly modular architecture allowed hardware engineers to build complete computer systems of varying complexities by combining different quantities of the companion memory and I/O chips around a single 4004 processor.
+
+### Processor Specifications
+
+Internally, the 4004 was a 4-bit processor, meaning its arithmetic logic unit (ALU) processed data in four-bit chunks (nibbles). This specific word size was chosen because it was highly efficient for processing binary-coded decimal (BCD) arithmetic, the standard format required for calculator displays and financial operations. The processor featured a 12-bit program counter, allowing it to address up to 4,096 bytes of external ROM, and contained sixteen general-purpose 4-bit registers. Due to the physical limitations of integrated circuit packaging at the time, the processor was housed in a 16-pin dual in-line package (DIP). To accommodate the 16 pins, the 4004 utilized a multiplexed external bus, sequentially transferring memory addresses and data over the same physical pins during different phases of the clock cycle.
+
+## Commercialization and Impact
+
+Following the successful integration of the chip into the Busicom calculator, Intel executives recognized the broader commercial potential of the 4004 as a general-purpose controller for embedded applications spanning traffic lights, blood analyzers, and cash registers. However, under the original development contract, Busicom held the exclusive rights to the design. In 1971, amidst financial difficulties and intense price competition in the calculator market, Busicom approached Intel requesting a price reduction on the components. Intel agreed to lower the price, but successfully negotiated for the non-exclusive rights to sell the MCS-4 chipset to the general market in return.
+
+Intel formally announced the 4004 to the public in the November 15, 1971, issue of *Electronic News* with a prominent advertisement declaring "a new era of integrated electronics."[3] The commercial release of the 4004 established the microprocessor as a viable, profitable product category. Its success proved that software-driven, general-purpose chips could replace expensive custom logic circuits, leading directly to the development of Intel's 8-bit successors, such as the 8008 and 8080, and cementing the foundational principles of microprocessor engineering.
+
+## Works or Publications
+
+* **Intel MCS-4 Micro Computer Set Users Manual (1972):** The primary technical documentation provided by Intel, detailing the instruction set, electrical specifications, and system timing for hardware engineers implementing the 4004 in commercial products.
+* **US Patent 3,753,011 (1973):** *Power Supply Settable Bi-Stable Circuit*. Awarded to Federico Faggin, detailing specific logic circuitry utilized within the silicon-gate implementation of the 4004.
+* **US Patent 3,821,715 (1974):** *Memory System for a Multi-Chip Digital Computer*. Awarded to Marcian E. Hoff Jr., Stanley Mazor, and Federico Faggin, patenting the foundational architecture of the MCS-4 chipset.
+
+## References
+
+[1] Faggin, Federico, et al. "The MCS-4—An LSI Micro Computer System". *IEEE Region 6 Conference*, 1972, pp. 8-11. [IEEE Xplore](https://ieeexplore.ieee.org/document/511940)
+
+[2] Aspray, William. "The Intel 4004 Microprocessor: What Constituted Invention?". *IEEE Annals of the History of Computing*, Vol. 19, No. 3, 1997, pp. 4-15. [IEEE Xplore](https://www.google.com/search?q=https://ieeexplore.ieee.org/document/601727)
+
+[3] Noyce, Robert N., and Marcian E. Hoff. "A History of Microprocessor Development at Intel". *IEEE Micro*, Vol. 1, No. 1, 1981, pp. 8-21. [IEEE Xplore](https://www.google.com/search?q=https://ieeexplore.ieee.org/document/4070775)

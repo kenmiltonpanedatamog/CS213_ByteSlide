@@ -1,1 +1,60 @@
-this is a placeholder
+# The Antikythera Mechanism
+
+The Antikythera mechanism is an ancient Greek hand-powered orrery and astronomical calculating machine, widely recognized by historians and scientists as the world's oldest known analogue computer. Recovered in 1901 from the Antikythera shipwreck off the coast of the Greek island of Antikythera, the heavily encrusted artifact was later revealed to contain a highly complex system of interlocking bronze gears. Scholars generally date the construction of the device to the late second century or early first century BCE, though its exact origins and the identity of its creator remain a subject of intense historical debate. The mechanism was designed to predict astronomical positions, eclipses, and the irregular orbit of the moon with astonishing mathematical precision decades in advance. Furthermore, it tracked the four-year cycle of panhellenic athletic games in ancient Greece, including the ancient Olympic Games. Housed in a wooden box with large circular dials on the front and back, the device was operated via a hand crank that drove a complex internal gear train comprising at least thirty distinct meshing gears. The mechanical sophistication of the Antikythera mechanism was entirely unprecedented in antiquity, featuring epicyclic gearing and pin-and-slot mechanisms that would not be seen again in human engineering until the development of monumental astronomical clocks in 14th-century Europe. Today, the fragmented remains of the original mechanism are preserved, studied, and displayed at the National Archaeological Museum in Athens, Greece.
+
+---
+
+## Discovery and Origins
+
+In the spring of 1900, a group of Greek sponge divers seeking shelter from a storm anchored near the island of Antikythera. While diving, they discovered the wreck of an ancient Roman cargo ship laden with bronze and marble statues, glassware, and pottery. In 1901, with the assistance of the Hellenic Royal Navy, they salvaged numerous artifacts, including a highly corroded lump of bronze and wood that was initially overlooked amidst the more spectacular artistic treasures.
+
+It was not until May 1902 that Valerios Stais, an archaeologist at the National Archaeological Museum in Athens, noticed that one of the fractured bronze pieces contained an embedded gear wheel with distinct triangular teeth and Greek inscriptions.
+
+The exact origin of the mechanism remains unconfirmed, but evidence points to several possibilities. Based on the specific astronomical and calendar data inscribed on the device, historians have hypothesized that it may have been constructed in Rhodes, a major center of ancient astronomy and the home of the astronomer Hipparchus, whose theories on lunar anomalies are mechanically replicated within the device. Other theories suggest a connection to Syracuse and the school of Archimedes, or the philosopher Posidonius. Radiocarbon dating of the shipwreck places the sinking between 70 and 60 BCE, while typographic analysis of the Greek inscriptions on the mechanism suggests it was constructed between 150 and 100 BCE.
+
+## Structure and Mechanical Architecture
+
+The original mechanism was roughly the size of a modern mantel clock, housed in a wooden casing measuring approximately 34 × 18 × 9 centimeters. The machine was operated by turning a small hand crank on the side, which drove a crown gear that linked to the massive primary drive wheel (visible today in the largest surviving fragment, Fragment A).
+
+The front of the mechanism featured a large circular dial consisting of two concentric rings. The outer ring displayed the 365 days of the Egyptian calendar, while the inner ring displayed the Greek signs of the Zodiac divided into degrees. By turning the crank, the user could advance a pointer to a specific date, which simultaneously drove the entire interconnected gear train to calculate the corresponding astronomical data on the other dials.
+
+The rear of the mechanism contained two large spiral dials. The upper spiral dial represented the 235-lunar-month Metonic cycle (approximately 19 solar years), which was crucial for regulating lunar-solar calendars. The lower spiral dial represented the 223-lunar-month Saros cycle, a period used specifically to predict solar and lunar eclipses.
+
+---
+
+> **Key insight:** The mechanism's use of differential gearing allowed it to calculate the difference between the sun's and moon's positions to determine the lunar phases mechanically.
+
+---
+
+## Function and Astronomical Cycles
+
+The Antikythera mechanism was far more than a simple calendar; it was a physical embodiment of ancient Greek astronomical theory, translating complex mathematical ratios into interlocking bronze teeth.
+
+### The Lunar Anomaly
+
+One of the most astonishing engineering feats of the mechanism is its ability to model the moon's elliptical orbit. Because the moon orbits the Earth in an ellipse rather than a perfect circle, its speed across the sky appears to vary. The mechanism replicated this variable motion—known in antiquity as the First Lunar Anomaly and theorized by Hipparchus—using a complex epicyclic (planetary) gear system featuring a pin-and-slot mechanism. This arrangement allowed a gear to rotate at a slightly varying speed during its cycle, effectively recreating the variable angular velocity of the moon mechanically.
+
+### Eclipse Prediction and Games
+
+The lower rear dial, governed by the Saros cycle, utilized glyphs to indicate whether a predicted eclipse would be solar or lunar, and approximately what time of day it would occur. Additionally, a smaller subsidiary dial inside the upper Metonic spiral tracked the four-year panhellenic cycles (the Olympiad), indicating when the Olympic, Pythian, Isthmian, and Nemean games were scheduled to occur, linking cosmic cycles directly to profound cultural and religious events.
+
+## Modern Research and Reconstruction
+
+For decades following its discovery, the mechanism's true complexity remained hidden beneath heavy calcification. In the 1970s, British science historian Derek J. de Solla Price, alongside Greek nuclear physicist Charalampos Karakalos, conducted the first comprehensive X-ray and gamma-ray analyses of the fragments, revealing the internal gear trains and publishing a landmark study that officially classified the artifact as an analogue computer.
+
+In 2005, the Antikythera Mechanism Research Project (AMRP)—an international collaboration of astronomers, mathematicians, and computer experts—utilized high-resolution X-ray computed tomography (CT) and polynomial texture mapping (PTM) to see inside the fragments and read the faded surface inscriptions. This modern analysis revealed that the device was even more complex than Price had estimated, confirming the exact tooth counts of the gears and identifying the pin-and-slot mechanism. In 2021, researchers from University College London (UCL) utilized 3D computer modeling to propose a complete reconstruction of the front gear panel, theoretically solving how the mechanism tracked the precise paths of the five planets known in antiquity (Mercury, Venus, Mars, Jupiter, and Saturn).
+
+## Works or Publications
+
+* "Gears from the Greeks: The Antikythera Mechanism—A Calendar Computer from ca. 80 B.C." (1974) — Derek J. de Solla Price, published in *Transactions of the American Philosophical Society*.
+* "Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism" (2006) — T. Freeth et al., published in *Nature*.
+* "Calendars with Olympiad display and eclipse prediction on the Antikythera Mechanism" (2008) — T. Freeth et al., published in *Nature*.
+* "A Model of the Cosmos in the ancient Greek Antikythera Mechanism" (2021) — T. Freeth et al., published in *Scientific Reports*.
+
+## References
+
+1. ["The Antikythera Mechanism Research Project"](http://www.antikythera-mechanism.gr/)
+2. ["Antikythera mechanism | History, Description, & Significance | Britannica"](https://www.britannica.com/topic/Antikythera-mechanism)
+3. ["Decoding the Antikythera Mechanism, the First Computer - Smithsonian Magazine"](https://www.smithsonianmag.com/history/decoding-antikythera-mechanism-first-computer-180953979/)
+4. ["Experts uncover workings of world's oldest computer - UCL News"](https://www.google.com/search?q=https://www.ucl.ac.uk/news/2021/mar/experts-uncover-workings-worlds-oldest-computer)
+5. ["Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism - Nature"](https://www.nature.com/articles/nature05357)
