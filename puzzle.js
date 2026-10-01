@@ -81,6 +81,38 @@ function skipLevel() {
     initLevel();
 }
 
+function makeSolvable(layoutString) {
+    let chars = layoutString.split('');
+    let inversions = 0;
+    
+    // Create an array without the empty space 'C' to calculate inversions
+    let puzzleWithoutC = chars.filter(char => char !== 'C');
+
+    // Count the number of inversions
+    for (let i = 0; i < puzzleWithoutC.length - 1; i++) {
+        for (let j = i + 1; j < puzzleWithoutC.length; j++) {
+            if (puzzleWithoutC[i] > puzzleWithoutC[j]) {
+                inversions++;
+            }
+        }
+    }
+
+    // In a 3x3 grid, an odd number of inversions means it is unsolvable.
+    // Swapping any two non-empty tiles flips the parity to even.
+    if (inversions % 2 !== 0) {
+        // Find the first two indices that are not 'C'
+        let swapIndex1 = chars[0] === 'C' ? 1 : 0;
+        let swapIndex2 = chars[1] === 'C' ? 2 : (swapIndex1 === 0 ? 1 : 2);
+
+        // Swap the tiles
+        let temp = chars[swapIndex1];
+        chars[swapIndex1] = chars[swapIndex2];
+        chars[swapIndex2] = temp;
+    }
+
+    return chars.join('');
+}
+
 function initLevel() {
     document.getElementById("board").innerHTML = "";
     turns = 0;
@@ -99,7 +131,8 @@ function initLevel() {
     let refImgPath = "PUZZLE/" + folderName + "/" + imageNum + ".jpg";
     document.getElementById("reference_image").innerHTML = "<img src='" + refImgPath + "'>";
 
-    var layoutString = levelData[currentLevel - 1];
+    // Process the layout string through the solvability algorithm before rendering
+    var layoutString = makeSolvable(levelData[currentLevel - 1]);
     var imgOrder = [];
     for (let i = 0; i < layoutString.length; i++) {
         imgOrder.push("PUZZLE/" + folderName + "/" + imageNum + "_" + layoutString[i]);
