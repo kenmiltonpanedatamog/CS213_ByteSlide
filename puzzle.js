@@ -25,26 +25,26 @@ var levelData = [
 ];
 
 var levelInfo = [
-    "Charles Babbage – Designer of the Analytical Engine.",
-    "Alan Turing – Father of theoretical computer science.",
-    "John von Neumann – Creator of the von Neumann architecture.",
-    "Claude Shannon – Father of information theory.",
-    "George Boole – Creator of Boolean algebra.",
-    "Dennis Ritchie – Creator of C and co-creator of Unix.",
-    "Tim Berners-Lee – Inventor of the World Wide Web.",
-    "Linus Torvalds – Creator of Linux and Git.",
-    "Bill Gates – Co-founder of Microsoft; BASIC pioneer.",
-    "Steve Jobs – Co-founder of Apple; visionary of personal computing.",
-    "Gordon Moore – Co-founder of Intel; author of Moore's Law.",
-    "Vint Cerf – Co-inventor of TCP/IP (Father of the Internet).",
-    "Douglas Engelbart – Inventor of the computer mouse and GUI concepts.",
-    "Alan Kay – Pioneer of Object-Oriented Programming (OOP) and GUI.",
-    "Edsger W. Dijkstra – Pioneer of algorithms and structured programming.",
-    "Donald Knuth – Author of The Art of Computer Programming.",
-    "John McCarthy – Creator of LISP and coined \"Artificial Intelligence.\"",
-    "Grace Hopper – Pioneer of the compiler and COBOL.",
-    "Bjarne Stroustrup – Creator of C++.",
-    "James Gosling – Creator of the Java programming language."
+    "<h3>The Antikythera Mechanism</h3>The Antikythera Mechanism is an ancient Greek hand-powered orrery, widely considered to be the world's oldest known analog computer. Dating back to somewhere between 200 and 60 BCE, it consists of a complex system of interlocking bronze gears that were used to predict astronomical positions and eclipses decades in advance.\n\nWhile vastly different from modern digital devices, its importance lies in being the earliest physical evidence that humans could design machines to automate complex mathematical calculations. It established the conceptual foundation that data and predictive models could be mechanically encoded, foreshadowing the eventual development of programmable hardware millennia later.",
+    "<h3>Al-Khwarizmi & The Algorithm</h3>Muhammad ibn Musa al-Khwarizmi was a 9th-century Persian polymath and mathematician who authored foundational texts on algebra and arithmetic. The Latinized version of his name, <i>Algoritmi</i>, is the direct etymological root of the word \"algorithm.\"\n\nHis primary contribution to computer science is the very concept of the algorithm itself: a systematic, step-by-step procedure used to solve a mathematical problem or complete a task. Before electronic computers existed, al-Khwarizmi formalized the logical sequencing of operations, which remains the absolute core of all modern software engineering and computer programming today.",
+    "<h3>Ada Lovelace & The First Program</h3>Ada Lovelace was a 19th-century English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. In 1843, she published a translation of an article on the machine, appending her own extensive notes which included an algorithm for calculating a sequence of Bernoulli numbers.\n\nLovelace is recognized as the world's first computer programmer because she was the first to realize that a computing machine could do more than just crunch numbers. She conceptualized that if numbers could represent other things—like letters or musical notes—the machine could manipulate any arbitrary symbols based on rules, essentially predicting the modern era of general-purpose computing.",
+    "<h3>Boolean Algebra</h3>Boolean Algebra is a branch of mathematics introduced by George Boole in 1847 where the values of the variables are the truth values <i>true</i> and <i>false</i>, usually denoted as 1 and 0 respectively. Instead of basic arithmetic operations like addition and multiplication, its primary operations are logical conjunction (AND), disjunction (OR), and negation (NOT).\n\nThis binary logic system is the fundamental mathematical bedrock of all modern computer science. It provided the exact theoretical framework needed to design digital circuitry; every physical microchip, logic gate, and high-level programming language conditional statement (like \"if/else\" commands) operates entirely on the principles of Boolean Algebra.",
+    "<h3>Alan Turing & The Turing Machine</h3>Alan Turing was a British mathematician who, in 1936, conceptualized the Turing Machine—a theoretical, abstract mathematical model of computation. The machine imagines an infinite tape divided into discrete squares, a read/write head that can move along the tape, and a set of internal rules dictating how to change the symbols on the tape based on the current state.\n\nThe Turing Machine is arguably the most important concept in theoretical computer science because it formally defined the limits of what is mathematically \"computable.\" It proved that a single, programmable machine could execute any algorithm, laying the philosophical and mathematical blueprint for the invention of the modern, general-purpose electronic computer.",
+    "<h3>Digital Logic</h3>Digital logic is the application of Boolean algebra to the physical design of electrical circuits. Pioneered in the late 1930s by Claude Shannon in his master's thesis, it demonstrated that the arrangement of electrical relays and switches could physically execute the logical operations of AND, OR, and NOT.\n\nThis breakthrough was the critical bridge between abstract mathematical theory and physical engineering. By proving that binary digits (bits) could be represented by the presence or absence of an electrical current, digital logic made it possible to build the complex electronic processors and memory systems that drive all modern hardware.",
+    "<h3>John von Neumann & Von Neumann Architecture</h3>John von Neumann was a Hungarian-American polymath who, in 1945, formalized a computer design model known as the von Neumann Architecture. This design features a central processing unit (CPU) containing an arithmetic logic unit and processor registers, alongside a shared memory unit that stores both data and the instructions (the program) required to process that data.\n\nThe \"stored-program\" concept fundamentally changed computer science by allowing machines to be easily reprogrammed via software rather than being physically rewired for every new task. This architecture remains the structural standard for nearly every computer built today, from basic microcontrollers to advanced supercomputers.",
+    "<h3>ENIAC</h3>The Electronic Numerical Integrator and Computer (ENIAC) was the world's first programmable, electronic, general-purpose digital computer. Completed in 1945 and built primarily to calculate complex artillery firing tables for the United States Army during World War II, it utilized thousands of vacuum tubes to perform calculations at unprecedented speeds.\n\nENIAC's importance lies in its role as a massive proof-of-concept for high-speed electronic computing. It successfully demonstrated that complex, programmable, general-purpose processing could be achieved electrically rather than mechanically, directly inspiring the subsequent generations of commercial mainframe computers.",
+    "<h3>The Transistor</h3>The transistor is a semiconductor device used to amplify or switch electrical signals and power, invented in 1947 at Bell Labs by John Bardeen, Walter Brattain, and William Shockley. It effectively replaced bulky, fragile, and heat-generating vacuum tubes with a tiny, solid-state component made typically of silicon.\n\nThe transistor is arguably the most important hardware invention of the 20th century, enabling the aggressive miniaturization of electronics. By allowing engineers to pack billions of microscopic switches onto a single integrated circuit, transistors made personal computers, smartphones, and modern data centers physically and economically possible.",
+    "<h3>The Compiler</h3>A compiler is a specialized software program that translates source code written in a human-readable, high-level programming language into low-level machine code (binary) that a computer's processor can directly execute. The concept was pioneered by Grace Hopper in 1952 with her A-0 System.\n\nBefore compilers, programmers had to write software directly in dense, hardware-specific assembly or machine code, which was incredibly tedious and prone to errors. Compilers democratized software development by allowing humans to write instructions using English-like syntax and logical structures, paving the way for the explosion of diverse programming languages.",
+    "<h3>Fortran</h3>Fortran, derived from \"Formula Translation,\" is a general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing. Developed by a team led by John Backus at IBM in the 1950s, it was the first widely adopted high-level programming language.\n\nFortran proved that high-level languages could be compiled into highly efficient machine code, silencing critics who believed compiled code would always be too slow. Its massive success set the standard for future programming languages, introducing concepts like loop control structures and formatted input/output that are ubiquitous in coding today.",
+    "<h3>ARPANET & Packet Switching</h3>ARPANET (Advanced Research Projects Agency Network) was an early computer network funded by the US Department of Defense, heavily utilizing a new concept called packet switching. Packet switching involves breaking digital data down into smaller blocks (packets) that are routed independently across a network and reassembled at their destination, rather than relying on a single, continuous, dedicated connection.\n\nARPANET was the direct precursor to the modern Internet. The development of packet switching and the subsequent creation of the TCP/IP protocols fundamentally changed computer science by enabling robust, decentralized, and scalable communication networks, changing the computer from a standalone calculator into a global communication device.",
+    "<h3>The Relational Database</h3>The relational database is a digital database model that organizes data into tables (relations) consisting of columns and rows, where data points are linked to one another based on shared attributes. This theoretical model was proposed by Edgar F. Codd, an English computer scientist at IBM, in 1970.\n\nThis concept revolutionized how software applications store, organize, and retrieve information, moving away from rigid, hierarchical storage structures. It led to the development of SQL (Structured Query Language) and provided the robust, scalable data management backend required for modern enterprise software, e-commerce, and complex web applications.",
+    "<h3>The Microprocessor</h3>A microprocessor is a single integrated circuit (IC) chip that contains all the arithmetic, logic, and control circuitry required to perform the functions of a computer's central processing unit (CPU). The first commercially available microprocessor was the Intel 4004, released in 1971.\n\nBy consolidating the \"brain\" of the computer onto a single, mass-producible chip, the microprocessor drastically drove down the cost, size, and power consumption of computing. This invention ignited the personal computer revolution of the 1970s and 1980s, eventually allowing microprocessors to be embedded in everything from cars to household appliances.",
+    "<h3>C Language & UNIX</h3>C is a powerful, general-purpose programming language created by Dennis Ritchie at Bell Labs in 1972, originally designed to rewrite the UNIX operating system. UNIX is a modular, multi-user operating system known for its hierarchical file system and powerful command-line interface.\n\nThe synergy between C and UNIX shaped modern software engineering. C provided a perfect balance of high-level abstraction with low-level memory manipulation, making it the grandfather of modern languages like C++, Java, and Python. Meanwhile, UNIX established the architectural concepts and standards that heavily influenced modern operating systems, including Linux, Android, and macOS.",
+    "<h3>Object-Oriented Programming (OOP)</h3>Object-Oriented Programming (OOP) is a programming paradigm organized around \"objects\" rather than sequential actions and logic. These objects are self-contained data structures that contain both data (attributes or properties) and the procedures or functions (methods) that manipulate that data.\n\nOOP fundamentally shifted how software was engineered in the 1980s and 90s by allowing developers to model real-world entities in their code. This paradigm made large-scale software development much more manageable, modular, and reusable, heavily influencing the design of dominant languages like Java, C++, and Python.",
+    "<h3>World Wide Web</h3>In 1989, Tim Berners-Lee invented the World Wide Web while working at CERN. He developed the fundamental technologies that underpin the web: HTML (HyperText Markup Language), HTTP (Hypertext Transfer Protocol), and URIs/URLs. His vision was to create an information space where documents and other web resources could be identified by URLs, interlinked by hypertext links, and accessed via the Internet.\n\nThe World Wide Web transformed the Internet from an academic and military communication network into an accessible global platform for information sharing, commerce, and social interaction.",
+    "<h3>Open Source & Linux</h3>Open Source is a decentralized software development model where the original source code is made freely available to the public to use, modify, and redistribute. This movement was most famously propelled by Linus Torvalds, who created the Linux operating system kernel in 1991 and released it for global collaboration.\n\nThe open-source model proved that collaborative, community-driven engineering could produce enterprise-grade software that is often more secure and robust than proprietary alternatives. Today, Linux runs the vast majority of the world's web servers, supercomputers, and smartphones, demonstrating the incredible power of shared knowledge in programming.",
+    "<h3>Deep Learning & Artificial Intelligence</h3>Deep Learning is a specialized subset of Artificial Intelligence and machine learning based on artificial neural networks with multiple layers (hence \"deep\"). Instead of executing explicitly programmed rules, these networks ingest massive amounts of data to autonomously \"learn\" patterns, extract features, and make predictions.\n\nThis represents a massive paradigm shift in computer science. By allowing machines to process unstructured data, deep learning has solved complex problems that traditional procedural programming could not, leading to historic breakthroughs in computer vision, autonomous vehicles, and generative natural language processing.",
+    "<h3>Quantum Computing</h3>Quantum computing is a rapidly emerging paradigm that uses the principles of quantum mechanics to process information. Instead of classical binary bits (which are strictly 1 or 0), quantum computers use \"qubits,\" which can exist in a state of superposition (representing 1 and 0 simultaneously) and become entangled with one another.\n\nThough still in its infancy, quantum computing promises to exponentially outpace classical computers in specific domains. Its importance lies in its potential to radically disrupt current cryptographic security, perfectly simulate complex chemical reactions for drug discovery, and solve massive optimization problems that would take classical supercomputers millennia to process."
 ];
 
 // ==========================================
@@ -100,11 +100,9 @@ function makeSolvable(layoutString) {
     // In a 3x3 grid, an odd number of inversions means it is unsolvable.
     // Swapping any two non-empty tiles flips the parity to even.
     if (inversions % 2 !== 0) {
-        // Find the first two indices that are not 'C'
         let swapIndex1 = chars[0] === 'C' ? 1 : 0;
         let swapIndex2 = chars[1] === 'C' ? 2 : (swapIndex1 === 0 ? 1 : 2);
 
-        // Swap the tiles
         let temp = chars[swapIndex1];
         chars[swapIndex1] = chars[swapIndex2];
         chars[swapIndex2] = temp;
@@ -118,7 +116,9 @@ function initLevel() {
     turns = 0;
     document.getElementById("turns").innerText = turns;
     document.getElementById("level").innerText = currentLevel + " / " + maxLevels;
-    document.querySelector(".info-text").innerText = "Solve the puzzle to reveal the hidden info!";
+    
+    // Reset text box back to default prompt
+    document.querySelector(".info-text").innerHTML = "Solve the puzzle to reveal the hidden info!";
 
     let existingBtn = document.getElementById("next-btn");
     if (existingBtn) existingBtn.remove();
@@ -131,7 +131,6 @@ function initLevel() {
     let refImgPath = "PUZZLE/" + folderName + "/" + imageNum + ".jpg";
     document.getElementById("reference_image").innerHTML = "<img src='" + refImgPath + "'>";
 
-    // Process the layout string through the solvability algorithm before rendering
     var layoutString = makeSolvable(levelData[currentLevel - 1]);
     var imgOrder = [];
     for (let i = 0; i < layoutString.length; i++) {
@@ -205,7 +204,12 @@ function checkWin() {
     }
 
     if (isWin) {
-        document.querySelector(".info-text").innerText = levelInfo[currentLevel - 1];
+        let infoContainer = document.querySelector(".info-text");
+        infoContainer.innerHTML = levelInfo[currentLevel - 1];
+
+        // Reset scroll position to top when text updates
+        let scrollBox = document.querySelector(".info-scroll-box");
+        if (scrollBox) scrollBox.scrollTop = 0;
 
         if (currentLevel < maxLevels) {
             if (!document.getElementById("next-btn")) {
@@ -219,7 +223,6 @@ function checkWin() {
                 document.getElementById("button-group").appendChild(nextBtn);
             }
         } else {
-            // Final level completed -> Offer Quiz Transition
             if (!document.getElementById("quiz-btn")) {
                 let quizBtn = document.createElement("button");
                 quizBtn.id = "quiz-btn";
@@ -238,7 +241,6 @@ function checkWin() {
     }
 }
 
-// Function to transition from puzzle to quiz
 function startQuiz() {
     document.getElementById("puzzle-container").style.display = "none";
     document.getElementById("quiz-container").classList.remove("hidden");
