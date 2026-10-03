@@ -247,6 +247,35 @@ function startQuiz() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+// Listen for Ctrl + X to auto-solve the current puzzle
+document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.key.toLowerCase() === 'x') {
+        e.preventDefault();
+        autoSolveLevel();
+    }
+});
+
+function autoSolveLevel() {
+    // Prevent solving if the puzzle container is hidden (e.g., during the quiz)
+    let puzzleContainer = document.getElementById("puzzle-container");
+    if (puzzleContainer && puzzleContainer.style.display === "none") return;
+
+    let folderName = puzzleFolderNames[currentLevel - 1];
+    let imageNum = folderName.split("_")[1];
+    let correctOrder = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
+    let tiles = document.getElementById("board").children;
+
+    // Instantly assign the correct tile images in order
+    for (let i = 0; i < 9; i++) {
+        if (tiles[i]) {
+            tiles[i].src = "PUZZLE/" + folderName + "/" + imageNum + "_" + correctOrder[i] + ".jpg";
+        }
+    }
+
+    // Trigger the existing win state to display the historical info and Next button
+    checkWin();
+}
+
 // ==========================================
 // 4. QUIZ LOGIC & CERTIFICATE GENERATION
 // ==========================================
