@@ -143,48 +143,56 @@ function initLevel() {
             tile.id = i.toString() + "-" + j.toString();
             tile.src = imgOrder.shift() + ".jpg";
 
-            tile.addEventListener("dragstart", dragStart);
-            tile.addEventListener("dragover", dragOver);
-            tile.addEventListener("dragenter", dragEnter);
-            tile.addEventListener("dragleave", dragLeave);
-            tile.addEventListener("drop", dragDrop);
-            tile.addEventListener("dragend", dragEnd);
+            tile.addEventListener("click", tileClick);
 
             document.getElementById("board").append(tile);
         }
     }
 }
 
-function dragStart() { currTile = this; }
-function dragOver(e) { e.preventDefault(); }
-function dragEnter(e) { e.preventDefault(); }
-function dragLeave() {}
-function dragDrop() { otherTile = this; }
+function tileClick() {
+    let currTile = this;
 
-function dragEnd() {
-    if (!otherTile || !otherTile.src.includes("_C.jpg")) return;
+    // Find the empty tile
+    let tiles = document.getElementById("board").children;
+    let emptyTile = null;
 
+    for (let tile of tiles) {
+        if (tile.src.includes("_C.jpg")) {
+            emptyTile = tile;
+            break;
+        }
+    }
+
+    if (!emptyTile) return;
+
+    // Get current tile position
     let currCoords = currTile.id.split("-");
     let i = parseInt(currCoords[0]);
     let j = parseInt(currCoords[1]);
 
-    let otherCoords = otherTile.id.split("-");
-    let i2 = parseInt(otherCoords[0]);
-    let j2 = parseInt(otherCoords[1]);
+    // Get empty tile position
+    let emptyCoords = emptyTile.id.split("-");
+    let i2 = parseInt(emptyCoords[0]);
+    let j2 = parseInt(emptyCoords[1]);
 
+    // Check if the clicked tile is beside the empty tile
     let moveLeft = i == i2 && j2 == j - 1;
     let moveRight = i == i2 && j2 == j + 1;
     let moveUp = j == j2 && i2 == i - 1;
     let moveDown = j == j2 && i2 == i + 1;
 
+    // Only move if adjacent
     if (moveLeft || moveRight || moveUp || moveDown) {
-        let currImg = currTile.src;
-        let otherImg = otherTile.src;
 
-        currTile.src = otherImg;
-        otherTile.src = currImg;
+        let currImg = currTile.src;
+        let emptyImg = emptyTile.src;
+
+        currTile.src = emptyImg;
+        emptyTile.src = currImg;
 
         turns++;
+
         document.getElementById("turns").innerText = turns;
 
         checkWin();
@@ -279,6 +287,9 @@ function autoSolveLevel() {
 // ==========================================
 // 4. QUIZ LOGIC & CERTIFICATE GENERATION
 // ==========================================
+let currentQuizQuestion = 0;
+let quizAnswers = {};
+
 const quizData = [
     { id: 'q1', level: 'easy', question: "What is the Antikythera Mechanism?", options: ["A medieval time-keeping device", "An ancient Greek analog computer", "A Renaissance encryption machine", "A theoretical model of computation"], answer: 1 },
     { id: 'q2', level: 'easy', question: "What word is derived from the 9th-century polymath Al-Khwarizmi?", options: ["Algebra", "Algorithm", "Arithmetic", "Abacus"], answer: 1 },
@@ -303,82 +314,252 @@ const quizData = [
 ];
 
 function renderQuestions() {
+
     const easyContainer = document.getElementById('easy-questions');
     const hardContainer = document.getElementById('hard-questions');
+
     if (!easyContainer || !hardContainer) return;
 
-    quizData.forEach((q, index) => {
-        const questionNumber = index + 1;
-        const card = document.createElement('div');
-        card.className = "bg-white rounded-lg shadow-sm border border-gray-200 p-6 transition duration-200 hover:shadow-md";
-        card.setAttribute('data-qid', q.id);
+    // Clear old questions
+    easyContainer.innerHTML = "";
+    hardContainer.innerHTML = "";
 
-        let optionsHTML = '';
-        q.options.forEach((opt, optIndex) => {
-            const uniqueId = `${q.id}_opt${optIndex}`;
-            optionsHTML += `
-                <label for="${uniqueId}" class="radio-label-container flex items-center p-2 -ml-2 rounded hover:bg-gray-50 cursor-pointer mb-2 last:mb-0 transition-colors">
-                    <input type="radio" id="${uniqueId}" name="${q.id}" value="${optIndex}" class="custom-radio mr-3" required>
-                    <span class="text-sm text-gray-800">${opt}</span>
-                </label>
-            `;
+    // Hide the hard questions container
+    hardContainer.style.display = "none";
+
+    currentQuizQuestion = 0;
+    quizAnswers = {};
+
+    showQuizQuestion();
+}
+
+
+function showQuizQuestion() {
+
+    const easyContainer = document.getElementById('easy-questions');
+const hardContainer = document.getElementById('hard-questions');
+
+if (!easyContainer || !hardContainer) return;
+
+const questionContainer =
+    currentQuizQuestion < 10 ? easyContainer : hardContainer;
+
+easyContainer.innerHTML = "";
+hardContainer.innerHTML = "";
+
+easyContainer.style.display = currentQuizQuestion < 10 ? "block" : "none";
+hardContainer.style.display = currentQuizQuestion >= 10 ? "block" : "none";
+
+    const easyHeader = document.getElementById('easy-section-header');
+const hardHeader = document.getElementById('hard-section-header');
+
+if (currentQuizQuestion < 10) {
+    easyHeader.style.display = "block";
+    hardHeader.style.display = "none";
+} else {
+    easyHeader.style.display = "none";
+    hardHeader.style.display = "block";
+}
+
+    const q = quizData[currentQuizQuestion];
+
+    // Clear the previous question
+    easyContainer.innerHTML = "";
+
+    const card = document.createElement("div");
+
+    card.className = `
+        max-w-3xl mx-auto
+        p-8
+        rounded-xl
+        border-4
+        border-[#6b4935]
+        bg-[#fff5dc]
+        shadow-lg
+    `;
+
+    let optionsHTML = "";
+
+    q.options.forEach((opt, optIndex) => {
+
+        optionsHTML += `
+            <label
+                class="quiz-option flex items-center p-4 mb-3 rounded-lg
+                border-2 border-[#b89b6b]
+                bg-[#f8edcf]
+                cursor-pointer
+                transition-all duration-200
+                hover:bg-[#ead5a8]"
+            >
+
+                <input
+                    type="radio"
+                    name="currentQuizAnswer"
+                    value="${optIndex}"
+                    class="mr-4"
+                >
+
+                <span class="text-[#3f2a1f] text-base">
+                    ${String.fromCharCode(65 + optIndex)}. ${opt}
+                </span>
+
+            </label>
+        `;
+    });
+
+    const isLastQuestion = currentQuizQuestion === quizData.length - 1;
+
+    card.innerHTML = `
+
+        <!-- Question Counter -->
+        <div class="text-center mb-6">
+
+            <div class="text-sm font-bold text-[#8a6847] uppercase tracking-widest">
+                Question
+            </div>
+
+            <div class="text-3xl font-bold text-[#6b4935]">
+                ${currentQuizQuestion + 1} / ${quizData.length}
+            </div>
+
+        </div>
+
+
+        <!-- Question -->
+        <div class="text-center mb-8">
+
+            <h2 class="text-2xl font-bold text-[#3f2a1f] leading-relaxed">
+                ${q.question}
+            </h2>
+
+        </div>
+
+
+        <!-- Answer Choices -->
+        <div class="mb-6">
+
+            ${optionsHTML}
+
+        </div>
+
+
+        <!-- Error -->
+        <div
+            id="quiz-error"
+            class="text-center text-red-600 text-sm font-medium mb-4 hidden"
+        >
+            Please select an answer first.
+        </div>
+
+
+        <!-- Next Button -->
+        <div class="text-center">
+
+            <button
+                type="button"
+                id="quiz-next-btn"
+                class="
+                    px-10 py-3
+                    rounded-lg
+                    border-2 border-[#6b4935]
+                    bg-[#e0bd7f]
+                    text-[#3f2a1f]
+                    font-bold
+                    text-lg
+                    shadow-[0_4px_0_#6b4935]
+                    hover:bg-[#d8b36f]
+                    active:translate-y-1
+                    active:shadow-[0_1px_0_#6b4935]
+                    transition
+                "
+            >
+                ${isLastQuestion ? "FINISH QUIZ" : "NEXT"}
+            </button>
+
+        </div>
+    `;
+
+    questionContainer.appendChild(card);
+
+
+    // Add click event to the answer choices
+    const options = card.querySelectorAll(".quiz-option");
+
+    options.forEach(option => {
+
+        option.addEventListener("click", function() {
+
+            // Remove selected appearance from all options
+            options.forEach(opt => {
+                opt.style.backgroundColor = "#f8edcf";
+            });
+
+            // Highlight selected option
+            this.style.backgroundColor = "#e0bd7f";
+
+            const radio = this.querySelector("input");
+
+            if (radio) {
+                radio.checked = true;
+            }
+
         });
 
-        card.innerHTML = `
-            <div class="mb-4">
-                <span class="text-base text-gray-900 font-medium">${questionNumber}. ${q.question}</span>
-                <span class="text-red-600 ml-1">*</span>
-            </div>
-            <div class="flex flex-col">${optionsHTML}</div>
-            <div class="text-red-500 text-xs mt-2 hidden error-message flex items-center">
-                <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
-                This is a required question
-            </div>
-        `;
+    });
 
-        if (q.level === 'easy') {
-            easyContainer.appendChild(card);
-        } else {
-            hardContainer.appendChild(card);
+
+    // Next button
+    document.getElementById("quiz-next-btn").addEventListener("click", function() {
+
+        const selected = card.querySelector(
+            'input[name="currentQuizAnswer"]:checked'
+        );
+
+        const error = document.getElementById("quiz-error");
+
+        if (!selected) {
+
+            error.classList.remove("hidden");
+
+            return;
         }
+
+        // Save answer
+        quizAnswers[q.id] = parseInt(selected.value);
+
+
+        // Move to next question
+        if (currentQuizQuestion < quizData.length - 1) {
+
+            currentQuizQuestion++;
+
+            showQuizQuestion();
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        } else {
+
+            // Calculate final score
+            let score = 0;
+
+            quizData.forEach(question => {
+
+                if (quizAnswers[question.id] === question.answer) {
+                    score++;
+                }
+
+            });
+
+            showResults(score);
+        }
+
     });
 }
 
-document.getElementById('quizForm').addEventListener('submit', function (e) {
-    e.preventDefault();
 
-    let isValid = true;
-    let score = 0;
-    const formData = new FormData(this);
-
-    document.querySelectorAll('.error-message').forEach(el => el.classList.add('hidden'));
-    document.querySelectorAll('.border-red-500').forEach(el => el.classList.remove('border-red-500'));
-
-    quizData.forEach(q => {
-        const answer = formData.get(q.id);
-        const card = document.querySelector(`[data-qid="${q.id}"]`);
-
-        if (answer === null) {
-            isValid = false;
-            card.classList.add('border-red-500');
-            card.querySelector('.error-message').classList.remove('hidden');
-        } else {
-            if (parseInt(answer) === q.answer) {
-                score++;
-            }
-        }
-    });
-
-    if (!isValid) {
-        const firstError = document.querySelector('.border-red-500');
-        if (firstError) {
-            firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-        return;
-    }
-
-    showResults(score);
-});
 
 document.getElementById('clearBtn').addEventListener('click', function () {
     document.getElementById('quizForm').reset();
@@ -510,3 +691,20 @@ function downloadCertificate(score) {
     link.click();
     document.body.removeChild(link);
 }
+
+
+
+document.getElementById("play-btn").addEventListener("click", function () {
+    document.getElementById("main-menu").style.display = "none";
+    document.getElementById("puzzle-container").style.display = "block";
+});
+
+document.getElementById("how-to-play-btn").addEventListener("click", function () {
+    document.getElementById("main-menu").style.display = "none";
+    document.getElementById("how-to-play").style.display = "flex";
+});
+
+document.getElementById("back-to-menu-btn").addEventListener("click", function () {
+    document.getElementById("how-to-play").style.display = "none";
+    document.getElementById("main-menu").style.display = "flex";
+});
