@@ -378,3 +378,156 @@ body {
         gap: 15px;
     }
 }
+
+/* ================= MAIN MENU ================= */
+
+#main-menu {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("cssbackground/backgroundcss.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menu-card {
+    text-align: center;
+    padding: 50px 70px;
+
+    background: rgba(255, 245, 220, 0.92);
+
+    border: 3px solid #6b4935;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+#menu-card h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #6b4935;
+    margin-bottom: 10px;
+}
+
+#menu-card p {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+#menu-card button {
+    display: block;
+
+    width: 280px;
+    margin: 18px auto;
+
+    padding: 15px;
+
+    border: 3px solid #6b4935;
+    border-radius: 8px;
+
+    background: #e0bd7f;
+    color: #3f2a1f;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 0 #6b4935;
+}
+
+#menu-card button:hover {
+    background: #d8b36f;
+}
+
+#menu-card button:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #6b4935;
+}
+
+#puzzle-container {
+    display: none;
+}
+
+/* ================= HOW TO PLAY ================= */
+
+#how-to-play {
+    display: none;
+
+    width: 100%;
+    min-height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("cssbackground/backgroundcss.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#how-to-play-card {
+    width: 600px;
+    padding: 45px 55px;
+
+    text-align: center;
+
+    background: rgba(255, 245, 220, 0.92);
+
+    border: 3px solid #6b4935;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+#how-to-play-card h1 {
+    font-size: 42px;
+    font-weight: 700;
+
+    color: #6b4935;
+
+    margin-bottom: 30px;
+}
+
+#how-to-play-card p {
+    font-size: 18px;
+    line-height: 1.6;
+
+    color: #3f2a1f;
+
+    margin: 15px 0;
+}
+
+#back-to-menu-btn {
+    width: 230px;
+
+    margin-top: 30px;
+    padding: 14px;
+
+    border: 3px solid #6b4935;
+    border-radius: 8px;
+
+    background: #e0bd7f;
+    color: #3f2a1f;
+
+    font-size: 17px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 0 #6b4935;
+}
+
+#back-to-menu-btn:hover {
+    background: #d8b36f;
+}
+
+#back-to-menu-btn:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #6b4935;
+}
